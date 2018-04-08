@@ -2,11 +2,11 @@
 
 ### 简介
 
-本项目适合境外用户翻回国内使用，由 lhie1 [墙洞 Channel](https://github.com/lhie1/Rules) 修改而来。
+本项目适合境外用户配合国内节点翻回大陆使用，由 lhie1 [墙洞 Channel](https://github.com/lhie1/Rules) 修改而来。
 
 ---
 * 支持应用
-	* Quantumult
+  * Quantumult
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
@@ -33,14 +33,15 @@
 - [x] 屏蔽常用视频广告
 - [x] 屏蔽常用网站广告、其他流媒体网站广告
 - [x] 屏蔽法轮功等反华势力网站
-- [x] 所有国内网站直线连接
+- [x] 中国大陆网站代理连接
+- [x] 境外网站直接连接
 - [x] Apple 服务加速（App Store、Apple Music、Apple流媒体、iCloud备份、iCloud Drive、iTunes 等）
 - [x] 国外常用网站加速（Google/Youtube/Twitter/Facebook/instagram/wikipedia/Github 等）
 
 ### URL
 
 ````
-Quantumult：https://raw.githubusercontent.com/
+Quantumult：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
 ````
 
 ---
@@ -52,7 +53,7 @@ Quantumult：https://raw.githubusercontent.com/
 iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书才可使其证书有效。
 ````
 1. 安装：
-* Quantumult：Settings - HTTPS - HTTPS Decryption
+Quantumult：Settings - HTTPS - HTTPS Decryption
 
 2. 信任：
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
