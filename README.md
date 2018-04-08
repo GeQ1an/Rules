@@ -35,10 +35,8 @@
 - [x] 屏蔽常用视频广告
 - [x] 屏蔽常用网站广告、其他流媒体网站广告
 - [x] 屏蔽法轮功等反华势力网站
-- [x] 中国大陆网站代理连接
+- [x] 常用中国大陆网站、App 代理连接
 - [x] 境外网站直接连接
-- [x] Apple 服务加速（App Store、Apple Music、Apple流媒体、iCloud备份、iCloud Drive、iTunes 等）
-- [x] 国外常用网站加速（Google/Youtube/Twitter/Facebook/instagram/wikipedia/Github 等）
 
 ### URL
 
@@ -61,7 +59,7 @@ Quantumult：Settings - HTTPS - HTTPS Decryption
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
 
 备注：只需要安装并信任一次，升级规则丝毫不会影响证书。
-备注：不要自己去生成新证书，会导致规则与证书不匹配导致 MitM 失效直接导致无法加载的问题，导出规则后直接安装并信任就可以了。
+备注：不要自己去生成新证书，会导致规则与证书不匹配导致 MitM 失效直接导致无法加载的问题，应用规则后直接安装并信任就可以了。
 ````
 
 ---
@@ -73,4 +71,4 @@ Quantumult：Settings - HTTPS - HTTPS Decryption
 
 ### 关于我
 
-本人是一名在韩留学生，平时课程很多。身在境外有时需要使用大陆 IP 使用国内部分服务，于是修改 墙洞 规则以自用，同时也欢迎境外小伙伴使用，如有缺漏，请及时反馈。[微博](http://weibo.com/lixin19940325) 、 [Telegram](https://t.me/Lixini)
+本人是一名在韩留学生，平时课程很多，且并非学习相关专业，完全由课余时间修改。在境外有时需要大陆 IP 来使用国内部分服务，于是修改墙洞规则以自用，同时也欢迎境外小伙伴使用，如有缺漏，请及时反馈。[微博](http://weibo.com/lixin19940325) 、[Telegram](https://t.me/Lixini) 。
