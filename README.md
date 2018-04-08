@@ -2,10 +2,10 @@
 
 ### 简介
 
-本项目适合境外用户翻回国内使用，有lhie1 [墙洞 Channel](https://github.com/lhie1/Rules) 修改而来。
+本项目适合境外用户翻回国内使用，由 lhie1 [墙洞 Channel](https://github.com/lhie1/Rules) 修改而来。
 
 ---
-* [支持应用]
+* 支持应用
 	* Quantumult
 * [可实现功能](#function)
 * 导入方式
@@ -41,6 +41,7 @@
 
 ````
 Quantumult：https://raw.githubusercontent.com/
+````
 
 ---
 
@@ -49,7 +50,7 @@ Quantumult：https://raw.githubusercontent.com/
 简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
 
 iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书才可使其证书有效。
-
+````
 1. 安装：
 * Quantumult：Settings - HTTPS - HTTPS Decryption
 
@@ -59,3 +60,8 @@ iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书�
 备注：只需要安装并信任一次，升级规则丝毫不会影响证书。
 备注：不要自己去生成新证书，会导致规则与证书不匹配导致 MitM 失效直接导致无法加载的问题，导出规则后直接安装并信任就可以了。
 ````
+
+---
+
+### 鸣谢
+* [lhie1](https://github.com/lhie1/Rules)
