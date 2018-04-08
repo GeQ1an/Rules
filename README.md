@@ -73,4 +73,6 @@ Quantumult：Settings - HTTPS - HTTPS Decryption
 
 ### 关于我
 
-本人是一名在韩留学生，平时课程很多。身在境外有时需要使用大陆 IP 使用国内部分服务，于是修改 墙洞 规则以自用，同时也欢迎境外小伙伴使用，如有缺漏，请及时反馈， [微博](http://weibo.com/lixin19940325) 。
+本人是一名在韩留学生，平时课程很多。
+身在境外有时需要使用大陆 IP 使用国内部分服务，于是修改 墙洞 规则以自用，同时也欢迎境外小伙伴使用，如有缺漏，请及时反馈。
+[微博](http://weibo.com/lixin19940325) [Telegram](https://t.me/Lixini)
