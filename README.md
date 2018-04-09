@@ -41,7 +41,9 @@
 ### URL
 
 ````
-Quantumult：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
+Quantumult：
+   FILTER：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
+   REJECTION：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
 ````
 
 ---
@@ -58,8 +60,8 @@ Quantumult：Settings - HTTPS - HTTPS Decryption
 2. 信任：
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
 
-备注：只需要安装并信任一次，升级规则丝毫不会影响证书。
-备注：不要自己去生成新证书，会导致规则与证书不匹配导致 MitM 失效直接导致无法加载的问题，应用规则后直接安装并信任就可以了。
+备注：应用 REJECTION 规则后安装，只需安装并信任一次，升级规则不会影响证书，无需重新安装。
+备注：不要自己去生成新证书，会导致规则与证书不匹配使 MitM 失效，会直接导致无法加载的问题。
 ````
 
 ---
