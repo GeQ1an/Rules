@@ -2,7 +2,7 @@
 
 ### 简介
 
-本规则适合境外用户配合国内节点翻回大陆使用，由 lhie1 [墙洞 Rules](https://github.com/lhie1/Rules) 修改而来。
+本规则适合境外小白用户配合国内节点翻回大陆使用，由 lhie1 [墙洞 Rules](https://github.com/lhie1/Rules) 修改而来。
 
 ---
 * 支持应用
