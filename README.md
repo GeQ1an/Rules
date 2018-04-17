@@ -89,8 +89,9 @@ Shadowrocket：设置 - 证书 - 安装证书
 ````
 
 2. 在 Quantumult 中添加规则。
+
   ① 打开 Quantumult，点击“Settings”选项卡，点击“Favorites”，选择“Filter“
-  ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult02.PNG)![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult03.PNG)
+  ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG){:height="30%" width="30%"} ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult02.PNG){:height="30%" width="30%"} ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult03.PNG){:height="30%" width="30%"}
 
 
 
