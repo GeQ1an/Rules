@@ -79,7 +79,8 @@ Shadowrocket：设置 - 证书 - 安装证书
 
 ### 使用教程
 
-1. 购买大陆节点(如已拥有请跳过此步骤)，推荐使用“墙洞云服务”，[点此](https://xn--nos809b.com/auth/register?affid=7237)注册。
+#### 购买大陆节点(如已拥有请跳过此步骤)
+  推荐使用“墙洞云服务”，[点此](https://xn--nos809b.com/auth/register?affid=7237)注册。
 ````
   注册后，请根据个人需求自行选择套餐，充值、购买，
   购买成功后请添加中转规则，起源节点选择“要使用的节点”，目标节点选择“不进行中转”，端口自行选择，优先级大于“1”，
@@ -88,9 +89,11 @@ Shadowrocket：设置 - 证书 - 安装证书
   备注：建议购买成功后先 ping 各个大陆(CN)节点地址，选择最优线路使用。
 ````
 
-2. 在 Quantumult 中添加规则。
-  ① 打开 Quantumult，点击“Settings”选项卡，点击“Favorites”，选择“Filter“
-  ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)
+#### 在 Quantumult 中添加规则
+1. 打开 Quantumult，点击“Settings”选项卡，点击“Favorites”，点击右上角”+“，选择“Filter“
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)
+2. 进入的页面中，General 一栏中， Name 输入”Stick Rules“，URL 粘贴规则地址 https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf ，Option 一栏中勾选 Filter Action，然后点击右上角的 Save 按钮
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult02.PNG)
 
 
 
