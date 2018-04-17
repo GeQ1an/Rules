@@ -14,8 +14,8 @@
 * [证书的安装及信任](#mitm)
 * 使用教程
   * [拥有大陆节点](#购买大陆节点如已拥有请跳过此步骤)
-  * [Quantumult](#在quantumult中添加规则)
-  * [Shadowrocket](#在shadowrocket中添加规则)
+  * [Quantumult](#在-quantumult-中添加规则)
+  * [Shadowrocket](#在-shadowrocket-中添加规则)
 * [鸣谢](#鸣谢)
 * [关于](#关于)
 
@@ -102,7 +102,7 @@ Shadowrocket：设置 - 证书 - 安装证书
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult05.PNG)
 
 #### 在 Shadowrocket 中添加规则
-1.
+1. 打开 Shadowrocket，
 
 ---
 
