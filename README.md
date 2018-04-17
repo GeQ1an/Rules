@@ -7,6 +7,7 @@
 ---
 * 支持应用
   * Quantumult
+  * Shadowrocket
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
@@ -44,6 +45,8 @@
 Quantumult：
    FILTER：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
    REJECTION：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
+Shadowrocket:
+   远程文件：https://raw.githubusercontent.com/GeQ1an/Rules/master/Shadowrocket.conf
 ````
 
 ---
@@ -56,11 +59,12 @@ iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书�
 ````
 1. 安装：
 Quantumult：Settings - HTTPS - HTTPS Decryption
+Shadowrocket：设置 - 证书 - 安装证书
 
 2. 信任：
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
 
-备注：应用 REJECTION 规则后安装，只需安装并信任一次，升级规则不会影响证书，无需重新安装。
+备注：Quantumult 请在应用 REJECTION 规则后安装，Shadowrocket 请在使用配置后安装。只需安装并信任一次，升级规则不会影响证书。
 备注：不要自己去生成新证书，会导致规则与证书不匹配使 MitM 失效，会直接导致无法加载的问题。
 ````
 
