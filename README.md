@@ -14,8 +14,8 @@
 * [证书的安装及信任](#mitm)
 * 使用教程
   * [拥有大陆节点](#购买大陆节点如已拥有请跳过此步骤)
-  * [Quantumult](#在Quantumult中添加规则)
-  * [Shadowrocket](#使用教程)
+  * [Quantumult](#在 Quantumult 中添加规则)
+  * [Shadowrocket](#在 Shadowrocket 中添加规则)
 * [鸣谢](#鸣谢)
 * [关于](#关于)
 
@@ -92,14 +92,17 @@ Shadowrocket：设置 - 证书 - 安装证书
 #### 在 Quantumult 中添加规则
 1. 打开 Quantumult，点击“Settings”选项卡，点击“Favorites”，点击右上角“+”，选择“Filter”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)
-2. 进入的页面中，General 一栏， Name 输入“Stick Rules”，URL 粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf`，在“Option”栏中勾选“Filter Action”，然后点击右上角的“Save”按钮
+2. 进入的页面中，General 一栏， Name 输入“Stick Rules”，URL 粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf`，在 Option 栏中勾选“Filter Action”，然后点击右上角的“Save”按钮
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult02.PNG)
-3. Filter 栏多出“Stick Rules”，向左滑动该条目，点击“Replace”，选择“Netflix”“PayPal”“Apple”“微软”等服务的特殊政策，如不明白，请选择“DIRECT”，点击右上角“OK”。回到“Favorites”界面后，点击右上角“+”，选择“Rejection”
+3. Favorites 界面 Filter 栏多出“Stick Rules”，向左滑动该条目，点击“Replace”，选择“Netflix”“PayPal”“Apple”“微软”等服务的特殊政策，如不明白，请选择“DIRECT”，点击右上角“OK”。回到 Favorites 界面后，点击右上角“+”，选择“Rejection”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult03.PNG)
-4. 进入的页面中，General 一栏， Name 输入“墙洞 Rejection”，URL 粘贴规则地址`https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf`,在“Option”栏中勾选“Including Host Names”，然后点击右上角的“Save”按钮
+4. 进入的页面中，General 一栏， Name 输入“墙洞 Rejection”，URL 粘贴规则地址`https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf`，在“Option”栏中勾选“Including Host Names”，然后点击右上角的“Save”按钮
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult04.PNG)
-5. Rejection 栏多出“墙洞 Rejection”，向左滑动该条目，点击“Replace”，稍后会弹出“Success”对话框，点击“OK”
+5. Favorites 界面 Rejection 栏多出“墙洞 Rejection”，向左滑动该条目，点击“Replace”，稍后会弹出“Success”对话框，点击“OK”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult05.PNG)
+
+#### 在 Shadowrocket 中添加规则
+1.
 
 ---
 
