@@ -7,7 +7,7 @@
 ---
 * 支持应用
   * Quantumult
-  * Shadowrocket
+  * Shadowrocket
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
