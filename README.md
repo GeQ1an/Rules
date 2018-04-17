@@ -79,7 +79,7 @@ Shadowrocket：设置 - 证书 - 安装证书
 
 ### 使用教程
 
-1. 购买大陆节点（如已拥有请跳过此步骤），推荐使用“墙洞云服务”，[点此](https://xn--nos809b.com/auth/register?affid=7237)注册。
+1. 购买大陆节点(如已拥有请跳过此步骤)，推荐使用“墙洞云服务”，[点此](https://xn--nos809b.com/auth/register?affid=7237)注册。
 ````
   注册后，请根据个人需求自行选择套餐，充值、购买，
   购买成功后请添加中转规则，起源节点选择“要使用的节点”，目标节点选择“不进行中转”，端口自行选择，优先级大于“1”，
@@ -90,7 +90,8 @@ Shadowrocket：设置 - 证书 - 安装证书
 
 2. 在 Quantumult 中添加规则。
 ````
-  ① 打开 Quantumult，点击 Settings 选项卡，点击 Favorites
+  ① 打开 Quantumult，点击“Settings”选项卡，点击“Favorites”，选择“Filter“
+  
 ````
 
 
