@@ -49,6 +49,7 @@
 Quantumult：
    FILTER：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
    REJECTION：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
+
 Shadowrocket:
    远程文件：https://raw.githubusercontent.com/GeQ1an/Rules/master/Shadowrocket.conf
 ````
