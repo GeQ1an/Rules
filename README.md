@@ -11,11 +11,11 @@
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
-* [证书的安装及信任](#mitm)
 * 使用教程
   * [拥有大陆节点](#购买大陆节点如已拥有请跳过此步骤)
   * [Quantumult](#在-quantumult-中添加规则)
   * [Shadowrocket](#在-shadowrocket-中添加规则)
+* [证书的安装及信任](#mitm)
 * [常见问题](#qa)
 * [鸣谢](#鸣谢)
 * [关于](#关于)
@@ -57,27 +57,6 @@ Shadowrocket:
 
 ---
 
-### MitM
-
-简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
-
-iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书才可使其证书有效。
-````
-1. 安装：
-Quantumult：Settings - HTTPS - HTTPS Decryption
-Shadowrocket：设置 - 证书 - 安装证书
-
-2. 信任：
-设置 - 通用 - 关于本机 - 证书信任设置 - 信任
-
-备注：Quantumult 请在分别应用 FILTER 和 REJECTION 规则后安装；
-     Shadowrocket 请在下载并使用配置后安装。
-     只需安装并信任一次，升级规则不会影响证书，无需重新安装。
-注意：不要自己去生成新证书，会导致规则与证书不匹配使 MitM 失效，会直接导致无法加载的问题。
-````
-
----
-
 ### 使用教程
 
 #### 购买大陆节点(如已拥有请跳过此步骤)
@@ -101,9 +80,36 @@ Shadowrocket：设置 - 证书 - 安装证书
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult04.PNG)
 5. Favorites 界面 Rejection 栏多出“墙洞 Rejection”，向左滑动该条目，点击“Replace”，稍后会弹出“Success”对话框，点击“OK”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult05.PNG)
+6. [安装并信任证书](#mitm)
 
 #### 在 Shadowrocket 中添加规则
-1. 打开 Shadowrocket，
+1. 打开 Shadowrocket，点击“配置”选项卡，点击远程文件处的“添加配置”，粘贴规则地址`https://raw.githubusercontent.com/GeQ1an/Rules/master/Shadowrocket.conf`，点击“下载”
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Shadowrocket01.PNG)
+2. 配置界面远程文件栏中多出规则网址，点击后选择“使用配置”，稍等片刻“Shadowrocket.conf”旁显示黄点，代表正在使用此规则
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Shadowrocket02.PNG)
+3. [安装并信任证书](#mitm)
+
+
+---
+
+### MitM
+
+简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
+
+iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书才可使其证书有效。
+````
+1. 安装：
+Quantumult：Settings - HTTPS - HTTPS Decryption
+Shadowrocket：设置 - 证书 - 安装证书
+
+2. 信任：
+设置 - 通用 - 关于本机 - 证书信任设置 - 信任
+
+备注：Quantumult 请在分别应用 FILTER 和 REJECTION 规则后安装；
+     Shadowrocket 请在下载并使用配置后安装。
+     只需安装并信任一次，升级规则不会影响证书，无需重新安装。
+注意：不要自己去生成新证书，会导致规则与证书不匹配使 MitM 失效，会直接导致无法加载的问题。
+````
 
 ---
 
