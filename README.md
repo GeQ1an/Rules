@@ -81,6 +81,7 @@ Shadowrocket:
 5. Favorites 界面 Rejection 栏多出“墙洞 Rejection”，向左滑动该条目，点击“Replace”，稍后会弹出“Success”对话框，点击“OK”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult05.PNG)
 6. [安装并信任证书](#mitm)
+7. 规则有更新时，重新进行第 3 步和第 5 步的向左滑动条目，点击“Replace”即可
 
 #### 在 Shadowrocket 中添加规则
 1. 打开 Shadowrocket，点击“配置”选项卡，点击远程文件处的“添加配置”，粘贴规则地址`https://raw.githubusercontent.com/GeQ1an/Rules/master/Shadowrocket.conf`，点击“下载”
@@ -88,6 +89,7 @@ Shadowrocket:
 2. 配置界面远程文件栏中多出规则网址，点击后选择“使用配置”，稍等片刻“Shadowrocket.conf”旁显示黄点，代表正在使用此规则
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Shadowrocket02.PNG)
 3. [安装并信任证书](#mitm)
+4. 规则有更新时，重新进行第 2 步“使用配置”即可
 
 
 ---
