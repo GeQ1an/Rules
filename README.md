@@ -6,8 +6,8 @@
 
 ---
 * 支持应用
-  * Quantumult
-  * Shadowrocket
+  * [Quantumult](https://itunes.apple.com/cn/app/quantumult/id1252015438?mt=8)
+  * [Shadowrocket](https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8)
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
