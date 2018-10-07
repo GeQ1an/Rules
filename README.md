@@ -2,12 +2,12 @@
 
 ### 简介
 
-本规则适合境外小白用户配合国内节点翻回大陆使用，由 lhie1 [Rules](https://github.com/lhie1/Rules) 修改而来。
+本规则适合境外小白用户配合国内节点翻回大陆使用，由 [lhie1 Rules](https://github.com/lhie1/Rules) 修改而来。
 
 ---
 * 支持应用
-  * [Quantumult](https://itunes.apple.com/cn/app/quantumult/id1252015438?mt=8)
-  * [Shadowrocket](https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8)
+  * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438?mt=8)
+  * [Shadowrocket](https://itunes.apple.com/app/shadowrocket/id932747118?mt=8)
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
@@ -167,7 +167,7 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 
 ### 关于
 
-我是一名在韩留学生，在境外时会需要大陆 IP 来使用国内部分服务，于是修改了墙洞规则使用，欢迎在境外的小伙伴使用。平时课程比较多，且并非学习相关专业，完全由课余时间修改，所以无法保证定期更新。现在的规则是代理全部大陆网站、IP，以后会增加只代理视频、音乐等强制要求大陆 IP 服务的规则。如有建议或缺漏，请及时反馈：[微博](http://weibo.com/lixin19940325)、[Telegram](https://t.me/GeQ1an)。
+我是一名在韩留学生，在境外时会需要大陆 IP 来使用国内部分服务，于是修改了 lhie1 规则使用，欢迎在境外的小伙伴使用。平时课程比较多，且并非学习相关专业，完全由课余时间修改，所以无法保证定期更新。现在的规则是代理全部大陆网站、IP，以后会增加只代理视频、音乐等强制要求大陆 IP 服务的规则。如有建议或缺漏，请及时反馈：[微博](http://weibo.com/lixin19940325)、[Telegram](https://t.me/GeQ1an)。
 
 您的打赏将是我持续完善、更新规则的动力，欢迎扫描下方二维码打赏，感谢。
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Pay.png)
