@@ -48,7 +48,7 @@ Proxy:
   password: ABCDEF
 
 Proxy Group:
-# 按照下方格式写入策略组
+# 按照下方格式写入策略组，其中 Domestic 为回国策略，请将大陆节点填入
 - name: Auto
   type: url-test
   proxies:
