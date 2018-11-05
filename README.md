@@ -46,9 +46,10 @@
 ### URL
 
 ````
-Quantumult：
-   FILTER：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
-   REJECTION：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
+Quantumult:
+   FILTER：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
+   REJECTION：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
+clashX: https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml
 ````
 
 ---
