@@ -7,7 +7,7 @@
 ---
 * 支持应用
   * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438?mt=8)
-  * [chashX](https://github.com/yichengchen/clashX)
+  * [clashX](https://github.com/yichengchen/clashX)
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
