@@ -47,8 +47,9 @@
 
 ````
 Quantumult:
-   FILTER：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
-   REJECTION：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
+   分流 FILTER (代理所有中国连接)：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
+   分流 FILTER (仅代理中国媒体连接)：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only.conf
+   链接阻止 REJECTION：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
 clashX: https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml
 ````
 
@@ -67,11 +68,11 @@ clashX: https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml
 ````
 
 #### 在 Quantumult 中添加规则
-1. 打开 Quantumult，点击“Settings”选项卡，点击“Favorites”，点击右上角“+”，选择“Filter”
+1. 打开 Quantumult，点击“设置”选项卡，点击“订阅”，点击右上角“+”，选择“分流”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)
-2. 进入的页面中，General 一栏， Name 输入“Stick Rules”，URL 粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf`，在 Option 栏中勾选“Filter Action”，然后点击右上角的“Save”按钮
+2. 进入的页面中，“通用”一栏， “名称”输入 Stick Rules，“链接”粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf`，在“高级”栏中勾选“个性化”，然后点击右上角的“保存”按钮
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult02.PNG)
-3. Favorites 界面 Filter 栏多出“Stick Rules”，向左滑动该条目，点击“Replace”，选择 Netflix、PayPal、Apple、微软等服务的特殊政策，如不明白请选择“DIRECT”，点击右上角“OK”。回到 Favorites 界面后，点击右上角“+”，选择“Rejection”
+3. “订阅”界面“分流”栏多出“Stick Rules”，向左滑动该条目，点击“替换”，选择 Netflix、PayPal、Apple、微软等服务的特殊政策，如不明白请选择“DIRECT”，点击右上角“OK”。回到 Favorites 界面后，点击右上角“+”，选择“Rejection”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult03.PNG)
 4. 进入的页面中，General 一栏， Name 输入“墙洞 Rejection”，URL 粘贴规则地址`https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf`，在 Option 栏中勾选“Including Host Names”，然后点击右上角的“Save”按钮
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult04.PNG)
