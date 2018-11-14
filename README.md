@@ -40,8 +40,9 @@
 - [x] 屏蔽常用视频广告
 - [x] 屏蔽常用网站广告、其他流媒体网站广告
 - [x] 屏蔽法轮功等反华势力网站
-- [x] 中国大陆网站、App 代理连接
 - [x] 境外网站直接连接
+- [x] 中国大陆网站、App 代理连接
+- [x] 仅代理中国媒体（爱奇艺、乐视视频、网易云音乐、QQ音乐、腾讯视频、优酷）连接 <font color=#dd0000>New</font>
 
 ### URL
 
@@ -70,16 +71,16 @@ clashX: https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml
 #### 在 Quantumult 中添加规则
 1. 打开 Quantumult，点击“设置”选项卡，点击“订阅”，点击右上角“+”，选择“分流”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)
-2. 进入的页面中，“通用”一栏， “名称”输入 Stick Rules，“链接”粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf`，在“高级”栏中勾选“个性化”，然后点击右上角的“保存”按钮
+2. 进入的页面中，输入“名称”（如“Stick Rules”），粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf`，在“高级”栏中勾选“个性化”，然后点击右上角的“保存”按钮
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult02.PNG)
-3. “订阅”界面“分流”栏多出“Stick Rules”，向左滑动该条目，点击“替换”，选择 Netflix、PayPal、Apple、微软等服务的特殊政策，如不明白请选择“DIRECT”，点击右上角“OK”。回到 Favorites 界面后，点击右上角“+”，选择“Rejection”
+3. “订阅”界面“分流”栏多出“Stick Rules”，向左滑动该条目，点击“替换”，选择 Netflix、PayPal、Apple、微软等服务的特殊政策，如不明白请选择“DIRECT”，点击右上角“保存”。回到“订阅”界面后，点击右上角“+”，选择“链接阻止”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult03.PNG)
-4. 进入的页面中，General 一栏， Name 输入“墙洞 Rejection”，URL 粘贴规则地址`https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf`，在 Option 栏中勾选“Including Host Names”，然后点击右上角的“Save”按钮
+4. 进入的页面中，输入“名称”（如“墙洞 Rejection”），粘贴规则地址`https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf`，在“高级”栏中勾选“包含主机名”，然后点击右上角的“保存”按钮
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult04.PNG)
-5. Favorites 界面 Rejection 栏多出“墙洞 Rejection”，向左滑动该条目，点击“Replace”，稍后会弹出“Success”对话框，点击“OK”
+5. “订阅”界面“链接阻止栏”多出“墙洞 Rejection”，向左滑动该条目，点击“替换”，稍后会弹出“成功”对话框，点击“好”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult05.PNG)
 6. [安装并信任证书](#mitm)
-7. 规则有更新时，重新进行第 3 步和第 5 步的向左滑动条目，点击“Replace”即可
+7. 规则有更新时，重新进行第 3 步和第 5 步的向左滑动条目，点击“替换”即可
 
 ---
 
@@ -90,7 +91,7 @@ clashX: https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml
 iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书才可使其证书有效。
 ````
 1. 安装：
-Quantumult：Settings - HTTPS - HTTPS Decryption
+Quantumult：设置 - HTTPS 解密 - 打开
 
 2. 信任：
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
