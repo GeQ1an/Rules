@@ -2,7 +2,7 @@
 
 ### 简介
 
-本规则适合境外“小白/懒人”用户配合国内节点翻回大陆使用，通过 [lhie1 Rules](https://github.com/lhie1/Rules) 以及 [shigalin Config](https://github.com/shigalin/Config) 修改而来。
+本规则适合境外使用 Quantumult 和 ClashX 的 “小白/懒人” 用户配合国内节点翻回大陆使用，通过 [lhie1 Rules](https://github.com/lhie1/Rules) 以及 [shigalin Config](https://github.com/shigalin/Config) 的规则修改而来。
 
 ---
 * 支持应用
@@ -19,7 +19,6 @@
 * [常见问题](#qa)
 * [鸣谢](#鸣谢)
 * [关于](#关于)
-
 
 ---
 
@@ -107,7 +106,7 @@ Quantumult：设置 - HTTPS 解密 - 打开
 2. 信任：
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
 
-备注：Quantumult 请在分别应用 FILTER 和 REJECTION 规则后安装；
+备注：请在分别应用 FILTER 和 REJECTION 规则后安装；
      只需安装并信任一次，升级规则不会影响证书，无需重新安装。
 注意：不要自己去生成新证书，会导致规则与证书不匹配使 MitM 失效，致使出现无法加载的问题。
 ````
@@ -151,6 +150,11 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 #### 打开某些应用（如：知乎、即刻等）无法连接？
 ````
 检查证书，请确保已经安装证书并信任。
+````
+
+#### 为什么只支持 Quantumult 和 ClashX 这两款软件？
+````
+个人认为 Quantumult 的稳定性要好于 Shadowrocket，所以推荐使用。至于 Surge，有很多大佬 (如 lhie1) 的规则已经有了各种策略组，直接选择即可。macOS 上除了 Surge 和 ClashX 也没有什么别的好用的代理软件了。
 ````
 
 ---
