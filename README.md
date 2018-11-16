@@ -14,6 +14,7 @@
 * 使用教程
   * [拥有大陆节点](#购买大陆节点如已拥有请跳过此步骤)
   * [Quantumult](#在-quantumult-中添加规则)
+  * [ClashX](#在-ClashX-中使用规则)
 * [证书的安装及信任](#mitm)
 * [常见问题](#qa)
 * [鸣谢](#鸣谢)
@@ -85,8 +86,12 @@ clashX:
 7. 规则有更新时，重新进行第 3 步和第 5 步的向左滑动条目，点击“替换”即可
 
 #### 在 ClashX 中使用规则
-1. 按照配置文件内部说明添加节点信息和
-2. 打开 $HOME/.config/clash/ 目录
+1. 打开下载好的 config.yml 文件 (可使用`文本编辑`打开)，按照说明添加节点信息并在策略组内加入相关节点，存储
+2. 将配置文件放入 “$HOME/.config/clash/” 目录 (可通过 “点击状态栏 ClashX 图标 —— 配置 —— 打开配置文件夹” 来打开该目录)
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/ClashX01.png)
+3. 应用配置文件 (方式为 “点击 ClashX 图标 —— 配置 —— 重载配置文件”)
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/ClashX02.png)
+4. 点击 ClashX 图标选择各个策略组节点
 
 ---
 
