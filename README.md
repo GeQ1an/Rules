@@ -7,7 +7,7 @@
 ---
 * 支持应用
   * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438?mt=8)
-  * [clashX](https://github.com/yichengchen/clashX)
+  * [ClashX](https://github.com/yichengchen/clashX)
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
@@ -42,7 +42,7 @@
 - [x] 屏蔽法轮功等反华势力网站
 - [x] 境外网站直接连接
 - [x] 中国大陆网站、App 代理连接
-- [x] 仅中国大陆媒体 (爱奇艺、乐视视频、网易云音乐、QQ音乐、腾讯视频、优酷) 代理连接 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `New`
+- [x] 仅中国大陆媒体 (爱奇艺、乐视视频、网易云音乐、QQ音乐、腾讯视频、优酷) 代理连接 `New`
 
 ### URL
 
@@ -83,6 +83,10 @@ clashX:
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult05.PNG)
 6. [安装并信任证书](#mitm)
 7. 规则有更新时，重新进行第 3 步和第 5 步的向左滑动条目，点击“替换”即可
+
+#### 在 ClashX 中使用规则
+1. 按照配置文件内部说明添加节点信息和
+2. 打开 $HOME/.config/clash/ 目录
 
 ---
 
