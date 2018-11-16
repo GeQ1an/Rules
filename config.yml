@@ -1,4 +1,4 @@
-# 2018年11月6日 02:03 UTC/GMT +9
+# 2018年11月6日 02:05 UTC/GMT +9
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -76,7 +76,7 @@ Proxy Group:
   - "test5"
   url: http://captive.apple.com
   interval: "600"
-- name: fallback
+- name: Fallback
   type: fallback
   proxies:
   - "test3"
@@ -88,7 +88,7 @@ Proxy Group:
   type: select
   proxies:
   - Auto
-  - fallback
+  - Fallback
   - DIRECT
   - "test3"
   - "test4"
