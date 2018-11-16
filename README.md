@@ -148,7 +148,7 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 
 ### 鸣谢
 * [lhie1](https://github.com/lhie1/Rules)
-* [shigalin Config](https://github.com/shigalin/Config)
+* [shigalin](https://github.com/shigalin/Config)
 
 ---
 
