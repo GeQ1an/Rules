@@ -1,4 +1,4 @@
-# 2018年11月6日 02:20 UTC/GMT +9
+# 2018年11月6日 02:03 UTC/GMT +9
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -75,27 +75,46 @@ Proxy Group:
   - "test4"
   - "test5"
   url: http://captive.apple.com
-  interval: "1200"
-- name: China_media
+  interval: "600"
+- name: fallback
+  type: fallback
+  proxies:
+  - "test3"
+  - "test4"
+  - "test5"
+  url: http://captive.apple.com
+  interval: "600"
+- name: Proxy
   type: select
   proxies:
+  - Auto
+  - fallback
   - DIRECT
-  - "test1"
-  - "test2"
+  - "test3"
+  - "test4"
+  - "test5"
 - name: Domestic
   type: select
   proxies:
   - DIRECT
   - "test1"
   - "test2"
-- name: Proxy
+- name: China_media
   type: select
   proxies:
-  - Auto
   - DIRECT
-  - "test3"
-  - "test4"
-  - "test5"
+  - "test1"
+  - "test2"
+- name: Global_media
+  type: select
+  proxies:
+  - Proxy
+  - DIRECT
+- name: Others
+  type: select
+  proxies:
+  - Proxy
+  - DIRECT
 
 Rule:
 # Apple
@@ -110,7 +129,9 @@ Rule:
 - DOMAIN-SUFFIX,icloud.com,DIRECT
 - DOMAIN-SUFFIX,icloud-content.com,DIRECT
 
-# China_media（中国媒体）
+#- DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释
+
+# China Media (中国媒体)
 # bilibili
 - DOMAIN-KEYWORD,bilibili,China_media
 - DOMAIN-SUFFIX,acgvideo.com,China_media
@@ -139,16 +160,67 @@ Rule:
 # Youku
 - IP-CIDR,106.11.0.0/16,China_media
 
-# Domestic（中国网站）
-- IP-CIDR,185.188.32.0/24,Domestic
-- IP-CIDR,185.188.33.0/24,Domestic
-- IP-CIDR,185.188.34.0/24,Domestic
-- IP-CIDR,185.188.35.0/24,Domestic
-- IP-CIDR6,2a0b:b580::/48,Domestic
-- IP-CIDR6,2a0b:b581::/48,Domestic
-- IP-CIDR6,2a0b:b582::/48,Domestic
-- IP-CIDR6,2a0b:b583::/48,Domestic
+# Global Media (国际媒体)
+- DOMAIN-SUFFIX,edgedatg.com,Global_media
+- DOMAIN-SUFFIX,go.com,Global_media
+- DOMAIN,linear-abematv.akamaized.net,Global_media
+- DOMAIN-SUFFIX,abema.io,Global_media
+- DOMAIN-SUFFIX,abema.tv,Global_media
+- DOMAIN-SUFFIX,akamaized.net,Global_media
+- DOMAIN-SUFFIX,ameba.jp,Global_media
+- DOMAIN-SUFFIX,hayabusa.io,Global_media
+- DOMAIN-SUFFIX,amazonaws.com,Global_media
+- DOMAIN-SUFFIX,bahamut.com.tw,Global_media
+- DOMAIN-SUFFIX,gamer.com.tw,Global_media
+- DOMAIN-SUFFIX,hinet.net,Global_media
+- DOMAIN-KEYWORD,bbcfmt,Global_media
+- DOMAIN-KEYWORD,co.uk,Global_media
+- DOMAIN-KEYWORD,uk-live,Global_media
+- DOMAIN-SUFFIX,bbc.co,Global_media
+- DOMAIN-SUFFIX,bbc.co.uk,Global_media
+- DOMAIN-SUFFIX,bbc.com,Global_media
+- DOMAIN-SUFFIX,bbci.co,Global_media
+- DOMAIN-SUFFIX,bbci.co.uk,Global_media
+- DOMAIN-SUFFIX,chocotv.com.tw,Global_media
+- DOMAIN-KEYWORD,epicgames,Global_media
+- DOMAIN-SUFFIX,helpshift.com,Global_media
+- DOMAIN-KEYWORD,foxplus,Global_media
+- DOMAIN-SUFFIX,config.fox.com,Global_media
+- DOMAIN-SUFFIX,emome.net,Global_media
+- DOMAIN-SUFFIX,fox.com,Global_media
+- DOMAIN-SUFFIX,foxdcg.com,Global_media
+- DOMAIN-SUFFIX,foxnow.com,Global_media
+- DOMAIN-SUFFIX,foxplus.com,Global_media
+- DOMAIN-SUFFIX,foxplay.com,Global_media
+- DOMAIN-SUFFIX,ipinfo.io,Global_media
+- DOMAIN-SUFFIX,mstage.io,Global_media
+- DOMAIN-SUFFIX,now.com,Global_media
+- DOMAIN-SUFFIX,theplatform.com,Global_media
+- DOMAIN-SUFFIX,hbo.com,Global_media
+- DOMAIN-SUFFIX,hbogo.com,Global_media
+- DOMAIN-SUFFIX,hbogoasia.hk,Global_media
+- DOMAIN-SUFFIX,happyon.jp,Global_media
+- DOMAIN-SUFFIX,hulu.com,Global_media
+- DOMAIN-SUFFIX,huluim.com,Global_media
+- DOMAIN-SUFFIX,imkan.tv,Global_media
+- DOMAIN-SUFFIX,joox.com,Global_media
+- DOMAIN-SUFFIX,netflix.com,Global_media
+- DOMAIN-SUFFIX,netflix.net,Global_media
+- DOMAIN-SUFFIX,nflxext.com,Global_media
+- DOMAIN-SUFFIX,nflximg.com,Global_media
+- DOMAIN-SUFFIX,nflximg.net,Global_media
+- DOMAIN-SUFFIX,nflxso.net,Global_media
+- DOMAIN-SUFFIX,nflxvideo.net,Global_media
+- DOMAIN-KEYWORD,spotify,Global_media
+- DOMAIN-SUFFIX,scdn.co,Global_media
+- DOMAIN-SUFFIX,spoti.fi,Global_media
+- DOMAIN-SUFFIX,viu.tv,Global_media
+- DOMAIN-KEYWORD,youtube,Global_media
+- DOMAIN-SUFFIX,googlevideo.com,Global_media
+- DOMAIN-SUFFIX,gvt2.com,Global_media
+- DOMAIN-SUFFIX,youtu.be,Global_media
 
+# Domestic（中国网站）
 - DOMAIN-SUFFIX,cn,Domestic
 - DOMAIN-KEYWORD,-cn,Domestic
 - DOMAIN-SUFFIX,126.com,Domestic
@@ -210,10 +282,13 @@ Rule:
 - DOMAIN-SUFFIX,meituan.net,Domestic
 - DOMAIN-SUFFIX,mi.com,Domestic
 - DOMAIN-SUFFIX,miaopai.com,Domestic
+- DOMAIN-SUFFIX,microsoft.com,Domestic
+- DOMAIN-SUFFIX,microsoftonline.com,Domestic
 - DOMAIN-SUFFIX,miui.com,Domestic
 - DOMAIN-SUFFIX,miwifi.com,Domestic
 - DOMAIN-SUFFIX,mob.com,Domestic
 - DOMAIN-SUFFIX,netease.com,Domestic
+- DOMAIN-KEYWORD,officecdn,Domestic
 - DOMAIN-SUFFIX,oschina.net,Domestic
 - DOMAIN-SUFFIX,ppsimg.com,Domestic
 - DOMAIN-SUFFIX,pstatp.com,Domestic
@@ -249,6 +324,7 @@ Rule:
 - DOMAIN-SUFFIX,upyun.com,Domestic
 - DOMAIN-SUFFIX,v2ex.com,Domestic
 - DOMAIN-SUFFIX,veryzhun.com,Domestic
+- DOMAIN-SUFFIX,weather.com,Domestic
 - DOMAIN-SUFFIX,weibo.com,Domestic
 - DOMAIN-SUFFIX,xiami.com,Domestic
 - DOMAIN-SUFFIX,xiami.net,Domestic
@@ -295,7 +371,6 @@ Rule:
 - DOMAIN-KEYWORD,amazon,Proxy
 - DOMAIN-KEYWORD,google,Proxy
 - DOMAIN-KEYWORD,gmail,Proxy
-- DOMAIN-KEYWORD,youtube,Proxy
 - DOMAIN-KEYWORD,facebook,Proxy
 - DOMAIN-SUFFIX,fb.me,Proxy
 - DOMAIN-SUFFIX,fbcdn.net,Proxy
@@ -304,7 +379,6 @@ Rule:
 - DOMAIN-KEYWORD,dropbox,Proxy
 - DOMAIN-SUFFIX,twimg.com,Proxy
 - DOMAIN-KEYWORD,blogspot,Proxy
-- DOMAIN-SUFFIX,youtu.be,Proxy
 - DOMAIN-KEYWORD,whatsapp,Proxy
 
 # Proxy
@@ -368,6 +442,7 @@ Rule:
 - DOMAIN-SUFFIX,disq.us,Proxy
 - DOMAIN-SUFFIX,disqus.com,Proxy
 - DOMAIN-SUFFIX,disquscdn.com,Proxy
+- DOMAIN-SUFFIX,dlercloud.com,Proxy
 - DOMAIN-SUFFIX,dnsimple.com,Proxy
 - DOMAIN-SUFFIX,docker.com,Proxy
 - DOMAIN-SUFFIX,dribbble.com,Proxy
@@ -456,8 +531,6 @@ Rule:
 - DOMAIN-SUFFIX,mega.co.nz,Proxy
 - DOMAIN-SUFFIX,mega.nz,Proxy
 - DOMAIN-SUFFIX,megaupload.com,Proxy
-- DOMAIN-SUFFIX,microsoft.com,Proxy
-- DOMAIN-SUFFIX,microsoftonline.com,Proxy
 - DOMAIN-SUFFIX,microsofttranslator.com,Proxy
 - DOMAIN-SUFFIX,mindnode.com,Proxy
 - DOMAIN-SUFFIX,mobile01.com,Proxy
@@ -470,7 +543,6 @@ Rule:
 - DOMAIN-SUFFIX,nssurge.com,Proxy
 - DOMAIN-SUFFIX,nyt.com,Proxy
 - DOMAIN-SUFFIX,nytimes.com,Proxy
-- DOMAIN-SUFFIX,office.com,Proxy
 - DOMAIN-SUFFIX,office365.com,Proxy
 - DOMAIN-SUFFIX,omnigroup.com,Proxy
 - DOMAIN-SUFFIX,onedrive.com,Proxy
@@ -559,7 +631,6 @@ Rule:
 - DOMAIN-SUFFIX,vultr.com,Proxy
 - DOMAIN-SUFFIX,w.org,Proxy
 - DOMAIN-SUFFIX,w3schools.com,Proxy
-- DOMAIN-SUFFIX,weather.com,Proxy
 - DOMAIN-SUFFIX,webtype.com,Proxy
 - DOMAIN-SUFFIX,wikiwand.com,Proxy
 - DOMAIN-SUFFIX,wikileaks.org,Proxy
@@ -604,4 +675,4 @@ Rule:
 
 # 最终规则
 - GEOIP,CN,Domestic
-- FINAL,,Proxy
+- FINAL,,Others
