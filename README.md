@@ -2,7 +2,7 @@
 
 ### 简介
 
-本规则适合境外小白用户配合国内节点翻回大陆使用，由 [lhie1 Rules](https://github.com/lhie1/Rules) 修改而来。
+本规则适合境外“小白/懒人”用户配合国内节点翻回大陆使用，通过 [lhie1 Rules](https://github.com/lhie1/Rules) 以及 [shigalin Config](https://github.com/shigalin/Config) 修改而来。
 
 ---
 * 支持应用
@@ -42,17 +42,19 @@
 - [x] 屏蔽法轮功等反华势力网站
 - [x] 境外网站直接连接
 - [x] 中国大陆网站、App 代理连接
-- [x] 仅代理中国媒体（爱奇艺、乐视视频、网易云音乐、QQ音乐、腾讯视频、优酷）连接 <font color=#DC143C>New</font>
+- [x] 仅中国大陆媒体 (爱奇艺、乐视视频、网易云音乐、QQ音乐、腾讯视频、优酷) 代理连接 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `New`
 
 ### URL
 
-````
 Quantumult:
-   分流 FILTER (代理所有中国连接)：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf
-   分流 FILTER (仅代理中国媒体连接)：https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only.conf
-   链接阻止 REJECTION：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
-clashX: https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml
-````
+* [Quantumult.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf): 代理所有中国大陆链接，并同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
+* [Quantumult_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_lite.conf): 代理所有中国大陆链接，尽量精简拦截广告规则 (同步于 [shigalin Config](https://github.com/shigalin/Config))
+* [Quantumult_media_only.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only.conf): 仅代理中国大陆媒体链接，并同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
+* [Quantumult_media_only_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only_lite.conf): 仅代理中国大陆媒体链接，尽量精简拦截广告规则 (同步于 [shigalin Config](https://github.com/shigalin/Config))
+* [链接阻止 REJECTION](https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf): 请直接使用 [lhie1 Rules](https://github.com/lhie1/Rules) 内的 Rejection
+
+clashX:
+* [config.yml](https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml): 使用前请参考文件内相关说明配置节点信息，并将节点信息加入到策略组
 
 ---
 
@@ -68,7 +70,7 @@ clashX: https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml
   备注：建议购买成功后先 ping 各个大陆(CN)节点地址，选择最优线路使用。
 ````
 
-#### 在 Quantumult 中添加规则
+#### 在 Quantumult 中添加规则 (以添加 Quantumult.conf 为例)
 1. 打开 Quantumult，点击“设置”选项卡，点击“订阅”，点击右上角“+”，选择“分流”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)
 2. 进入的页面中，输入“名称”（如“Stick Rules”），粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf`，在“高级”栏中勾选“个性化”，然后点击右上角的“保存”按钮
@@ -146,6 +148,7 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 
 ### 鸣谢
 * [lhie1](https://github.com/lhie1/Rules)
+* [shigalin Config](https://github.com/shigalin/Config)
 
 ---
 
