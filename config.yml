@@ -1,4 +1,4 @@
-# 2018年11月6日 02:05 UTC/GMT +9
+# 2018年11月17日 21:53 UTC/GMT +9
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -24,26 +24,25 @@ external-controller: 127.0.0.1:6170
 # RESTful API 的口令 (可选)
 secret: ""
 
-# 服务器列表
-# 可以按照
+# 服务器列表可以按照
 # - { name: "ss1", type: ss, server: "server", port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password" }
 # - { name: "ss2", type: ss, server: "server", port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password", obfs: tls, obfs-host: "bing.com" }
 # 或下方所示格式
 
 Proxy:
-- name: "test1"
+- name: "cn1"
   type: ss
   server: cn1.xx.com
   port: 1111
   cipher: chacha20-ietf-poly1305
   password: ABCDEF
-- name: "test2"
+- name: "cn2"
   type: ss
   server: cn2.xx.com
   port: 1111
   cipher: chacha20-ietf-poly1305
   password: ABCDEF
-- name: "test3"
+- name: "hk1"
   type: ss
   server: hk1.xx.com
   port: 1111
@@ -51,7 +50,7 @@ Proxy:
   password: ABCDEF
   obfs: http
   obfs-host: wns.windows.com
-- name: "test4"
+- name: "hk2"
   type: ss
   server: hk2.xx.com
   port: 1111
@@ -59,7 +58,7 @@ Proxy:
   password: ABCDEF
   obfs: tls
   obfs-host: bing.com
-- name: "test5"
+- name: "us1"
   type: ss
   server: us.xx.com
   port: 1111
@@ -71,17 +70,17 @@ Proxy Group:
 - name: Auto
   type: url-test
   proxies:
-  - "test3"
-  - "test4"
-  - "test5"
+  - "hk1"
+  - "hk2"
+  - "us1"
   url: http://captive.apple.com
   interval: "600"
 - name: Fallback
   type: fallback
   proxies:
-  - "test3"
-  - "test4"
-  - "test5"
+  - "hk1"
+  - "hk2"
+  - "us1"
   url: http://captive.apple.com
   interval: "600"
 - name: Proxy
@@ -90,21 +89,21 @@ Proxy Group:
   - Auto
   - Fallback
   - DIRECT
-  - "test3"
-  - "test4"
-  - "test5"
+  - "hk1"
+  - "hk2"
+  - "us1"
 - name: Domestic
   type: select
   proxies:
   - DIRECT
-  - "test1"
-  - "test2"
+  - "cn1"
+  - "cn2"
 - name: China_media
   type: select
   proxies:
   - DIRECT
-  - "test1"
-  - "test2"
+  - "cn1"
+  - "cn2"
 - name: Global_media
   type: select
   proxies:
