@@ -1,4 +1,4 @@
-# 2018年11月17日 21:53 UTC/GMT +9
+# 2018年11月17日 22:00 UTC/GMT +9
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -66,7 +66,7 @@ Proxy:
   password: ABCDEF
 
 Proxy Group:
-# 按照下方格式写入策略组，其中 Domestic 和 China_media 为回国策略(可以仅代理媒体策略），请将大陆节点填入
+# 按照下方格式写入策略组，其中 Domestic 和 China_media 为回国策略(可以仅代理媒体），请将大陆节点填入
 - name: Auto
   type: url-test
   proxies:
