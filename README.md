@@ -42,15 +42,15 @@
 - [x] 屏蔽法轮功等反华势力网站
 - [x] 境外网站直接连接
 - [x] 中国大陆网站、App 代理连接
-- [x] 仅中国大陆媒体 (爱奇艺、乐视视频、网易云音乐、QQ音乐、腾讯视频、优酷) 代理连接 `New`
+- [x] 仅中国大陆媒体 (爱奇艺、乐视视频、网易云音乐、QQ音乐、腾讯视频、优酷) 代理连接 `New!`
 
 ### URL
 
 Quantumult (长按复制链接即可):
 * [Quantumult.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf): 代理所有中国大陆链接，并同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
-* [Quantumult_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_lite.conf): 代理所有中国大陆链接，尽量精简广告拦截规则 (同步于 [shigalin Config](https://github.com/shigalin/Config))
+* [Quantumult_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_lite.conf): 代理所有中国大陆链接，尽量精简广告拦截规则 (同步 [shigalin Config](https://github.com/shigalin/Config))
 * [Quantumult_media_only.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only.conf): 仅代理中国大陆媒体链接，并同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
-* [Quantumult_media_only_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only_lite.conf): 仅代理中国大陆媒体链接，尽量精简广告拦截规则 (同步于 [shigalin Config](https://github.com/shigalin/Config))
+* [Quantumult_media_only_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only_lite.conf): 仅代理中国大陆媒体链接，尽量精简广告拦截规则 (同步 [shigalin Config](https://github.com/shigalin/Config))
 * [链接阻止 REJECTION](https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf): 请直接使用 [lhie1 Rules](https://github.com/lhie1/Rules) 内的 Rejection
 
 clashX (下载配置文件到本地):
@@ -167,7 +167,7 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 
 ### 关于
 
-我是一名在韩留学生，在境外时会需要大陆 IP 来使用国内部分服务，于是修改了 lhie1 规则使用，欢迎在境外的小伙伴使用。平时课程比较多，且并非学习相关专业，完全由课余时间修改，所以无法保证定期更新。现在的规则是代理全部大陆网站、IP，以后会增加只代理视频、音乐等强制要求大陆 IP 服务的规则。如有建议或缺漏，请及时反馈：[Telegram](https://t.me/GeQ1an)。
+我是一名在韩留学生，在境外时会需要大陆 IP 来使用国内部分服务，于是修改了 lhie1 规则使用，欢迎在境外的小伙伴使用。平时课程比较多，且并非学习相关专业，完全由课余时间修改，所以无法保证定期更新。现在的规则有了四个版本，应该能满足大家的需求。如有建议或缺漏，请及时反馈：[Telegram](https://t.me/GeQ1an)。
 
 您的打赏将是我持续完善、更新规则的动力，欢迎扫描下方二维码打赏，感谢。
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Pay.png)
