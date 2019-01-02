@@ -53,7 +53,7 @@ Quantumult (长按复制链接即可):
 * [Quantumult_media_only_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only_lite.conf): 仅代理中国大陆媒体链接，尽量精简广告拦截规则 (同步 [shigalin Config](https://github.com/shigalin/Config))
 * [链接阻止 REJECTION](https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf): 请直接使用 [lhie1 Rules](https://github.com/lhie1/Rules) 内的 Rejection
 
-clashX (下载配置文件到本地):
+ClashX (下载配置文件到本地):
 * [config.yml](https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml): 使用前请参考文件内相关说明配置节点信息，并将节点信息加入到策略组
 
 ---
@@ -162,6 +162,8 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 ### 鸣谢
 * [lhie1](https://github.com/lhie1/Rules)
 * [shigalin](https://github.com/shigalin/Config)
+* [Hackl0us](https://github.com/Hackl0us/SS-Rule-Snippet)
+* [ConnersHua](https://github.com/ConnersHua/Profiles)
 
 ---
 
