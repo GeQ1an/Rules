@@ -1,4 +1,4 @@
-# 2018年11月17日 22:00 UTC/GMT +9
+# 2019年01月02日 23:21 UTC/GMT +8
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -23,6 +23,26 @@ external-controller: 127.0.0.1:6170
 
 # RESTful API 的口令 (可选)
 secret: ""
+
+dns:
+  enable: true
+  ipv6: false
+  # listen: 0.0.0.0:53
+  # enhanced-mode: redir-host
+  nameserver:
+     - 114.114.114.114
+     - 223.5.5.5
+     - tls://dns.rubyfish.cn:853 # dns over tls
+  fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
+     - 114.114.114.114
+     - tls://dns.rubyfish.cn:853 # dns over tls
+     - 8.8.8.8
+
+# clash DNS 请求逻辑：
+# (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
+# (2) clash 将选取 nameserver 列表内，解析最快的结果。
+# (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
+# 因此，我在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。
 
 # 服务器列表可以按照
 # - { name: "ss1", type: ss, server: "server", port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password" }
@@ -131,10 +151,17 @@ Rule:
 #- DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释
 
 # China Media（中国媒体）
+# AcFun
+- DOMAIN-SUFFIX,acfun.cn,China_media
+- DOMAIN-SUFFIX,acfun.com,China_media
+- DOMAIN-SUFFIX,aixifan.com,China_media
 # bilibili
 - DOMAIN-KEYWORD,bilibili,China_media
 - DOMAIN-SUFFIX,acgvideo.com,China_media
 - DOMAIN-SUFFIX,hdslb.com,China_media
+# MGTV
+- DOMAIN-SUFFIX,hunantv.com,China_media
+- DOMAIN-SUFFIX,mgtv.com,China_media
 # IQIYI
 - DOMAIN-KEYWORD,qiyi,China_media
 - DOMAIN-SUFFIX,qy.net,China_media
@@ -154,6 +181,7 @@ Rule:
 # QQMusic
 - DOMAIN-SUFFIX,music.qq.com,China_media
 - DOMAIN-SUFFIX,y.qq.com,China_media
+- DOMAIN,aqqmusic.tc.qq.com,China_media
 # Tencent Video
 - DOMAIN-SUFFIX,vv.video.qq.com,China_media
 # Youku
