@@ -1,4 +1,4 @@
-# 2019年01月06日 23:27 UTC/GMT +8
+# 2019年01月08日 00:49 UTC/GMT +8
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -136,16 +136,17 @@ Proxy Group:
 
 Rule:
 # Apple
-- DOMAIN,gs.apple.com,Proxy
-- DOMAIN-SUFFIX,mzstatic.com,DIRECT
-- DOMAIN-SUFFIX,akadns.net,DIRECT
-- DOMAIN-SUFFIX,aaplimg.com,DIRECT
-- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-- DOMAIN,itunes.apple.com,Proxy
 - DOMAIN,beta.itunes.apple.com,Proxy
+- DOMAIN,gs.apple.com,Proxy
+- DOMAIN,hls.itunes.apple.com,Proxy
+- DOMAIN,itunes.apple.com,Proxy
+- DOMAIN-SUFFIX,aaplimg.com,DIRECT
+- DOMAIN-SUFFIX,akadns.net,DIRECT
 - DOMAIN-SUFFIX,apple.com,DIRECT
+- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 - DOMAIN-SUFFIX,icloud.com,DIRECT
 - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+- DOMAIN-SUFFIX,mzstatic.com,DIRECT
 
 #- DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释
 
@@ -153,6 +154,7 @@ Rule:
 # AcFun
 - DOMAIN-SUFFIX,acfun.cn,China_media
 - DOMAIN-SUFFIX,acfun.com,China_media
+- DOMAIN-SUFFIX,acfun.tv,China_media
 - DOMAIN-SUFFIX,aixifan.com,China_media
 # bilibili
 - DOMAIN-KEYWORD,bilibili,China_media
@@ -167,7 +169,7 @@ Rule:
 - IP-CIDR,101.227.0.0/16,China_media
 - IP-CIDR,101.224.0.0/13,China_media
 - IP-CIDR,119.176.0.0/12,China_media
-# letv
+# Letv
 - DOMAIN-SUFFIX,api.mob.app.letv.com,China_media
 # MytvSUPER
 - DOMAIN-KEYWORD,nowtv100,China_media
@@ -185,6 +187,7 @@ Rule:
 - DOMAIN-SUFFIX,vv.video.qq.com,China_media
 # Youku
 - IP-CIDR,106.11.0.0/16,China_media
+# 因虾米音乐无IP限制，故不添加到China_media策略组内
 
 # Global Media（国际媒体）
 - DOMAIN-SUFFIX,edgedatg.com,Global_media
@@ -255,9 +258,7 @@ Rule:
 - DOMAIN-SUFFIX,163.com,Domestic
 - DOMAIN-SUFFIX,360buyimg.com,Domestic
 - DOMAIN-SUFFIX,36kr.com,Domestic
-- DOMAIN-SUFFIX,acfun.tv,Domestic
 - DOMAIN-SUFFIX,air-matters.com,Domestic
-- DOMAIN-SUFFIX,aixifan.com,Domestic
 - DOMAIN-SUFFIX,akamaized.net,Domestic
 - DOMAIN-KEYWORD,alicdn,Domestic
 - DOMAIN-KEYWORD,alipay,Domestic
@@ -267,7 +268,6 @@ Rule:
 - DOMAIN-KEYWORD,baidu,Domestic
 - DOMAIN-SUFFIX,bdimg.com,Domestic
 - DOMAIN-SUFFIX,bdstatic.com,Domestic
-- DOMAIN-SUFFIX,bilibili.com,Domestic
 - DOMAIN-SUFFIX,caiyunapp.com,Domestic
 - DOMAIN-SUFFIX,clouddn.com,Domestic
 - DOMAIN-SUFFIX,cnbeta.com,Domestic
@@ -296,7 +296,6 @@ Rule:
 - DOMAIN-SUFFIX,ifeng.com,Domestic
 - DOMAIN-SUFFIX,ifengimg.com,Domestic
 - DOMAIN-SUFFIX,ipip.net,Domestic
-- DOMAIN-SUFFIX,iqiyi.com,Domestic
 - DOMAIN-SUFFIX,jd.com,Domestic
 - DOMAIN-SUFFIX,jianshu.com,Domestic
 - DOMAIN-SUFFIX,knewone.com,Domestic
@@ -609,7 +608,6 @@ Rule:
 - DOMAIN-SUFFIX,sony.com,Proxy
 - DOMAIN-SUFFIX,soundcloud.com,Proxy
 - DOMAIN-SUFFIX,sourceforge.net,Proxy
-- DOMAIN-SUFFIX,spotify.com,Proxy
 - DOMAIN-SUFFIX,squarespace.com,Proxy
 - DOMAIN-SUFFIX,sstatic.net,Proxy
 - DOMAIN-SUFFIX,st.luluku.pw,Proxy
@@ -702,4 +700,4 @@ Rule:
 
 # 最终规则
 - GEOIP,CN,Domestic
-- FINAL,,Others
+- MATCH,Others
