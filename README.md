@@ -46,21 +46,21 @@
 
 ### URL
 
-Quantumult (长按复制链接即可):
+Quantumult（长按复制链接即可）:
 * [Quantumult.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf): 代理所有中国大陆链接，并同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
 * [Quantumult_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_lite.conf): 代理所有中国大陆链接，尽量精简广告拦截规则 (同步 [shigalin Config](https://github.com/shigalin/Config))
 * [Quantumult_media_only.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only.conf): 仅代理中国大陆媒体链接，并同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
 * [Quantumult_media_only_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only_lite.conf): 仅代理中国大陆媒体链接，尽量精简广告拦截规则 (同步 [shigalin Config](https://github.com/shigalin/Config))
 * [链接阻止 REJECTION](https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf): 请直接使用 [lhie1 Rules](https://github.com/lhie1/Rules) 内的 Rejection
 
-ClashX (下载配置文件到本地):
+ClashX（下载配置文件到本地）:
 * [config.yml](https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml): 使用前请参考文件内相关说明配置节点信息，并将节点信息加入到策略组
 
 ---
 
 ### 使用教程
 
-#### 购买大陆节点(如已拥有请跳过此步骤)
+#### 购买大陆节点（如已拥有请跳过此步骤）
 * 推荐使用“Dler Cloud”，[点此](https://dlercloud.com/auth/register?affid=7237)注册使用，以下内容针对“Dler Cloud”说明。
 ````
   注册后，请根据个人需求自行选择套餐，充值、购买，
@@ -70,16 +70,16 @@ ClashX (下载配置文件到本地):
   备注：建议购买成功后先 ping 各个大陆(CN)节点地址，选择最优线路使用。
 ````
 
-#### 在 Quantumult 中添加规则 (以添加 Quantumult.conf 为例)
+#### 在 Quantumult 中添加规则（以添加 Quantumult.conf 为例）
 1. 打开 Quantumult，点击“设置”选项卡，点击“订阅”，点击右上角“+”，选择“分流”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)
 2. 进入的页面中，输入“名称”（如“Stick Rules”），粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf`，在“高级”栏中勾选“个性化”，然后点击右上角的“保存”按钮
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult02.PNG)
 3. “订阅”界面“分流”栏多出“Stick Rules”，向左滑动该条目，点击“替换”，选择 Netflix、PayPal、Apple、微软等服务的特殊政策，如不明白请选择“DIRECT”，点击右上角“保存”。回到“订阅”界面后，点击右上角“+”，选择“链接阻止”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult03.PNG)
-4. 进入的页面中，输入“名称”（如“墙洞 Rejection”），粘贴规则地址`https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf`，在“高级”栏中勾选“包含主机名”，然后点击右上角的“保存”按钮
+4. 进入的页面中，输入“名称”（如“lhie1 Rejection”），粘贴规则地址`https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf`，在“高级”栏中勾选“包含主机名”，然后点击右上角的“保存”按钮
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult04.PNG)
-5. “订阅”界面“链接阻止栏”多出“墙洞 Rejection”，向左滑动该条目，点击“替换”，稍后会弹出“成功”对话框，点击“好”
+5. “订阅”界面“链接阻止栏”多出“lhie1 Rejection”，向左滑动该条目，点击“替换”，稍后会弹出“成功”对话框，点击“好”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult05.PNG)
 6. [安装并信任证书](#mitm)
 7. 规则有更新时，重新进行第 3 步和第 5 步的向左滑动条目，点击“替换”即可
@@ -154,7 +154,7 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 
 #### 为什么只支持 Quantumult 和 ClashX 这两款软件？
 ````
-个人认为 Quantumult 的稳定性要好于 Shadowrocket，所以推荐使用。至于 Surge，有很多大佬 (如 lhie1) 的规则已经有了各种策略组，直接选择即可。macOS 上除了 Surge 和 ClashX 也没有什么别的好用的代理软件了。
+个人认为 Quantumult 的稳定性要好于 Shadowrocket，所以推荐使用。至于 Surge，有很多大佬（如 lhie1）的规则已经有了各种策略组，直接选择即可。macOS 上除了 Surge 和 ClashX 也没有什么别的好用的代理软件了。
 ````
 
 ---
