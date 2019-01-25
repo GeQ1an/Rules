@@ -4,6 +4,10 @@
 
 本规则适合境外使用 Quantumult 和 ClashX 的 “小白/懒人” 用户配合国内节点翻回大陆使用，通过 [lhie1 Rules](https://github.com/lhie1/Rules) 以及 [shigalin Config](https://github.com/shigalin/Config) 的规则修改而来。
 
+### 频道
+
+欢迎 [点击此处](https://t.me/usestick) 订阅 Stick Rules 的 Telegram 频道，及时获取最新消息，以及 Apple、iPhone、Mac 等相关信息。
+
 ---
 * 支持应用
   * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438?mt=8)
