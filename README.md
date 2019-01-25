@@ -2,7 +2,7 @@
 
 ### 简介
 
-本规则适合境外使用 Quantumult 和 ClashX 的 “小白/懒人” 用户配合国内节点翻回大陆使用，通过 [lhie1 Rules](https://github.com/lhie1/Rules) 以及 [shigalin Config](https://github.com/shigalin/Config) 的规则修改而来。
+本规则适合境外使用 Quantumult 和 ClashX 的 “小白/懒人” 用户配合国内节点翻回大陆使用，通过 [lhie1 Rules](https://github.com/lhie1/Rules) 以及 [shigalin Config](https://github.com/shigalin/Config) 修改而来。
 
 ### 频道
 
