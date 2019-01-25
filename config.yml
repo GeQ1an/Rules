@@ -1,4 +1,4 @@
-# 2019年01月08日 00:49 UTC/GMT +8
+# 2019年01月26日 03:08 UTC/GMT +8
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -24,30 +24,30 @@ external-controller: 127.0.0.1:6170
 # RESTful API 的口令 (可选)
 secret: ""
 
-# 如需要自定义DNS，请删除下列13行首个#注解
-#dns: 
-#  enable: true
-#  ipv6: false
-#  # listen: 0.0.0.0:53
-#  # enhanced-mode: redir-host
-#  nameserver:
-#     - 114.114.114.114
-#     - 223.5.5.5
-#     - tls://dns.rubyfish.cn:853 # dns over tls
-#  fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
-#     - 114.114.114.114
-#     - tls://dns.rubyfish.cn:853 # dns over tls
-#     - 8.8.8.8
+# 如需要自定义DNS，请将 enable 改为 true
+dns:
+  enable: false
+  ipv6: false
+  # listen: 0.0.0.0:53
+  # enhanced-mode: redir-host
+  nameserver:
+     - 1.2.4.8
+     - 114.114.114.114
+     - 223.5.5.5
+     - tls://dns.rubyfish.cn:853
+     
+  fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
+     - tls://dns.rubyfish.cn:853
+     - tls://dns.google
 
 # clash DNS 请求逻辑：
 # (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
 # (2) clash 将选取 nameserver 列表内，解析最快的结果。
 # (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
 
-# 服务器列表可以按照
-# - { name: "ss1", type: ss, server: "server", port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password" }
-# - { name: "ss2", type: ss, server: "server", port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password", obfs: tls, obfs-host: "bing.com" }
-# 或下方所示格式
+# 服务器列表请按照示范格式填写
+# Shadowsocks 支持 aead_aes_128_gcm/aead_aes_192_gcm/aead_aes_256_gcm/aead_chacha20_poly1305/aes-128-ctr/aes-192-ctr/aes-256-ctr/aes-128-cfb/aes-192-cfb/aes-256-cfb/chacha20-ietf/xchacha20/chacha20/rc4-md5/xchacha20-ietf-poly1305 加密格式
+# Vmess 支持 auto/aes-128-gcm/chacha20-poly1305/none 加密方式
 Proxy:
 - name: "cn1"
   type: ss
@@ -78,11 +78,12 @@ Proxy:
   obfs: tls
   obfs-host: bing.com
 - name: "us1"
-  type: ss
+  type: vmess
   server: us.xx.com
   port: 1111
-  cipher: chacha20-ietf-poly1305
-  password: ABCDEF
+  uuid: uuiduu-idu-uid
+  alterId: 32
+  cipher: auto
 
 Proxy Group:
 # 按照下方格式写入策略组，其中 Domestic 和 China_media 为回国策略(可以仅代理媒体），请将大陆节点填入
@@ -106,8 +107,8 @@ Proxy Group:
   type: select
   proxies:
   - Auto
-  - Fallback
   - DIRECT
+  - Fallback
   - "hk1"
   - "hk2"
   - "us1"
