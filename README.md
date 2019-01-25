@@ -16,9 +16,9 @@
 * 导入方式
   * [URL](#url)
 * 使用教程
-  * [拥有大陆节点](#购买大陆节点如已拥有请跳过此步骤)
-  * [Quantumult](#在-quantumult-中添加规则)
-  * [ClashX](#在-ClashX-中使用规则)
+  * [拥有中国大陆节点](#购买大陆节点如已拥有请跳过此步骤)
+  * [使用 Quantumult](#在-quantumult-中添加规则以添加-quantumultconf-为例)
+  * [使用 ClashX](#在-clashx-中使用规则)
 * [证书的安装及信任](#mitm)
 * [常见问题](#qa)
 * [鸣谢](#鸣谢)
@@ -65,13 +65,15 @@ ClashX（下载配置文件到本地）:
 ### 使用教程
 
 #### 购买大陆节点（如已拥有请跳过此步骤）
-* 推荐使用“Dler Cloud”，[点此](https://dlercloud.com/auth/register?affid=7237)注册使用，以下内容针对“Dler Cloud”说明。
+* 推荐重度用户使用“Dler Cloud”，[点此](https://dlercloud.com/auth/register?affid=7237)注册使用，如需邀请码可通过 Telegram 联系我获取。
 ````
-  注册后，请根据个人需求自行选择套餐，充值、购买，
-  购买后请添加中转规则，起源节点选择“要使用的节点”，目标节点选择“不进行中转”，端口选择“所有端口”，优先级大于“1”，
-  这样就可以直接连接大陆节点，将节点信息添加到 Quantumult 或 Shadowrocket 中使用。
-   
-  备注：建议购买成功后先 ping 各个大陆(CN)节点地址，选择最优线路使用。
+  请根据个人需求自行选择套餐，充值、购买。
+  如果大陆节点默认启用中转，请手动添加中转规则，起源节点选择“要使用的节点”，目标节点选择“不进行中转”，端口选择“所有端口”，优先级大于“1”，
+  这样就可以直接连接大陆节点，复制订阅连接到 Quantumult 中使用。
+````
+* 推荐轻度用户使用“CordCloud”，[点此](https://www.cordcloud.cc/auth/register?code=16249)注册使用，如需邀请码可通过 Telegram 联系我获取。
+````
+  请根据个人需求自行选择套餐，充值、购买。
 ````
 
 #### 在 Quantumult 中添加规则（以添加 Quantumult.conf 为例）
