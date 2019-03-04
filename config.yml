@@ -1,4 +1,4 @@
-# 2019年01月26日 03:08 UTC/GMT +8
+# 2019年03月04日 14:24 UTC/GMT +9
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -165,11 +165,13 @@ Rule:
 - DOMAIN-SUFFIX,hunantv.com,China_media
 - DOMAIN-SUFFIX,mgtv.com,China_media
 # IQIYI
-- DOMAIN-KEYWORD,qiyi,China_media
+- DOMAIN-SUFFIX,iqiyi.com,China_media
+- DOMAIN-SUFFIX,iqiyipic.com,China_media
 - DOMAIN-SUFFIX,qy.net,China_media
-- IP-CIDR,101.227.0.0/16,China_media
-- IP-CIDR,101.224.0.0/13,China_media
-- IP-CIDR,119.176.0.0/12,China_media
+- DOMAIN-SUFFIX,71.am,China_media
+- IP-CIDR,101.227.0.0/16,China_media,no-resolve
+- IP-CIDR,101.224.0.0/13,China_media,no-resolve
+- IP-CIDR,119.176.0.0/12,China_media,no-resolve
 # Letv
 - DOMAIN-SUFFIX,api.mob.app.letv.com,China_media
 # MytvSUPER
