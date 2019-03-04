@@ -1,4 +1,4 @@
-# 2019年03月04日 14:24 UTC/GMT +9
+# 2019年03月04日 14:25 UTC/GMT +9
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -24,7 +24,7 @@ external-controller: 127.0.0.1:6170
 # RESTful API 的口令 (可选)
 secret: ""
 
-# 如需要自定义DNS，请将 enable 改为 true
+# 如需要自定义DNS，请将 “enable” 处的 false 改为 true
 dns:
   enable: false
   ipv6: false
