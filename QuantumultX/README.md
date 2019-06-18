@@ -6,17 +6,19 @@
 
 ---
 
-### 具体使用
+### 使用
 
-#### 使用电脑操作
-可以下载 QuantumultX.conf 到电脑，编辑好通过 iCloud 等方式导入到 Quantumult X 中。
+#### 方法一 直接引用规则
+复制 [QuantumultX.txt](https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.txt)，将其粘贴到分流规则“引用”中（使用此方法建议清空本地规则）。
 
-#### 直接通过手机操作
-复制 QuantumultX.conf 里面的所有内容，粘贴到配置文件内，通过手机编辑。
+#### 方法二 拷贝配置文件
+将 [QuantumultX.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf) 所有内容复制，在 QuantumultX 中选择编辑配置文件，清空后粘贴。
 
 #### 更新规则
-如果规则有更新，长按“分流”模块，点击“Stick Rules”就可以更新，无需重新导入 QuantumultX.conf 文件。
+如果规则有更新，打开“分流规则”中的“引用”，点击“Stick Rules”即可同步最新规则。
+
+#### 编辑策略组
+在软件主界面，长按某个策略组即可进入编辑模式，可添加节点和其他策略组。
 
 ---
-
-其他事项有时间会再次更新。
+更多功能还请自己摸索，如有问题请在 [telegram](https://t.me/GeQ1an) 联系我。
