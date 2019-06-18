@@ -9506,10 +9506,6 @@ IP-CIDR,185.188.32.0/24,Mainland,no-resolve
 IP-CIDR,185.188.33.0/24,Mainland,no-resolve
 IP-CIDR,185.188.34.0/24,Mainland,no-resolve
 IP-CIDR,185.188.35.0/24,Mainland,no-resolve
-IP-CIDR6,2a0b:b580::/48,Mainland,no-resolve
-IP-CIDR6,2a0b:b581::/48,Mainland,no-resolve
-IP-CIDR6,2a0b:b582::/48,Mainland,no-resolve
-IP-CIDR6,2a0b:b583::/48,Mainland,no-resolve
 
 # Domestic
 HOST-SUFFIX,12306.cn,Mainland
