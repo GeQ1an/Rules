@@ -9,7 +9,7 @@
 ### 使用
 
 #### 方法一 直接引用规则
-复制 [QuantumultX.txt](https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.txt)，将其粘贴到分流规则“引用”中（使用此方法建议清空本地规则）。
+复制 [QuantumultX.txt](https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.txt) 链接，将其粘贴到分流规则“引用”中（使用此方法建议清空本地规则）。
 
 #### 方法二 拷贝配置文件
 将 [QuantumultX.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf) 所有内容复制，在 QuantumultX 中选择编辑配置文件，清空后粘贴。
