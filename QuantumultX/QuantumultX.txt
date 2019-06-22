@@ -8487,16 +8487,6 @@ HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,mzstatic.com,Apple
 HOST,api.smoot.apple.cn,Apple
 
-# Netflix（网飞）
-USER-AGENT,Argo*,Netflix
-HOST-SUFFIX,netflix.com,Netflix
-HOST-SUFFIX,netflix.net,Netflix
-HOST-SUFFIX,nflxext.com,Netflix
-HOST-SUFFIX,nflximg.com,Netflix
-HOST-SUFFIX,nflximg.net,Netflix
-HOST-SUFFIX,nflxso.net,Netflix
-HOST-SUFFIX,nflxvideo.net,Netflix
-
 # CMedia（中国媒体）
 # > AcFun
 USER-AGENT,AcFun*,CMedia
@@ -8556,7 +8546,10 @@ HOST-SUFFIX,y.qq.com,CMedia
 HOST,aqqmusic.tc.qq.com,CMedia
 
 # > Tencent Video
-HOST-SUFFIX,vv.video.qq.com,CMedia
+USER-AGENT,live4iphone*,CMedia
+USER-AGENT,qqlive4iphone*,CMedia
+USER-AGENT,TencentMidasConnect*,CMedia
+HOST-SUFFIX,video.qq.com,CMedia
 
 # > Xiami Music
 USER-AGENT,xiami*,CMedia
@@ -8564,11 +8557,11 @@ HOST-SUFFIX,xiami.com,CMedia
 HOST-SUFFIX,xiami.net,CMedia
 
 # > Youku
-USER-AGENT,Youku*, CMedia
-USER-AGENT,%E4%BC%98%E9%85%B7*, CMedia
-HOST-SUFFIX,soku.com, CMedia
-HOST-SUFFIX,youku.com, CMedia
-HOST-SUFFIX,ykimg.com, CMedia
+USER-AGENT,Youku*,CMedia
+USER-AGENT,%E4%BC%98%E9%85%B7*,CMedia
+HOST-SUFFIX,soku.com,CMedia
+HOST-SUFFIX,youku.com,CMedia
+HOST-SUFFIX,ykimg.com,CMedia
 IP-CIDR,106.11.0.0/16,CMedia,no-resolve
 
 # GMedia（国际媒体）
@@ -8700,6 +8693,16 @@ HOST-KEYWORD,youtube,GMedia
 HOST-SUFFIX,googlevideo.com,GMedia
 HOST-SUFFIX,gvt2.com,GMedia
 HOST-SUFFIX,youtu.be,GMedia
+
+# Netflix（网飞）
+USER-AGENT,Argo*,Netflix
+HOST-SUFFIX,netflix.com,Netflix
+HOST-SUFFIX,netflix.net,Netflix
+HOST-SUFFIX,nflxext.com,Netflix
+HOST-SUFFIX,nflximg.com,Netflix
+HOST-SUFFIX,nflximg.net,Netflix
+HOST-SUFFIX,nflxso.net,Netflix
+HOST-SUFFIX,nflxvideo.net,Netflix
 
 # Outside（全球链接）
 # > UA
@@ -9508,11 +9511,9 @@ IP-CIDR,185.188.34.0/24,Mainland,no-resolve
 IP-CIDR,185.188.35.0/24,Mainland,no-resolve
 
 # Domestic
-HOST-SUFFIX,12306.cn,Mainland
-HOST-SUFFIX,12306.com,Mainland
+HOST-SUFFIX,cn,Mainland
 HOST-SUFFIX,126.net,Mainland
 HOST-SUFFIX,163.com,Mainland
-HOST-SUFFIX,360.cn,Mainland
 HOST-SUFFIX,360.com,Mainland
 HOST-SUFFIX,360buy.com,Mainland
 HOST-SUFFIX,360buyimg.com,Mainland
@@ -9587,7 +9588,6 @@ HOST-SUFFIX,fresh-ideas.cc,Mainland
 HOST-SUFFIX,geetest.com,Mainland
 HOST-SUFFIX,godic.net,Mainland
 HOST-SUFFIX,goodread.com,Mainland
-HOST-SUFFIX,google.cn,Mainland
 HOST-SUFFIX,gtimg.com,Mainland
 HOST-SUFFIX,haibian.com,Mainland
 HOST-SUFFIX,hao123.com,Mainland
@@ -9675,7 +9675,6 @@ HOST-SUFFIX,ruguoapp.com,Mainland
 HOST-SUFFIX,sandai.net,Mainland
 HOST-SUFFIX,sf-express.com,Mainland
 HOST-SUFFIX,sinaapp.com,Mainland
-HOST-SUFFIX,sinaimg.cn,Mainland
 HOST-SUFFIX,sinaimg.com,Mainland
 HOST-SUFFIX,sm.ms,Mainland
 HOST-SUFFIX,smzdm.com,Mainland
@@ -9695,7 +9694,9 @@ HOST-SUFFIX,suning.com,Mainland
 HOST-SUFFIX,symcd.com,Mainland
 HOST-SUFFIX,taobao.com,Mainland
 HOST-SUFFIX,teamviewer.com,Mainland
+HOST-SUFFIX,tencent.com,Mainland
 HOST-SUFFIX,tenpay.com,Mainland
+HOST-SUFFIX,tianyancha.com,Mainland
 HOST-SUFFIX,tietuku.com,Mainland
 HOST-SUFFIX,tmall.com,Mainland
 HOST-SUFFIX,tmzvps.com,Mainland
@@ -9713,9 +9714,7 @@ HOST-SUFFIX,upyun.com,Mainland
 HOST-SUFFIX,uxengine.net,Mainland
 HOST-SUFFIX,v2ex.com,Mainland
 HOST-SUFFIX,wandoujia.com,Mainland
-HOST-SUFFIX,weather.bjango.com,Mainland
 HOST-SUFFIX,webqxs.com,Mainland
-HOST-SUFFIX,weibo.cn,Mainland
 HOST-SUFFIX,weibo.com,Mainland
 HOST-SUFFIX,weico.cc,Mainland
 HOST-SUFFIX,weiphone.com,Mainland
@@ -9757,6 +9756,7 @@ IP-CIDR,1.255.62.0/24,Mainland,no-resolve
 # LAN
 HOST-SUFFIX,local,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,17.0.0.0/8,DIRECT
 IP-CIDR,100.64.0.0/10,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
