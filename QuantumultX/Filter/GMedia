@@ -1,0 +1,128 @@
+# > ABC
+HOST-SUFFIX,edgedatg.com,GMedia
+HOST-SUFFIX,go.com,GMedia
+
+# > AbemaTV
+USER-AGENT,AbemaTV*,GMedia
+HOST-SUFFIX,abema.io,GMedia
+HOST-SUFFIX,ameba.jp,GMedia
+HOST-SUFFIX,hayabusa.io,GMedia
+HOST,abematv.akamaized.net,GMedia
+HOST,ds-linear-abematv.akamaized.net,GMedia
+HOST,ds-vod-abematv.akamaized.net,GMedia
+HOST,linear-abematv.akamaized.net,GMedia
+
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*,GMedia
+USER-AGENT,Prime%20Video*,GMedia
+HOST-SUFFIX,aiv-cdn.net,GMedia
+HOST-SUFFIX,amazonaws.com,GMedia
+HOST-SUFFIX,amazonvideo.com,GMedia
+HOST-SUFFIX,llnwd.net,GMedia
+
+# > Bahamut
+USER-AGENT,Anime*,GMedia
+HOST-SUFFIX,bahamut.com.tw,GMedia
+HOST-SUFFIX,gamer.com.tw,GMedia
+HOST-SUFFIX,hinet.net,GMedia
+
+# > BBC
+USER-AGENT,BBCiPlayer*,GMedia
+HOST-KEYWORD,bbcfmt,GMedia
+HOST-KEYWORD,co.uk,GMedia
+HOST-KEYWORD,uk-live,GMedia
+HOST-SUFFIX,bbc.co,GMedia
+HOST-SUFFIX,bbc.co.uk,GMedia
+HOST-SUFFIX,bbc.com,GMedia
+HOST-SUFFIX,bbci.co,GMedia
+HOST-SUFFIX,bbci.co.uk,GMedia
+
+# > CHOCO TV
+USER-AGENT,TwDramas*,GMedia
+HOST-SUFFIX,chocotv.com.tw,GMedia
+
+# > Now E
+USER-AGENT,PCCW*,GMedia
+HOST-KEYWORD,nowe,GMedia
+HOST,bcbolthboa-a.akamaihd.net,GMedia
+HOST-SUFFIX,nowe.com,GMedia
+HOST-SUFFIX,youboranqs01.com,GMedia
+
+# > Epicgames
+HOST-KEYWORD,epicgames,GMedia
+HOST-SUFFIX,helpshift.com,GMedia
+
+# > Fox+
+USER-AGENT,FOX%20NOW*,GMedia
+USER-AGENT,FOXPlus*,GMedia
+HOST-KEYWORD,foxplus,GMedia
+HOST-SUFFIX,config.fox.com,GMedia
+HOST-SUFFIX,emome.net,GMedia
+HOST-SUFFIX,fox.com,GMedia
+HOST-SUFFIX,foxdcg.com,GMedia
+HOST-SUFFIX,foxnow.com,GMedia
+HOST-SUFFIX,foxplus.com,GMedia
+HOST-SUFFIX,foxplay.com,GMedia
+HOST-SUFFIX,ipinfo.io,GMedia
+HOST-SUFFIX,mstage.io,GMedia
+HOST-SUFFIX,now.com,GMedia
+HOST-SUFFIX,theplatform.com,GMedia
+HOST-SUFFIX,urlload.net,GMedia
+
+# > HBO & HBO Go
+USER-AGENT,HBO%20NOW*,GMedia
+HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GMedia
+HOST-SUFFIX,hbo.com,GMedia
+HOST-SUFFIX,hboasia.com,GMedia
+HOST-SUFFIX,hbogo.com,GMedia
+HOST-SUFFIX,hbogoasia.hk,GMedia
+
+# > Hulu
+USER-AGENT,Hulu*,GMedia
+HOST-SUFFIX,happyon.jp,GMedia
+HOST-SUFFIX,hulu.com,GMedia
+HOST-SUFFIX,huluim.com,GMedia
+HOST-SUFFIX,hulustream.com,GMedia
+
+# > Imkan
+HOST-SUFFIX,imkan.tv,GMedia
+
+# > JOOX
+USER-AGENT,WeMusic*,GMedia
+USER-AGENT,JOOX*,GMedia
+HOST-SUFFIX,joox.com,GMedia
+
+# > MytvSUPER
+USER-AGENT,mytv*,GMedia
+HOST-KEYWORD,nowtv100,GMedia
+HOST-KEYWORD,rthklive,GMedia
+HOST-SUFFIX,mytvsuper.com,GMedia
+HOST-SUFFIX,tvb.com,GMedia
+
+# > Pandora
+HOST-SUFFIX,pandora.com,GMedia
+
+# > Sky GO
+USER-AGENT,skygo*,GMedia
+HOST-SUFFIX,sky.com,GMedia
+HOST-SUFFIX,skygo.co.nz,GMedia
+
+# > SoundCloud
+USER-AGENT,SoundCloud*,GMedia
+
+# > Spotify
+USER-AGENT,*Spotify*,GMedia
+HOST-KEYWORD,spotify,GMedia
+HOST-SUFFIX,scdn.co,GMedia
+HOST-SUFFIX,spoti.fi,GMedia
+
+# > viuTV
+HOST-SUFFIX,viu.tv,GMedia
+
+# > Youtube
+USER-AGENT,*youtube*,GMedia
+USER-AGENT,YouTube*,GMedia
+HOST-KEYWORD,youtube,GMedia
+HOST-SUFFIX,googlevideo.com,GMedia
+HOST-SUFFIX,gvt2.com,GMedia
+HOST-SUFFIX,youtu.be,GMedia
