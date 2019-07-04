@@ -118,11 +118,3 @@ HOST-SUFFIX,spoti.fi,GMedia
 
 # > viuTV
 HOST-SUFFIX,viu.tv,GMedia
-
-# > Youtube
-USER-AGENT,*youtube*,GMedia
-USER-AGENT,YouTube*,GMedia
-HOST-KEYWORD,youtube,GMedia
-HOST-SUFFIX,googlevideo.com,GMedia
-HOST-SUFFIX,gvt2.com,GMedia
-HOST-SUFFIX,youtu.be,GMedia
