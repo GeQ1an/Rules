@@ -769,3 +769,8 @@ IP-CIDR,91.108.56.0/22,Outside,no-resolve
 IP-CIDR,109.239.140.0/24,Outside,no-resolve
 IP-CIDR,149.154.160.0/20,Outside,no-resolve
 IP-CIDR,205.172.60.0/22,Outside,no-resolve
+
+# > Others
+USER-AGENT,PayPal*,Outside
+HOST-SUFFIX,paypal.com,Outside
+HOST-SUFFIX,paypalobjects.com,Outside
