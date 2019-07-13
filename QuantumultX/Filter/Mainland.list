@@ -1,7 +1,6 @@
 # > UA
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
-USER-AGENT,PayPal*,Mainland
 USER-AGENT,TeamViewer*,Mainland
 USER-AGENT,TIM*,Mainland
 USER-AGENT,ting_en,Mainland
@@ -46,6 +45,7 @@ HOST-SUFFIX,adobesc.com,Mainland
 HOST-SUFFIX,air-matters.com,Mainland
 HOST-SUFFIX,air-matters.io,Mainland
 HOST-SUFFIX,akadns.net,Mainland
+HOST-SUFFIX,aliapp.org,Mainland
 HOST-SUFFIX,alicdn.com,Mainland
 HOST-SUFFIX,alipay.com,Mainland
 HOST-SUFFIX,alipayobjects.com,Mainland
@@ -70,6 +70,7 @@ HOST-SUFFIX,caiyunapp.com,Mainland
 HOST-SUFFIX,ccgslb.com,Mainland
 HOST-SUFFIX,ccgslb.net,Mainland
 HOST-SUFFIX,chinacache.net,Mainland
+HOST-SUFFIX,chinaz.com,Mainland
 HOST-SUFFIX,chunbo.com,Mainland
 HOST-SUFFIX,chunboimg.com,Mainland
 HOST-SUFFIX,clashroyaleapp.com,Mainland
@@ -168,8 +169,6 @@ HOST-SUFFIX,nuomi.com,Mainland
 HOST-SUFFIX,ourbits.club,Mainland
 HOST-SUFFIX,ourdvs.com,Mainland
 HOST-SUFFIX,passthepopcorn.me,Mainland
-HOST-SUFFIX,paypal.com,Mainland
-HOST-SUFFIX,paypalobjects.com,Mainland
 HOST-SUFFIX,pgyer.com,Mainland
 HOST-SUFFIX,pniao.com,Mainland
 HOST-SUFFIX,privatehd.to,Mainland
