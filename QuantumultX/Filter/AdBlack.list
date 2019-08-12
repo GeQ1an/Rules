@@ -14,7 +14,6 @@ HOST-SUFFIX,cupid.iqiyi.com,AdBlack
 HOST-SUFFIX,emoticon.sns.iqiyi.com,AdBlack
 HOST-SUFFIX,game.pps.tv,AdBlack
 HOST-SUFFIX,gamecenter.iqiyi.com,AdBlack
-HOST-SUFFIX,hotchat-im.iqiyi.com,AdBlack
 HOST-SUFFIX,ifacelog.iqiyi.com,AdBlack
 HOST-SUFFIX,mbdlog.iqiyi.com,AdBlack
 HOST-SUFFIX,msg.71.am,AdBlack
@@ -273,7 +272,6 @@ HOST-KEYWORD,analysis,AdBlack
 HOST-KEYWORD,analysys,AdBlack
 HOST-KEYWORD,applovin,AdBlack
 HOST-KEYWORD,appsflyer,AdBlack
-HOST-KEYWORD,dataflow,AdBlack
 HOST-KEYWORD,dnserror,AdBlack
 HOST-KEYWORD,domob,AdBlack
 HOST-KEYWORD,duomeng,AdBlack
@@ -293,7 +291,6 @@ HOST-KEYWORD,securepubads,AdBlack
 HOST-KEYWORD,socdm,AdBlack
 HOST-KEYWORD,supersonicads,AdBlack
 HOST-KEYWORD,taboola,AdBlack
-HOST-KEYWORD,traffic,AdBlack
 HOST-KEYWORD,uedas,AdBlack
 HOST-KEYWORD,umtrack,AdBlack
 HOST-KEYWORD,uploadMobileData,AdBlack
@@ -1575,7 +1572,6 @@ HOST-SUFFIX,apk.supfast.net,AdBlack
 HOST-SUFFIX,apkdo.com,AdBlack
 HOST-SUFFIX,apkinfo.voole.com,AdBlack
 HOST-SUFFIX,apklog.cp11.ott.cibntv.net,AdBlack
-HOST-SUFFIX,apm.suning.cn,AdBlack
 HOST-SUFFIX,apnmedia.ask.com,AdBlack
 HOST-SUFFIX,apns.ios.ijinshan.com,AdBlack
 HOST-SUFFIX,apoll.m.taobao.com,AdBlack
@@ -2731,7 +2727,6 @@ HOST-SUFFIX,dashet.com,AdBlack
 HOST-SUFFIX,data.3975.com,AdBlack
 HOST-SUFFIX,data.ad-score.com,AdBlack
 HOST-SUFFIX,data.apn.co.nz,AdBlack
-HOST-SUFFIX,data.bilibili.com,AdBlack
 HOST-SUFFIX,data.danmu.baofeng.com,AdBlack
 HOST-SUFFIX,data.doodlemobile.com,AdBlack
 HOST-SUFFIX,data.gosquared.com,AdBlack
