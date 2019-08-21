@@ -1,13 +1,13 @@
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,*WeatherFoundation*,Apple
 USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
+USER-AGENT,%E6%9F%A5%E6%89%BE*,Apple
 USER-AGENT,%E8%AE%BE%E7%BD%AE*,Apple
 USER-AGENT,AppStore*,Apple
 USER-AGENT,com.apple.appstored*,Apple
 USER-AGENT,com.apple.geod*,Apple
 USER-AGENT,com.apple.Maps,Apple
-USER-AGENT,FindMyFriends*,Apple
-USER-AGENT,FindMyiPhone*,Apple
+USER-AGENT,FindMy*,Apple
 USER-AGENT,FMDClient*,Apple
 USER-AGENT,FMFD*,Apple
 USER-AGENT,fmflocatord*,Apple
