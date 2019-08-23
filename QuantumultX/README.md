@@ -2,7 +2,12 @@
 
 ### 介绍
 
-这是 Quantumult X 测试版专用规则，因 Quantumult X 尚处初期测试阶段，存在很多不确定性，无法保证所有版本适用，当测试版本有更新时我尽量会及时更新规则。
+这是 Quantumult X 测试版专用规则，因 Quantumult X 尚处初期测试阶段，存在很多不确定性，无法保证所有版本适用，当测试版本有更新时我尽量会及时更新规则。<br>
+目前有 “广告&阻止”、“苹果服务”、“中国媒体”、“国际媒体”、“Netflix”、“YouTube”、“外部网络”、“PayPal”、“大陆网络” 和 “其他” 列表 (策略组) 可供选择。
+````
+注：不要为了增加策略组而增加策略组！
+Netflix 和 YouTube Premium 均不锁区，PayPal 也有切换节点的需求，才单独制作了列表 (策略组)。
+````
 
 ---
 
@@ -53,4 +58,4 @@ https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.lis
 
 ---
 该文档基于 Quantumult X 1.0.0(97) 版本编写。<br>
-更多功能还请自己摸索，如有问题请在 [telegram](https://t.me/GeQ1an) 联系我。
+更多功能还请自己摸索，如有问题请在 [Telegram](https://t.me/GeQ1an) 联系我。
