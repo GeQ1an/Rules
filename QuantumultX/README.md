@@ -45,8 +45,10 @@ Netflix 和 YouTube Premium 均不锁区，PayPal 也有切换节点的需求，
 ````
 
 #### 策略组图标
-在 [Quantumult X 项目主页](https://github.com/GeQ1an/Rules/tree/master/QuantumultX) 下载 “QuantumultX_Images_E*.zip” 解压，放入本地 Quantumult X —— Images 目录下（请注意保证策略组名称和图片名称一致）
-![](https://raw.githubusercontent.com/zealson/Zure/master/Other/Local_Icon.png)
+最新的配置文件内，包含远程图标链接，无需手动添加。<br>
+如需手动添加，请按如下操作进行：<br>
+在 [Quantumult X 项目主页](https://github.com/GeQ1an/Rules/tree/master/QuantumultX) 下载 “QuantumultX_Images_E*.zip” 解压，放入本地 Quantumult X —— Images 目录下（请注意保证策略组名称和图片名称一致）<br>
+![](https://raw.githubusercontent.com/zealson/Zure/master/Other/Local_Icon.png)<br>
 （图片来自 [Zure -- Quantumult X Policy Icon Set](https://github.com/zealson/Zure)，需要策略组国旗图标或其他图标也可以到这里下载）
 
 #### 更新规则
@@ -57,5 +59,5 @@ Netflix 和 YouTube Premium 均不锁区，PayPal 也有切换节点的需求，
 在软件主页，长按某个策略组即可进入编辑模式，可自行向某个策略组添加节点。
 
 ---
-该文档基于 Quantumult X 1.0.0(97) 版本编写。<br>
+该文档基于 Quantumult X 1.0.0(106) 版本编写。<br>
 更多功能还请自己摸索，如有问题请在 [Telegram](https://t.me/GeQ1an) 联系我。
