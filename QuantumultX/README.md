@@ -3,10 +3,11 @@
 ### 介绍
 
 这是 Quantumult X 测试版专用规则，因 Quantumult X 尚处初期测试阶段，存在很多不确定性，无法保证所有版本适用，当测试版本有更新时我尽量会及时更新规则。<br>
-目前有 “广告&阻止”、“苹果服务”、“中国媒体”、“国际媒体”、“Netflix”、“YouTube”、“外部网络”、“PayPal”、“大陆网络” 和 “其他” 列表 (策略组) 可供选择。
+目前有 “广告&阻止”、“苹果服务”、“中国媒体”、“国际媒体”、“Netflix”、“YouTube”、“微软服务”、“PayPal”、“外部网络”、“大陆网络”、“Speedtest” 和 “其他” 列表 (策略组) 可供选择。
 ````
 注：不要为了增加策略组而增加策略组！
-Netflix 和 YouTube Premium 均不锁区，PayPal 也有切换节点的需求，才单独制作了列表 (策略组)。
+Netflix 和 YouTube Premium 均不锁区，选择策略是必须的。
+微软、PayPal 和 Speedtest 也有切换节点的需求，才单独制作了列表 (策略组)。
 ````
 
 ---
@@ -29,9 +30,11 @@ Netflix 和 YouTube Premium 均不锁区，PayPal 也有切换节点的需求，
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list, tag=GMedia (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Netflix.list, tag=Netflix (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/YouTube.list, tag=YouTube (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true`<br>
+`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Microsoft.list, tag=Microsoft (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/PayPal.list, tag=PayPal (Stick Rules), enabled=true`<br>
+`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), enabled=true`<br>
+`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list, tag=LAN (Stick Rules), enabled=true`<br>
 粘贴到配置文件 [filter_remote] 中。
 
