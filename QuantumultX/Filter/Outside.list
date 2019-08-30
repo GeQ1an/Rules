@@ -15,17 +15,6 @@ HOST-SUFFIX,line-cdn.net,Outside
 HOST-SUFFIX,line-scdn.net,Outside
 HOST-SUFFIX,nhncorp.jp,Outside
 
-# > Microsoft
-USER-AGENT,OneDrive*,Outside
-HOST-KEYWORD,microsoft,Outside
-HOST-SUFFIX,hotmail.com,Outside
-HOST-SUFFIX,live.com,Outside
-HOST-SUFFIX,live.net,Outside
-HOST-SUFFIX,msn.com,Outside
-HOST-SUFFIX,office.com,Outside
-HOST-SUFFIX,office.net,Outside
-HOST-SUFFIX,outlook.com,Outside
-
 # > Spark
 HOST-SUFFIX,api.amplitude.com,Outside
 HOST-SUFFIX,app.smartmailcloud.com,Outside
@@ -38,6 +27,11 @@ HOST-SUFFIX,humblebundle.com,Outside
 HOST-SUFFIX,steamcommunity.com,Outside
 HOST-SUFFIX,steampowered.com,Outside
 HOST-SUFFIX,steamstatic.com,Outside
+
+# > TikTok
+USER-AGENT,TikTok*,Outside
+HOST-SUFFIX,tiktokv.com,Outside
+HOST-SUFFIX,musical.ly,Outside
 
 # > Top blocked sites
 HOST-SUFFIX,2o7.net,Outside
@@ -97,8 +91,6 @@ HOST-SUFFIX,bandisoft.com,Outside
 HOST-SUFFIX,bbtoystore.com,Outside
 HOST-SUFFIX,betvictor.com,Outside
 HOST-SUFFIX,bigsound.org,Outside
-HOST-SUFFIX,bing.com,Outside
-HOST-SUFFIX,bing.net,Outside
 HOST-SUFFIX,bintray.com,Outside
 HOST-SUFFIX,bit.com,Outside
 HOST-SUFFIX,bit.do,Outside
@@ -309,14 +301,12 @@ HOST-SUFFIX,medium.com,Outside
 HOST-SUFFIX,mega.co.nz,Outside
 HOST-SUFFIX,mega.nz,Outside
 HOST-SUFFIX,megaupload.com,Outside
-HOST-SUFFIX,microsofttranslator.com,Outside
 HOST-SUFFIX,mindnode.com,Outside
 HOST-SUFFIX,mlssoccer.com,Outside
 HOST-SUFFIX,mobile01.com,Outside
 HOST-SUFFIX,modmyi.com,Outside
 HOST-SUFFIX,moves-export.com,Outside
 HOST-SUFFIX,mp3buscador.com,Outside
-HOST-SUFFIX,msedge.net,Outside
 HOST-SUFFIX,mycnnews.com,Outside
 HOST-SUFFIX,myfontastic.com,Outside
 HOST-SUFFIX,name.com,Outside
@@ -337,10 +327,7 @@ HOST-SUFFIX,nyt.com,Outside
 HOST-SUFFIX,nytimes.com,Outside
 HOST-SUFFIX,nytimg.com,Outside
 HOST-SUFFIX,nytstyle.com,Outside
-HOST-SUFFIX,office365.com,Outside
 HOST-SUFFIX,omnigroup.com,Outside
-HOST-SUFFIX,onedrive.com,Outside
-HOST-SUFFIX,onenote.com,Outside
 HOST-SUFFIX,ooyala.com,Outside
 HOST-SUFFIX,openvpn.net,Outside
 HOST-SUFFIX,openwrt.org,Outside
@@ -586,8 +573,6 @@ HOST-SUFFIX,wikileaks-forum.com,Outside
 HOST-SUFFIX,wikimedia.org,Outside
 HOST-SUFFIX,wikipedia.com,Outside
 HOST-SUFFIX,wikipedia.org,Outside
-HOST-SUFFIX,windows.com,Outside
-HOST-SUFFIX,windows.net,Outside
 HOST-SUFFIX,wn.com,Outside
 HOST-SUFFIX,wordpress.com,Outside
 HOST-SUFFIX,workflow.is,Outside
