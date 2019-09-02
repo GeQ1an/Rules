@@ -30,9 +30,10 @@ IP-CIDR,185.188.34.0/24,Mainland,no-resolve
 IP-CIDR,185.188.35.0/24,Mainland,no-resolve
 
 # Mainland
-HOST-SUFFIX,cn,Mainland
+HOST-SUFFIX,12306.cn,Mainland
 HOST-SUFFIX,126.net,Mainland
 HOST-SUFFIX,163.com,Mainland
+HOST-SUFFIX,360.cn,Mainland
 HOST-SUFFIX,360.com,Mainland
 HOST-SUFFIX,360buy.com,Mainland
 HOST-SUFFIX,360buyimg.com,Mainland
@@ -193,6 +194,7 @@ HOST-SUFFIX,ruguoapp.com,Mainland
 HOST-SUFFIX,sandai.net,Mainland
 HOST-SUFFIX,sf-express.com,Mainland
 HOST-SUFFIX,sinaapp.com,Mainland
+HOST-SUFFIX,sinaimg.cn,Mainland
 HOST-SUFFIX,sinaimg.com,Mainland
 HOST-SUFFIX,sm.ms,Mainland
 HOST-SUFFIX,smzdm.com,Mainland
@@ -231,6 +233,7 @@ HOST-SUFFIX,upyun.com,Mainland
 HOST-SUFFIX,uxengine.net,Mainland
 HOST-SUFFIX,wandoujia.com,Mainland
 HOST-SUFFIX,webqxs.com,Mainland
+HOST-SUFFIX,weibo.cn,Mainland
 HOST-SUFFIX,weibo.com,Mainland
 HOST-SUFFIX,weico.cc,Mainland
 HOST-SUFFIX,weiphone.com,Mainland
