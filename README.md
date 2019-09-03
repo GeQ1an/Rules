@@ -10,6 +10,7 @@
 
 ---
 * 支持应用
+  * [Quantumult X](https://github.com/crossutility/Quantumult-X)
   * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438?mt=8)
   * [ClashX](https://github.com/yichengchen/clashX)
 * [可实现功能](#function)
@@ -17,6 +18,7 @@
   * [URL](#url)
 * 使用教程
   * [拥有中国大陆节点](#购买大陆节点如已拥有请跳过此步骤)
+  * [使用 Quantumult X](https://github.com/GeQ1an/Rules/blob/master/QuantumultX/README.md)
   * [使用 Quantumult](#在-quantumult-中添加规则以添加-quantumultconf-为例)
   * [使用 ClashX](#在-clashx-中使用规则)
 * [证书的安装及信任](#mitm)
@@ -178,4 +180,4 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 我是一名在韩留学生，在境外时会需要大陆 IP 来使用国内部分服务，于是修改了 lhie1 规则使用，欢迎在境外的小伙伴使用。平时课程比较多，且并非学习相关专业，完全由课余时间修改，所以无法保证定期更新。现在的规则有了四个版本，应该能满足大家的需求。如有建议或缺漏，请及时反馈：[Telegram](https://t.me/GeQ1an)。
 
 您的打赏将是我持续完善、更新规则的动力，欢迎扫描下方二维码打赏，感谢。
-![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Pay.png)
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Pay2Me.png)
