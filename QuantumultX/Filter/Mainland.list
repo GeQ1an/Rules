@@ -30,9 +30,12 @@ IP-CIDR,185.188.34.0/24,Mainland,no-resolve
 IP-CIDR,185.188.35.0/24,Mainland,no-resolve
 
 # Mainland
+HOST-SUFFIX,10010.com,Mainland
+HOST-SUFFIX,10089.cn,Mainland
 HOST-SUFFIX,12306.cn,Mainland
 HOST-SUFFIX,126.net,Mainland
 HOST-SUFFIX,163.com,Mainland
+HOST-SUFFIX,189.cn,Mainland
 HOST-SUFFIX,360.cn,Mainland
 HOST-SUFFIX,360.com,Mainland
 HOST-SUFFIX,360buy.com,Mainland
@@ -56,6 +59,7 @@ HOST-SUFFIX,apache.org,Mainland
 HOST-SUFFIX,api.crisp.chat,Mainland
 HOST-SUFFIX,api.termius.com,Mainland
 HOST-SUFFIX,appshike.com,Mainland
+HOST-SUFFIX,autohome.com.cn,Mainland
 HOST-SUFFIX,autonavi.com,Mainland
 HOST-SUFFIX,aweme.snssdk.com,Mainland
 HOST-SUFFIX,bababian.com,Mainland
@@ -65,8 +69,10 @@ HOST-SUFFIX,bdimg.com,Mainland
 HOST-SUFFIX,bdstatic.com,Mainland
 HOST-SUFFIX,beatsbydre.com,Mainland
 HOST-SUFFIX,bet365.com,Mainland
+HOST-SUFFIX,bitauto.com,Mainland
 HOST-SUFFIX,broadcasthe.net,Mainland
 HOST-SUFFIX,caiyunapp.com,Mainland
+HOST-SUFFIX,ccb.com,Mainland
 HOST-SUFFIX,ccgslb.com,Mainland
 HOST-SUFFIX,ccgslb.net,Mainland
 HOST-SUFFIX,chinacache.net,Mainland
@@ -86,6 +92,7 @@ HOST-SUFFIX,cnlang.org,Mainland
 HOST-SUFFIX,culturedcode.com,Mainland
 HOST-SUFFIX,dct-cloud.com,Mainland
 HOST-SUFFIX,didialift.com,Mainland
+HOST-SUFFIX,didistatic.com,Mainland
 HOST-SUFFIX,digicert.com,Mainland
 HOST-SUFFIX,douban.com,Mainland
 HOST-SUFFIX,doubanio.com,Mainland
@@ -197,6 +204,7 @@ HOST-SUFFIX,sinaapp.com,Mainland
 HOST-SUFFIX,sinaimg.cn,Mainland
 HOST-SUFFIX,sinaimg.com,Mainland
 HOST-SUFFIX,sm.ms,Mainland
+HOST-SUFFIX,smartisan.com,Mainland
 HOST-SUFFIX,smzdm.com,Mainland
 HOST-SUFFIX,snssdk.com,Mainland
 HOST-SUFFIX,snwx.com,Mainland
@@ -228,6 +236,7 @@ HOST-SUFFIX,ttmeiju.com,Mainland
 HOST-SUFFIX,tudou.com,Mainland
 HOST-SUFFIX,udache.com,Mainland
 HOST-SUFFIX,umengcloud.com,Mainland
+HOST-SUFFIX,umetrip.com,Mainland
 HOST-SUFFIX,upaiyun.com,Mainland
 HOST-SUFFIX,upyun.com,Mainland
 HOST-SUFFIX,uxengine.net,Mainland
@@ -257,6 +266,7 @@ HOST-SUFFIX,xunlei.com,Mainland
 HOST-SUFFIX,yach.me,Mainland
 HOST-SUFFIX,yeepay.com,Mainland
 HOST-SUFFIX,yhd.com,Mainland
+HOST-SUFFIX,yiche.com,Mainland
 HOST-SUFFIX,yinxiang.com,Mainland
 HOST-SUFFIX,yixia.com,Mainland
 HOST-SUFFIX,ykimg.com,Mainland
