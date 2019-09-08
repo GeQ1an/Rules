@@ -137,9 +137,8 @@ HOST-SUFFIX,cnet.com,Outside
 HOST-SUFFIX,cnn.com,Outside
 HOST-SUFFIX,cocoapods.org,Outside
 HOST-SUFFIX,comodoca.com,Outside
-HOST-SUFFIX,content.office.net,Outside
-HOST-SUFFIX,culturedcode.com ,Outside
-HOST-SUFFIX,cygames.jp ,Outside
+HOST-SUFFIX,culturedcode.com,Outside
+HOST-SUFFIX,cygames.jp,Outside
 HOST-SUFFIX,d.pr,Outside
 HOST-SUFFIX,danilo.to,Outside
 HOST-SUFFIX,daolan.net,Outside
@@ -247,7 +246,7 @@ HOST-SUFFIX,imageshack.us,Outside
 HOST-SUFFIX,img.ly,Outside
 HOST-SUFFIX,imgur.com,Outside
 HOST-SUFFIX,imore.com,Outside
-HOST-SUFFIX,ingress.com ,Outside
+HOST-SUFFIX,ingress.com,Outside
 HOST-SUFFIX,insder.co,Outside
 HOST-SUFFIX,instapaper.com,Outside
 HOST-SUFFIX,instructables.com,Outside
