@@ -1,5 +1,6 @@
 USER-AGENT,Microsoft*,Microsoft
 USER-AGENT,OneDrive*,Microsoft
+HOST-KEYWORD,akamai,Microsoft
 HOST-KEYWORD,microsoft,Microsoft
 HOST-SUFFIX,ms,Microsoft
 HOST-SUFFIX,bing.com,Microsoft
@@ -8,6 +9,8 @@ HOST-SUFFIX,hotmail.com,Microsoft
 HOST-SUFFIX,live.com,Microsoft
 HOST-SUFFIX,live.net,Microsoft
 HOST-SUFFIX,microsofttranslator.com,Microsoft
+HOST-SUFFIX,msauth.net,Microsoft
+HOST-SUFFIX,msecdn.net,Microsoft
 HOST-SUFFIX,msedge.net,Microsoft
 HOST-SUFFIX,msn.com,Microsoft
 HOST-SUFFIX,office.com,Microsoft
@@ -22,4 +25,3 @@ HOST-SUFFIX,windows.com,Microsoft
 HOST-SUFFIX,windows.net,Microsoft
 HOST-SUFFIX,xbox.com,Microsoft
 HOST-SUFFIX,xboxlive.com,Microsoft
-HOST-KEYWORD,akamai,Microsoft
