@@ -6,7 +6,7 @@
 目前有 “广告&阻止”、“苹果服务”、“中国媒体”、“国际媒体”、“Netflix”、“YouTube”、“微软服务”、“PayPal”、“外部网络”、“大陆网络”、“Speedtest” 和 “其他” 列表 (策略组) 可供选择。
 ````
 注：不要为了增加策略组而增加策略组！
-Netflix 和 YouTube Premium 均不锁区，选择策略是必须的。
+Netflix 和 YouTube Premium 均不锁区，拥有独立策略是毋容置疑的。
 微软、PayPal 和 Speedtest 也有切换节点的需求，才单独制作了列表 (策略组)。
 ````
 
@@ -48,7 +48,7 @@ Netflix 和 YouTube Premium 均不锁区，选择策略是必须的。
 ````
 
 #### 策略组图标
-最新的配置文件内，包含远程图标链接，无需手动添加。<br>
+最新的配置文件内，包含远程图标链接，无需手动添加。当图标有更新时，手动清空本地缓存目录，重新打开 app 即可。<br>
 如需手动添加，请按如下操作进行：<br>
 在 [Quantumult X 项目主页](https://github.com/GeQ1an/Rules/tree/master/QuantumultX) 下载 “QuantumultX_Images_E*.zip” 解压，放入本地 Quantumult X —— Images 目录下（请注意保证策略组名称和图片名称一致）<br>
 ![](https://raw.githubusercontent.com/zealson/Zure/master/Other/Local_Icon.png)<br>
@@ -62,5 +62,5 @@ Netflix 和 YouTube Premium 均不锁区，选择策略是必须的。
 在软件主页，长按某个策略组即可进入编辑模式，可自行向某个策略组添加节点。
 
 ---
-该文档基于 Quantumult X 1.0.0(106) 版本编写。<br>
+该文档基于 Quantumult X 1.0.0(108) 版本编写。<br>
 更多功能还请自己摸索，如有问题请在 [Telegram](https://t.me/GeQ1an) 联系我。
