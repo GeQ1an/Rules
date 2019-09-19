@@ -24,10 +24,10 @@ HOST-SUFFIX,edu.cn,Mainland
 HOST-SUFFIX,steamcontent.com,Mainland
 
 # > TeamViewer
-IP-CIDR,185.188.32.0/24,Mainland,no-resolve
-IP-CIDR,185.188.33.0/24,Mainland,no-resolve
-IP-CIDR,185.188.34.0/24,Mainland,no-resolve
-IP-CIDR,185.188.35.0/24,Mainland,no-resolve
+IP-CIDR,185.188.32.0/24,Mainland
+IP-CIDR,185.188.33.0/24,Mainland
+IP-CIDR,185.188.34.0/24,Mainland
+IP-CIDR,185.188.35.0/24,Mainland
 
 # Mainland
 HOST-SUFFIX,10010.com,Mainland
@@ -48,6 +48,7 @@ HOST-SUFFIX,abercrombie.com,Mainland
 HOST-SUFFIX,adobesc.com,Mainland
 HOST-SUFFIX,air-matters.com,Mainland
 HOST-SUFFIX,air-matters.io,Mainland
+HOST-SUFFIX,airhotels.cn,Mainland
 HOST-SUFFIX,akadns.net,Mainland
 HOST-SUFFIX,aliapp.org,Mainland
 HOST-SUFFIX,alicdn.com,Mainland
@@ -71,6 +72,7 @@ HOST-SUFFIX,beatsbydre.com,Mainland
 HOST-SUFFIX,bet365.com,Mainland
 HOST-SUFFIX,bitauto.com,Mainland
 HOST-SUFFIX,broadcasthe.net,Mainland
+HOST-SUFFIX,bthhotels.com,Mainland
 HOST-SUFFIX,caiyunapp.com,Mainland
 HOST-SUFFIX,ccb.com,Mainland
 HOST-SUFFIX,ccgslb.com,Mainland
@@ -124,6 +126,7 @@ HOST-SUFFIX,hdchina.org,Mainland
 HOST-SUFFIX,hdcmct.org,Mainland
 HOST-SUFFIX,hiwifi.com,Mainland
 HOST-SUFFIX,hollisterco.com,Mainland
+HOST-SUFFIX,homeinns.com,Mainland
 HOST-SUFFIX,hongxiu.com,Mainland
 HOST-SUFFIX,hxcdn.net,Mainland
 HOST-SUFFIX,ibeta.me,Mainland
@@ -238,6 +241,7 @@ HOST-SUFFIX,tp.m-team.cc,Mainland
 HOST-SUFFIX,ttmeiju.com,Mainland
 HOST-SUFFIX,tudou.com,Mainland
 HOST-SUFFIX,udache.com,Mainland
+HOST-SUFFIX,umeng.com,Mainland
 HOST-SUFFIX,umengcloud.com,Mainland
 HOST-SUFFIX,umetrip.com,Mainland
 HOST-SUFFIX,upaiyun.com,Mainland
@@ -282,7 +286,7 @@ HOST-SUFFIX,zhimg.com,Mainland
 HOST-SUFFIX,zimuzu.tv,Mainland
 HOST-SUFFIX,zmz002.com,Mainland
 
-IP-CIDR,1.255.62.0/24,Mainland,no-resolve
+IP-CIDR,1.255.62.0/24,Mainland
 
 # GEOIP 
 GEOIP,CN,Mainland
