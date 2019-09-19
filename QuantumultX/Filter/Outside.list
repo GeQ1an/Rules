@@ -670,88 +670,88 @@ HOST-KEYWORD,dlercloud,Outside
 HOST-SUFFIX,dler.cloud,Outside
 
 # > Amazon
-IP-CIDR,13.32.0.0/16,Outside,no-resolve
-IP-CIDR,13.33.0.0/16,Outside,no-resolve
-IP-CIDR,13.35.0.0/17,Outside,no-resolve
-IP-CIDR,18.184.0.0/15,Outside,no-resolve
-IP-CIDR,18.194.0.0/15,Outside,no-resolve
-IP-CIDR,18.208.0.0/13,Outside,no-resolve
-IP-CIDR,18.232.0.0/14,Outside,no-resolve
-IP-CIDR,52.200.0.0/13,Outside,no-resolve
-IP-CIDR,52.58.0.0/15,Outside,no-resolve
-IP-CIDR,52.74.0.0/16,Outside,no-resolve
-IP-CIDR,52.77.0.0/16,Outside,no-resolve
-IP-CIDR,52.84.0.0/15,Outside,no-resolve
-IP-CIDR,54.156.0.0/14,Outside,no-resolve
-IP-CIDR,54.226.0.0/15,Outside,no-resolve
-IP-CIDR,54.230.156.0/22,Outside,no-resolve
-IP-CIDR,54.93.0.0/16,Outside,no-resolve
+IP-CIDR,13.32.0.0/16,Outside
+IP-CIDR,13.33.0.0/16,Outside
+IP-CIDR,13.35.0.0/17,Outside
+IP-CIDR,18.184.0.0/15,Outside
+IP-CIDR,18.194.0.0/15,Outside
+IP-CIDR,18.208.0.0/13,Outside
+IP-CIDR,18.232.0.0/14,Outside
+IP-CIDR,52.200.0.0/13,Outside
+IP-CIDR,52.58.0.0/15,Outside
+IP-CIDR,52.74.0.0/16,Outside
+IP-CIDR,52.77.0.0/16,Outside
+IP-CIDR,52.84.0.0/15,Outside
+IP-CIDR,54.156.0.0/14,Outside
+IP-CIDR,54.226.0.0/15,Outside
+IP-CIDR,54.230.156.0/22,Outside
+IP-CIDR,54.93.0.0/16,Outside
 
 # > Facebook
-IP-CIDR,103.4.96.0/22,Outside,no-resolve
-IP-CIDR,129.134.0.0/17,Outside,no-resolve
-IP-CIDR,157.240.0.0/17,Outside,no-resolve
-IP-CIDR,173.252.64.0/19,Outside,no-resolve
-IP-CIDR,173.252.96.0/19,Outside,no-resolve
-IP-CIDR,179.60.192.0/22,Outside,no-resolve
-IP-CIDR,185.60.216.0/22,Outside,no-resolve
-IP-CIDR,204.15.20.0/22,Outside,no-resolve
-IP-CIDR,31.13.24.0/21,Outside,no-resolve
-IP-CIDR,31.13.64.0/18,Outside,no-resolve
-IP-CIDR,45.64.40.0/22,Outside,no-resolve
-IP-CIDR,66.220.144.0/20,Outside,no-resolve
-IP-CIDR,69.171.224.0/19,Outside,no-resolve
-IP-CIDR,69.63.176.0/20,Outside,no-resolve
-IP-CIDR,74.119.76.0/22,Outside,no-resolve
+IP-CIDR,103.4.96.0/22,Outside
+IP-CIDR,129.134.0.0/17,Outside
+IP-CIDR,157.240.0.0/17,Outside
+IP-CIDR,173.252.64.0/19,Outside
+IP-CIDR,173.252.96.0/19,Outside
+IP-CIDR,179.60.192.0/22,Outside
+IP-CIDR,185.60.216.0/22,Outside
+IP-CIDR,204.15.20.0/22,Outside
+IP-CIDR,31.13.24.0/21,Outside
+IP-CIDR,31.13.64.0/18,Outside
+IP-CIDR,45.64.40.0/22,Outside
+IP-CIDR,66.220.144.0/20,Outside
+IP-CIDR,69.171.224.0/19,Outside
+IP-CIDR,69.63.176.0/20,Outside
+IP-CIDR,74.119.76.0/22,Outside
 
 # > Google
-IP-CIDR,173.194.0.0/16,Outside,no-resolve
-IP-CIDR,74.125.0.0/16,Outside,no-resolve
+IP-CIDR,173.194.0.0/16,Outside
+IP-CIDR,74.125.0.0/16,Outside
 
 # > Kakao Talk
-IP-CIDR,1.201.0.0/24,Outside,no-resolve
-IP-CIDR,103.246.56.0/22,Outside,no-resolve
-IP-CIDR,103.27.148.0/22,Outside,no-resolve
-IP-CIDR,110.76.140.0/22,Outside,no-resolve
-IP-CIDR,113.61.104.0/22,Outside,no-resolve
-IP-CIDR,27.0.236.0/22,Outside,no-resolve
+IP-CIDR,1.201.0.0/24,Outside
+IP-CIDR,103.246.56.0/22,Outside
+IP-CIDR,103.27.148.0/22,Outside
+IP-CIDR,110.76.140.0/22,Outside
+IP-CIDR,113.61.104.0/22,Outside
+IP-CIDR,27.0.236.0/22,Outside
 
 # > LINE
-IP-CIDR,103.2.28.0/22,Outside,no-resolve
-IP-CIDR,119.235.224.0/21,Outside,no-resolve
-IP-CIDR,119.235.232.0/23,Outside,no-resolve
-IP-CIDR,119.235.235.0/24,Outside,no-resolve
-IP-CIDR,119.235.236.0/23,Outside,no-resolve
-IP-CIDR,125.6.146.0/24,Outside,no-resolve
-IP-CIDR,125.6.149.0/24,Outside,no-resolve
-IP-CIDR,125.6.190.0/24,Outside,no-resolve
-IP-CIDR,125.209.208.0/20,Outside,no-resolve
-IP-CIDR,203.104.103.0/24,Outside,no-resolve
-IP-CIDR,203.104.128.0/20,Outside,no-resolve
-IP-CIDR,203.174.66.64/26,Outside,no-resolve
-IP-CIDR,203.174.77.0/24,Outside,no-resolve
+IP-CIDR,103.2.28.0/22,Outside
+IP-CIDR,119.235.224.0/21,Outside
+IP-CIDR,119.235.232.0/23,Outside
+IP-CIDR,119.235.235.0/24,Outside
+IP-CIDR,119.235.236.0/23,Outside
+IP-CIDR,125.6.146.0/24,Outside
+IP-CIDR,125.6.149.0/24,Outside
+IP-CIDR,125.6.190.0/24,Outside
+IP-CIDR,125.209.208.0/20,Outside
+IP-CIDR,203.104.103.0/24,Outside
+IP-CIDR,203.104.128.0/20,Outside
+IP-CIDR,203.174.66.64/26,Outside
+IP-CIDR,203.174.77.0/24,Outside
 
 # > Potato Chat
-IP-CIDR,13.251.24.157/24,Outside,no-resolve
-IP-CIDR,13.251.41.203/24,Outside,no-resolve
-IP-CIDR,17.252.156.147/24,Outside,no-resolve
-IP-CIDR,17.252.157.26/24,Outside,no-resolve
+IP-CIDR,13.251.24.157/24,Outside
+IP-CIDR,13.251.41.203/24,Outside
+IP-CIDR,17.252.156.147/24,Outside
+IP-CIDR,17.252.157.26/24,Outside
 
 # > SoftLayer
-IP-CIDR,74.86.0.0/16,Outside,no-resolve
-IP-CIDR,75.126.0.0/16,Outside,no-resolve
-IP-CIDR,174.37.0.0/16,Outside,no-resolve
-IP-CIDR,208.43.0.0/16,Outside,no-resolve
+IP-CIDR,74.86.0.0/16,Outside
+IP-CIDR,75.126.0.0/16,Outside
+IP-CIDR,174.37.0.0/16,Outside
+IP-CIDR,208.43.0.0/16,Outside
 
 # > Telegram
-IP-CIDR,67.198.55.0/24,Outside,no-resolve
-IP-CIDR,91.108.4.0/22,Outside,no-resolve
-IP-CIDR,91.108.8.0/22,Outside,no-resolve
-IP-CIDR,91.108.12.0/22,Outside,no-resolve
-IP-CIDR,91.108.16.0/22,Outside,no-resolve
-IP-CIDR,91.108.56.0/22,Outside,no-resolve
-IP-CIDR,109.239.140.0/24,Outside,no-resolve
-IP-CIDR,149.154.160.0/20,Outside,no-resolve
-IP-CIDR,205.172.60.0/22,Outside,no-resolve
+IP-CIDR,67.198.55.0/24,Outside
+IP-CIDR,91.108.4.0/22,Outside
+IP-CIDR,91.108.8.0/22,Outside
+IP-CIDR,91.108.12.0/22,Outside
+IP-CIDR,91.108.16.0/22,Outside
+IP-CIDR,91.108.56.0/22,Outside
+IP-CIDR,109.239.140.0/24,Outside
+IP-CIDR,149.154.160.0/20,Outside
+IP-CIDR,205.172.60.0/22,Outside
 
 # > Others
