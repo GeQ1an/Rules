@@ -252,6 +252,17 @@ HOST-SUFFIX,wa.gtimg.com,AdBlock
 HOST-SUFFIX,bfshan.cn,AdBlock
 
 # REJECT
+# > Umeng
+HOST,alog.umeng.co,AdBlock
+HOST,alog.umeng.com,AdBlock
+HOST,alogs.umeng.com,AdBlock
+HOST,alog.umengcloud.com,AdBlock
+HOST,alogs.umengcloud.com,AdBlock
+HOST,ar.umeng.com,AdBlock
+HOST,plbslog.umeng.com,AdBlock
+HOST,ulogs.umeng.com,AdBlock
+HOST,ulogs.umengcloud.com,AdBlock
+
 # > Client
 HOST-KEYWORD,admaster,AdBlock
 HOST-KEYWORD,admdfs,AdBlock
@@ -1475,6 +1486,7 @@ HOST-SUFFIX,an.wikigifth.com,AdBlock
 HOST-SUFFIX,an.yandex.ru,AdBlock
 HOST-SUFFIX,ana.tatahn.com,AdBlock
 HOST-SUFFIX,analy.qq.com,AdBlock
+HOST-SUFFIX,analytics-api.smzdm.com,AdBlock
 HOST-SUFFIX,andmejs.com,AdBlock
 HOST-SUFFIX,android.push.126.net,AdBlock
 HOST-SUFFIX,android.rqd.qq.com,AdBlock
@@ -5666,6 +5678,7 @@ HOST-SUFFIX,nexus.ensighten.com,AdBlock
 HOST-SUFFIX,nfh.cnshef.com,AdBlock
 HOST-SUFFIX,ngads.go.com,AdBlock
 HOST-SUFFIX,nicelabel.cc,AdBlock
+HOST-SUFFIX,nim.qiyukf.com,AdBlock
 HOST-SUFFIX,ninebox.cn,AdBlock
 HOST-SUFFIX,ninemsn.imrworldwide.com,AdBlock
 HOST-SUFFIX,niurenw.com,AdBlock
