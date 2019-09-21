@@ -60,7 +60,7 @@ Quantumult（长按复制链接即可）:
 * [链接阻止 REJECTION](https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf): 请直接使用 [lhie1 Rules](https://github.com/lhie1/Rules) 内的 Rejection
 
 ClashX（下载配置文件到本地）:
-* [config.yml](https://raw.githubusercontent.com/GeQ1an/Rules/master/config.yml): 使用前请参考文件内相关说明配置节点信息，并将节点信息加入到策略组
+* [Clash.yml](https://raw.githubusercontent.com/GeQ1an/Rules/master/Clash.yaml): 使用前请参考文件内相关说明配置节点信息，并将节点信息加入到策略组
 
 ---
 
