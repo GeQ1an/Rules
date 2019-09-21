@@ -60,7 +60,7 @@ Quantumult（长按复制链接即可）:
 * [链接阻止 REJECTION](https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf): 请直接使用 [lhie1 Rules](https://github.com/lhie1/Rules) 内的 Rejection
 
 ClashX（下载配置文件到本地）:
-* [Clash.yml](https://raw.githubusercontent.com/GeQ1an/Rules/master/Clash.yaml): 使用前请参考文件内相关说明配置节点信息，并将节点信息加入到策略组
+* [Clash.yaml](https://raw.githubusercontent.com/GeQ1an/Rules/master/Clash.yaml): 使用前请参考文件内相关说明配置节点信息，并将节点信息加入到策略组
 
 ---
 
@@ -93,7 +93,7 @@ ClashX（下载配置文件到本地）:
 7. 规则有更新时，重新进行第 3 步和第 5 步的向左滑动条目，点击“替换”即可
 
 #### 在 ClashX 中使用规则
-1. 打开下载好的 config.yml 文件 (可使用`文本编辑`打开)，按照说明添加节点信息并编辑策略组节点，存储
+1. 打开下载好的 Clash.yaml 文件 (可使用`文本编辑`打开)，按照说明添加节点信息并编辑策略组节点，存储
 2. 将配置文件放入 “$HOME/.config/clash/” 目录 (可通过 “点击状态栏 ClashX 图标 —— 配置 —— 打开配置文件夹” 来打开该目录)
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/ClashX01.png)
 3. 应用配置文件 (方式为 “点击 ClashX 图标 —— 配置 —— 重载配置文件”)
