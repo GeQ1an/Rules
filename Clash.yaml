@@ -1,4 +1,4 @@
-# 2019年09月21日 20:36 UTC/GMT +9
+# 2019年09月22日 00:33 UTC/GMT +9
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -201,6 +201,7 @@ Rule:
 - DOMAIN-SUFFIX,y.qq.com,CMedia
 - DOMAIN,aqqmusic.tc.qq.com,CMedia
 # Tencent Video
+- DOMAIN-SUFFIX,v.qq.com,CMedia
 - DOMAIN-SUFFIX,video.qq.com,CMedia
 # Xiami Music
 - DOMAIN-SUFFIX,xiami.com,CMedia
