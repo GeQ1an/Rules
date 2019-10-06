@@ -39,6 +39,13 @@ USER-AGENT,MGTV*,CMedia
 HOST-SUFFIX,hunantv.com,CMedia
 HOST-SUFFIX,mgtv.com,CMedia
 
+# > Migu
+USER-AGENT,MiguVideo*,CMedia
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91,CMedia
+HOST-SUFFIX,cmvideo.cn,CMedia
+HOST-SUFFIX,migu.cn,CMedia
+HOST-SUFFIX,miguvideo.com,CMedia
+
 # > MOOMusic
 USER-AGENT,MOO%E9%9F%B3%E4%B9%90*,CMedia
 
