@@ -30,8 +30,10 @@ HOST-SUFFIX,steamstatic.com,Outside
 
 # > TikTok
 USER-AGENT,TikTok*,Outside
-HOST-SUFFIX,tiktokv.com,Outside
 HOST-SUFFIX,musical.ly,Outside
+HOST-SUFFIX,tiktokv.com,Outside
+HOST-SUFFIX,tiktokcdn.com,Outside
+HOST-KEYWORD,-tiktokcdn-com,Outside
 
 # > Top blocked sites
 HOST-SUFFIX,2o7.net,Outside
