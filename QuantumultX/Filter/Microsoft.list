@@ -1,5 +1,4 @@
 USER-AGENT,Microsoft*,Microsoft
-USER-AGENT,OneDrive*,Microsoft
 HOST-KEYWORD,akamai,Microsoft
 HOST-KEYWORD,microsoft,Microsoft
 HOST-SUFFIX,ms,Microsoft
@@ -17,7 +16,6 @@ HOST-SUFFIX,msn.com,Microsoft
 HOST-SUFFIX,office.com,Microsoft
 HOST-SUFFIX,office.net,Microsoft
 HOST-SUFFIX,office365.com,Microsoft
-HOST-SUFFIX,onedrive.com,Microsoft
 HOST-SUFFIX,onenote.com,Microsoft 
 HOST-SUFFIX,onenote.net,Microsoft
 HOST-SUFFIX,outlook.com,Microsoft
