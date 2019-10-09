@@ -15,6 +15,10 @@ HOST-SUFFIX,line-cdn.net,Outside
 HOST-SUFFIX,line-scdn.net,Outside
 HOST-SUFFIX,nhncorp.jp,Outside
 
+# > OneDrive
+USER-AGENT,OneDrive*,Outside
+HOST-SUFFIX,onedrive.com,Outside
+
 # > Spark
 HOST-SUFFIX,api.amplitude.com,Outside
 HOST-SUFFIX,app.smartmailcloud.com,Outside
