@@ -81,6 +81,7 @@ HOST-SUFFIX,hbogoasia.hk,GMedia
 USER-AGENT,Hulu*,GMedia
 HOST-SUFFIX,happyon.jp,GMedia
 HOST-SUFFIX,hulu.com,GMedia
+HOST-SUFFIX,hulu.jp,GMedia
 HOST-SUFFIX,huluim.com,GMedia
 HOST-SUFFIX,hulustream.com,GMedia
 
@@ -111,10 +112,12 @@ HOST-SUFFIX,skygo.co.nz,GMedia
 USER-AGENT,SoundCloud*,GMedia
 
 # > Spotify
-USER-AGENT,*Spotify*,GMedia
-HOST-KEYWORD,spotify,GMedia
+USER-AGENT,Spotify*,GMedia
+HOST-SUFFIX,pscdn.co,GMedia
 HOST-SUFFIX,scdn.co,GMedia
 HOST-SUFFIX,spoti.fi,GMedia
+HOST-SUFFIX,spotify.com,GMedia
+IP-CIDR,35.186.224.47/32,GMedia
 
 # > viuTV
 HOST-SUFFIX,viu.tv,GMedia
