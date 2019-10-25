@@ -1,4 +1,4 @@
-# 2019年09月22日 00:33 UTC/GMT +9
+# 2019年10月26日 05:10 UTC/GMT +9
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -40,14 +40,14 @@ dns:
      - tls://dns.rubyfish.cn:853
      
   fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
-     - tls://dns.rubyfish.cn:853
      - tls://1.0.0.1:853
      - tls://dns.google:853
+     - tls://dns.rubyfish.cn:853
 
 # clash DNS 请求逻辑：
 # (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
 # (2) clash 将选取 nameserver 列表内，解析最快的结果。
-# (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
+# (3) 若解析结果中，IP 地址属于国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
 
 # 服务器列表请按照示范格式填写
 # Shadowsocks 支持 aead_aes_128_gcm/aead_aes_192_gcm/aead_aes_256_gcm/aead_chacha20_poly1305/aes-128-ctr/aes-192-ctr/aes-256-ctr/aes-128-cfb/aes-192-cfb/aes-256-cfb/chacha20-ietf/xchacha20/chacha20/rc4-md5/xchacha20-ietf-poly1305 加密格式
@@ -83,11 +83,21 @@ Proxy:
   obfs-host: bing.com
 - name: "us1"
   type: vmess
-  server: us.xx.com
+  server: us1.xx.com
   port: 1111
   uuid: uuiduu-idu-uid
   alterId: 32
   cipher: auto
+- name: "us2"
+  type: vmess
+  server: us2.xx.com
+  port: 1111
+  uuid: uuiduu-idiot-uid
+  alterId: 32
+  cipher: auto
+  network: ws
+  ws-path: /path
+  ws-headers: { Host: v2ray.com }
 
 Proxy Group:
 # 按照下方格式写入策略组，其中 Domestic 和 CMedia 为回国策略(可以仅代理媒体），请将大陆节点填入
@@ -97,6 +107,7 @@ Proxy Group:
   - "hk1"
   - "hk2"
   - "us1"
+  - "us2"
   url: http://www.gstatic.com/generate_204
   interval: "600"
 - name: Proxy
@@ -107,6 +118,7 @@ Proxy Group:
   - "hk1"
   - "hk2"
   - "us1"
+  - "us2"
 - name: Apple
   type: select
   proxies:
@@ -172,9 +184,6 @@ Rule:
 - DOMAIN-KEYWORD,bilibili,CMedia
 - DOMAIN-SUFFIX,acgvideo.com,CMedia
 - DOMAIN-SUFFIX,hdslb.com,CMedia
-# MGTV
-- DOMAIN-SUFFIX,hunantv.com,CMedia
-- DOMAIN-SUFFIX,mgtv.com,CMedia
 # IQIYI
 - DOMAIN-SUFFIX,iqiyi.com,CMedia
 - DOMAIN-SUFFIX,iqiyipic.com,CMedia
@@ -348,13 +357,10 @@ Rule:
 - DOMAIN-SUFFIX,meituan.net,Domestic
 - DOMAIN-SUFFIX,mi.com,Domestic
 - DOMAIN-SUFFIX,miaopai.com,Domestic
-- DOMAIN-SUFFIX,microsoft.com,Domestic
-- DOMAIN-SUFFIX,microsoftonline.com,Domestic
 - DOMAIN-SUFFIX,miui.com,Domestic
 - DOMAIN-SUFFIX,miwifi.com,Domestic
 - DOMAIN-SUFFIX,mob.com,Domestic
 - DOMAIN-SUFFIX,netease.com,Domestic
-- DOMAIN-KEYWORD,officecdn,Domestic
 - DOMAIN-SUFFIX,oschina.net,Domestic
 - DOMAIN-SUFFIX,ppsimg.com,Domestic
 - DOMAIN-SUFFIX,pstatp.com,Domestic
@@ -389,12 +395,8 @@ Rule:
 - DOMAIN-SUFFIX,umetrip.com,Domestic
 - DOMAIN-SUFFIX,upaiyun.com,Domestic
 - DOMAIN-SUFFIX,upyun.com,Domestic
-- DOMAIN-SUFFIX,v2ex.com,Domestic
 - DOMAIN-SUFFIX,veryzhun.com,Domestic
-- DOMAIN-SUFFIX,weather.com,Domestic
 - DOMAIN-SUFFIX,weibo.com,Domestic
-- DOMAIN-SUFFIX,xiami.com,Domestic
-- DOMAIN-SUFFIX,xiami.net,Domestic
 - DOMAIN-SUFFIX,xiaomicp.com,Domestic
 - DOMAIN-SUFFIX,ximalaya.com,Domestic
 - DOMAIN-SUFFIX,xmcdn.com,Domestic
@@ -688,6 +690,8 @@ Rule:
 - DOMAIN-SUFFIX,ulyssesapp.com,Proxy
 - DOMAIN-SUFFIX,urchin.com,Proxy
 - DOMAIN-SUFFIX,usertrust.com,Proxy
+- DOMAIN-SUFFIX,v2ex.co,Proxy
+- DOMAIN-SUFFIX,v2ex.com,Proxy
 - DOMAIN-SUFFIX,v.gd,Proxy
 - DOMAIN-SUFFIX,vimeo.com,Proxy
 - DOMAIN-SUFFIX,vimeocdn.com,Proxy
