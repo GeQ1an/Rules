@@ -6,12 +6,12 @@
 
 ### 频道
 
-欢迎 [点击此处](https://t.me/usestick) 订阅 Stick Rules 的 Telegram 频道，及时获取最新消息，以及 Apple、iPhone、Mac 等相关信息。
+欢迎 [点击此处](https://t.me/usestick) 订阅 Stick Rules 的 Telegram 频道，及时获取规则更新详情，以及 Apple、iPhone、Mac 等相关信息。
 
 ---
 * 支持应用
-  * [Quantumult X](https://github.com/crossutility/Quantumult-X)
-  * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438?mt=8)
+  * [Quantumult X](https://apps.apple.com/app/quantumult-x/id1443988620)
+  * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438)
   * [ClashX](https://github.com/yichengchen/clashX)
 * [可实现功能](#function)
 * 导入方式
