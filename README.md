@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/StickMedium.png)
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/StickLogoMedium.png)
 # 使用手册
 
 ### 简介
