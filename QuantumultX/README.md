@@ -7,7 +7,7 @@
 <br>
 本文件为 Quantumult X 专用规则使用手册，目前 Quantumult X 规则有 “广告&阻止”、“苹果服务”、“中国媒体”、“国际媒体”、“Netflix”、“YouTube”、“微软服务”、“PayPal”、“外部网络”、“大陆网络”、“Speedtest” 和 “其他” 列表 (策略组) 可供选择。
 ````
-策略组的出现是为了更为便捷地切换节点
+策略组的出现是为了更便捷地切换节点
 应本着 “保质” 而非 “保量” 原则
 而并非策略组的数量越多越好
 ````
@@ -50,14 +50,16 @@
 ````
 
 #### 添加节点
-1. 直接在 “节点” 处通过手动/SS URL/扫码添加节点，不做过多阐述。
-2. 直接通过机场提供的订阅链接添加节点，不做过多阐述。
+1. 直接在 “节点” 处通过手动/SS URL/扫码添加单个节点，不做过多阐述。
+2. 直接通过机场提供的订阅链接批量添加节点，不做过多阐述。<br>
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX01.png)
-3. 按地区或类型订阅。如果机场提供 SS 订阅可选项，请直接使用；如果没有提供的话可使用 [Shawn 的 API](https://github.com/KOP-XIAO/QuantumultX-Surge-API) 对机场提供的 SS 订阅链接进行过滤、对 Surge list 进行转换，添加到 Quantumult X 订阅。订阅后，可以选择使用[节点策略组](#节点策略组)。
+3. 按节点地区或类型订阅。<br>
+如果机场提供 SS 订阅可选项，请直接使用；如果没有提供的话，可以使用 [Shawn 的 API](https://github.com/KOP-XIAO/QuantumultX-Surge-API) 对机场提供的 SS 订阅进行过滤、对 Surge list 进行转换，以便添加到 Quantumult X 订阅。<br>
+添加好订阅后，可以选择使用[节点策略组](#节点策略组)。<br>
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX02.png)
 
 #### 节点策略组
-添加地区或类型节点订阅后，可在资源列表处 “向右滑动订阅” ———— “更多”，创建策略组 (建议选择 “健康检查” 方式，创建后可通过[编辑策略组](#编辑策略组)对节点进行排序)。
+添加地区或类型节点订阅后，可在资源列表处 “向右滑动订阅” ———— “更多” 创建策略组 (建议选择 “健康检查” 方式，创建后可通过[编辑策略组](#编辑策略组)对节点进行排序)。<br>
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX03.png)
 ````
 static 策略是静态策略，需要手动选择节点
@@ -73,13 +75,13 @@ round-robbin 策略是负载均衡策略，会轮询对每个节点进行测试�
 （图片来自 [Zure -- Quantumult X Policy Icon Set](https://github.com/zealson/Zure)，需要策略组国旗图标或其他图标也可以到这里订阅或下载）
 
 #### 编辑策略组
-在软件主页，长按某个策略组即可进入编辑模式，可向某个策略组添加节点。<br>
-亦可对已经存在的策略组内容进行排序 (如对已经创建的健康检查策略组或负载均衡策略组内节点进行排序)。
+在 Quantumult X 主页，长按某个策略组即可进入编辑模式，可向某个策略组添加节点或其他策略。<br>
+亦可对已经存在的策略组内容进行排序 (如对已经创建的健康检查策略组或负载均衡策略组内的节点进行排序)。<br>
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX04.png)
 
 #### 更新规则
-一般重新载入软件时会自动更新引用（包括节点引用和规则引用），无需手动操作。<br>
-如需手动更新，打开 “分流” 中的 “引用”，点击右上角 “全部同步” 即可同步最新规则。
+一般重新载入软件时会自动更新引用 (包括节点引用和规则引用)，无需手动操作。<br>
+如需手动更新，可长按主页右下角的功能键更新全部远程资源 (需在设置内打开 “长按主页功能键切换模式” 功能)。
 
 ---
 该文档基于 Quantumult X 1.0.2 版本编写，部分可选功能已在配置文件中注明，请注意查看。<br>
