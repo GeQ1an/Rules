@@ -1,9 +1,9 @@
-![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/StickLogoMedium.png)
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/StickMedium.png)
 # 使用手册
 
 ### 简介
 
-本规则适合境外使用 Quantumult 和 ClashX 的 “小白/懒人” 用户配合国内节点翻回大陆使用，通过 [lhie1 Rules](https://github.com/lhie1/Rules) 以及 [shigalin Config](https://github.com/shigalin/Config) 修改而来。
+本规则适合任意地区使用 Quantumult X、境外使用 Quantumult 和 ClashX 的 “小白/懒人” 用户配合相关节点使用，最早通过 [lhie1 Rules](https://github.com/lhie1/Rules) 修改而来，目前参考了众多规则，详见[鸣谢](#鸣谢)。
 
 ### 频道
 
@@ -71,13 +71,14 @@ ClashX（下载配置文件到本地）:
 * 推荐重度用户使用“Dler Cloud”，[点此](https://dlercloud.com/auth/register?affid=7237)注册使用，如需邀请码可通过 Telegram 联系我获取。
 ````
   请根据个人需求自行选择套餐，充值、购买。
-  如果大陆节点默认启用中转，请手动添加中转规则，起源节点选择“要使用的节点”，目标节点选择“不进行中转”，端口选择“所有端口”，优先级大于“1”，
-  这样就可以直接连接大陆节点，复制订阅连接到 Quantumult 中使用。
 ````
 * 推荐轻度用户使用“CordCloud”，[点此](https://www.cordcloud.cc/auth/register?code=16249)注册使用，如需邀请码可通过 Telegram 联系我获取。
 ````
   请根据个人需求自行选择套餐，充值、购买。
 ````
+
+#### 在 Quantumult X 中使用规则
+* 详情请转至 Quantumult X 目录的 [README.md](https://github.com/GeQ1an/Rules/blob/master/QuantumultX/README.md)
 
 #### 在 Quantumult 中添加规则（以添加 Quantumult.conf 为例）
 1. 打开 Quantumult，点击“设置”选项卡，点击“订阅”，点击右上角“+”，选择“分流”
