@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/StickLogoMedium.png)
 # 使用手册
 
 ### 介绍
@@ -61,5 +62,5 @@
 在软件主页，长按某个策略组即可进入编辑模式，可自行向某个策略组添加节点。
 
 ---
-该文档基于 Quantumult X 1.0.1 版本编写，部分可选功能已在配置文件中注明，请注意查看。<br>
+该文档基于 Quantumult X 1.0.2 版本编写，部分可选功能已在配置文件中注明，请注意查看。<br>
 更多功能还请自己摸索，如有问题请在 [Telegram](https://t.me/GeQ1an) 联系我。
