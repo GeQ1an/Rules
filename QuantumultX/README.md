@@ -18,10 +18,10 @@
 #### 方法一  拷贝配置文件 `更适用于初次配置或重新配置`
 将 [QuantumultX.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf) 所有内容复制，在 Quantumult X 中选择编辑配置文件，清空后粘贴，保存；<br>
 分别同步 “分流规则” 和 “Rewrite” 的 “引用”；<br>
-添加节点后，可自行[编辑策略组](#编辑策略组)。
+添加节点后，可自行 [编辑策略组](#编辑策略组)。
 ````
-正式使用前请打开 MitM 功能，安装并信任证书（根据提示操作）。
-也可使用其他已信任证书，将 “密码” 和 “P12” 分别填写到配置文件中的 “passphrase=” 和 “p12=” 后（注意删除前面的 ; 符号）。
+正式使用前请打开 MitM 功能，安装并信任证书 (根据提示操作)。
+也可使用其他已信任证书，将 “密码” 和 “P12” 分别填写到配置文件中的 “passphrase=” 和 “p12=” 后 (注意删除前面的 ; 符号)。
 ````
 
 #### 方法二  粘贴规则列表 `更适用于仅想更换规则`
@@ -55,11 +55,11 @@
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX01.png)
 3. 按节点地区或类型订阅。<br>
 如果机场提供 SS 订阅可选项，请直接使用；如果没有提供的话，可以使用 [Shawn 的 API](https://github.com/KOP-XIAO/QuantumultX-Surge-API) 对机场提供的 SS 订阅进行过滤、对 Surge list 进行转换，以便添加到 Quantumult X 订阅。<br>
-添加好订阅后，可以选择使用[节点策略组](#节点策略组)。<br>
+添加好订阅后，可以选择使用 [节点策略组](#节点策略组)。<br>
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX02.png)
 
 #### 节点策略组
-添加地区或类型节点订阅后，可在资源列表处 “向右滑动订阅” ———— “更多” 创建策略组 (建议选择 “健康检查” 方式，创建后可通过[编辑策略组](#编辑策略组)对节点进行排序)。<br>
+添加地区或类型节点订阅后，可在资源列表处 “向右滑动订阅” —— “更多” 创建策略组 (建议选择 “健康检查” 方式，创建后可通过 [编辑策略组](#编辑策略组)对节点进行排序)。<br>
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX03.png)
 ````
 static 策略是静态策略，需要手动选择节点
