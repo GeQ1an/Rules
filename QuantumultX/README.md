@@ -47,6 +47,7 @@
 使用方法二和方法三时，请注意
 在配置文件 [filter_local] 处自行添加最终规则 (final, Others)，
 在配置文件 [policy] 处添加 Others 策略组 (static=Others, Outside, direct)。
+无论使用哪种方式导入规则都应先启用 MitM 功能
 ````
 
 #### 添加节点
@@ -71,17 +72,17 @@ round-robbin 策略是负载均衡策略，会轮询对每个节点进行测试�
 最新的配置文件内，包含远程图标链接，无需手动添加。当图标有更新时，手动清空本地缓存目录，重新打开 app 即可。<br>
 如需手动添加，请按如下操作进行：<br>
 在 [Quantumult X 项目主页](https://github.com/GeQ1an/Rules/tree/master/QuantumultX) 下载 “QuantumultX_Images_E*.zip” 解压，放入本地 Quantumult X —— Images 目录下（请注意保证策略组名称和图片名称一致）<br>
-![](https://raw.githubusercontent.com/zealson/Zure/master/Other/Local_Icon.png)<br>
-（图片来自 [Zure -- Quantumult X Policy Icon Set](https://github.com/zealson/Zure)，需要策略组国旗图标或其他图标也可以到这里订阅或下载）
+![](https://raw.githubusercontent.com/Koolson/Qure/master/Other/Local_Icon.png)<br>
+（图片来自 [Qure -- Quantumult X Policy Icon Set](https://github.com/Koolson/Qure)，需要国旗策略组图标或其他图标也可以到这里订阅或下载）
 
 #### 编辑策略组
 在 Quantumult X 主页，长按某个策略组即可进入编辑模式，可向某个策略组添加节点或其他策略。<br>
-亦可对已经存在的策略组内容进行排序 (如对已经创建的健康检查策略组或负载均衡策略组内的节点进行排序)。<br>
+亦可对已经存在的策略组内容进行删减、排序 (如对已经创建的健康检查策略组或负载均衡策略组内的节点进行排序)。<br>
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX04.png)
 
 #### 更新规则
 一般重新载入软件时会自动更新引用 (包括节点引用和规则引用)，无需手动操作。<br>
-如需手动更新，可长按主页右下角的功能键更新全部远程资源 (需在设置内打开 “长按主页功能键切换模式” 功能)。
+如需手动更新，可长按主页右下角的功能键更新全部远程资源 (需在设置内打开 “长按主页功能键切换模式” 开关)。
 
 ---
 该文档基于 Quantumult X 1.0.2 版本编写，部分可选功能已在配置文件中注明，请注意查看。<br>
