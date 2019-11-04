@@ -3,13 +3,14 @@
 
 ### 简介
 
-本规则适合任意地区使用 Quantumult X、境外使用 Quantumult 和 ClashX 的 “小白/懒人” 用户配合相关节点使用，最早通过 [lhie1 Rules](https://github.com/lhie1/Rules) 修改而来，目前参考了众多规则，详见[鸣谢](#鸣谢)。
+本规则适合任意地区使用 Quantumult X、境外使用 Quantumult 和 ClashX 的 “小白/懒人” 用户配合相关节点使用，最初通过 [lhie1 Rules](https://github.com/lhie1/Rules) 修改而来，目前参考了众多优秀规则，详见 [鸣谢](#鸣谢)。
 
 ### 频道
 
 欢迎 [点击此处](https://t.me/usestick) 订阅 Stick Rules 的 Telegram 频道，及时获取规则更新详情，以及 Apple、iPhone、Mac 等相关信息。
 
 ---
+
 * 支持应用
   * [Quantumult X](https://apps.apple.com/app/quantumult-x/id1443988620)
   * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438)
