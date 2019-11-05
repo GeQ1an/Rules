@@ -6,11 +6,6 @@
 有关 Stick Rules 的详细介绍请转至项目主目录的 [README.md](https://github.com/GeQ1an/Rules/blob/master/README.md)<br>
 <br>
 本文件为 Quantumult X 专用规则使用手册，目前 Quantumult X 规则有 “广告&阻止”、“苹果服务”、“中国媒体”、“国际媒体”、“Netflix”、“YouTube”、“微软服务”、“PayPal”、“外部网络”、“大陆网络”、“Speedtest” 和 “其他” 列表 (策略组) 可供选择。
-````
-策略组的出现是为了更便捷地切换节点
-应本着 “保质” 而非 “保量” 原则
-而并非策略组的数量越多越好
-````
 
 ---
 
@@ -55,7 +50,7 @@
 2. 直接通过机场提供的订阅链接批量添加节点，不做过多阐述。<br>
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX01.png)
 3. 按节点地区或类型订阅。<br>
-如果机场提供 SS 订阅可选项，请直接使用；如果没有提供的话，可以使用 [Shawn 的 API](https://github.com/KOP-XIAO/QuantumultX-Surge-API) 对机场提供的 SS 订阅进行过滤、对 Surge list 进行转换，以便添加到 Quantumult X 订阅。<br>
+如果机场提供 SS 订阅可选项 (如 [Dler Cloud](https://dlercloud.com))，请直接使用；如果没有提供的话，可以使用 [Shawn 的 API](https://github.com/KOP-XIAO/QuantumultX-Surge-API) 对机场提供的 SS 订阅进行过滤、对 Surge list 进行转换，以便添加到 Quantumult X 订阅。<br>
 添加好订阅后，可以选择使用 [节点策略组](#节点策略组)。<br>
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX02.png)
 
