@@ -20,9 +20,6 @@ HOST-SUFFIX,iqiyi.com,CMedia
 HOST-SUFFIX,iqiyipic.com,CMedia
 HOST-SUFFIX,qy.net,CMedia
 HOST-SUFFIX,71.am,CMedia
-IP-CIDR,101.227.0.0/16,CMedia
-IP-CIDR,101.224.0.0/13,CMedia
-IP-CIDR,119.176.0.0/12,CMedia
 
 # > Kugou & Kuwo
 HOST-SUFFIX,kugou.com,CMedia
@@ -80,4 +77,3 @@ USER-AGENT,%E4%BC%98%E9%85%B7*,CMedia
 HOST-SUFFIX,soku.com,CMedia
 HOST-SUFFIX,youku.com,CMedia
 HOST-SUFFIX,ykimg.com,CMedia
-IP-CIDR,106.11.0.0/16,CMedia
