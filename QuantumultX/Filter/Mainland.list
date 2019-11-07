@@ -1,4 +1,4 @@
-# > UA
+# UA
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
 USER-AGENT,TeamViewer*,Mainland
@@ -6,6 +6,28 @@ USER-AGENT,TIM*,Mainland
 USER-AGENT,ting_en,Mainland
 USER-AGENT,WebTorrent*,Mainland
 USER-AGENT,WeChat*,Mainland
+
+# China Bank
+# > Agricultural Bank of China
+HOST-SUFFIX,abchina.com,Mainland
+
+# > Bank of China
+HOST-SUFFIX,boc.cn,Mainland
+
+# > China Construction Bank
+HOST-SUFFIX,ccb.com,Mainland
+HOST-SUFFIX,ccb.com.cn,Mainland
+
+# > China Merchants Bank
+USER-AGENT,cmb*,Mainland
+HOST-SUFFIX,cmbchina.com,Mainland
+HOST-SUFFIX,cmbimg,Mainland
+HOST-SUFFIX,cmbt.cn,Mainland
+HOST-SUFFIX,mbcloud.com,Mainland
+
+# > Industrial and Commercial Bank of China
+USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,Mainland
+HOST-SUFFIX,icbc.com.cn,Mainland
 
 # > Beplay
 HOST-KEYWORD,beplay,Mainland
@@ -65,7 +87,6 @@ HOST-SUFFIX,autonavi.com,Mainland
 HOST-SUFFIX,aweme.snssdk.com,Mainland
 HOST-SUFFIX,bababian.com,Mainland
 HOST-SUFFIX,baidu.com,Mainland
-HOST-SUFFIX,battle.net,Mainland
 HOST-SUFFIX,bdimg.com,Mainland
 HOST-SUFFIX,bdstatic.com,Mainland
 HOST-SUFFIX,beatsbydre.com,Mainland
@@ -74,7 +95,6 @@ HOST-SUFFIX,bitauto.com,Mainland
 HOST-SUFFIX,broadcasthe.net,Mainland
 HOST-SUFFIX,bthhotels.com,Mainland
 HOST-SUFFIX,caiyunapp.com,Mainland
-HOST-SUFFIX,ccb.com,Mainland
 HOST-SUFFIX,ccgslb.com,Mainland
 HOST-SUFFIX,ccgslb.net,Mainland
 HOST-SUFFIX,chinacache.net,Mainland
