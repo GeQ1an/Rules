@@ -41,6 +41,15 @@ HOST-SUFFIX,bbci.co.uk,GMedia
 USER-AGENT,TwDramas*,GMedia
 HOST-SUFFIX,chocotv.com.tw,GMedia
 
+# > Disney Plus
+USER-AGENT,Disney*,GMedia
+DOMAIN-SUFFIX,disneyplus.com,GMedia
+DOMAIN-SUFFIX,disney-plus.net,GMedia
+DOMAIN-SUFFIX,dssott.com,GMedia
+DOMAIN-SUFFIX,bamgrid.com,GMedia
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,GMedia
+DOMAIN,cdn.registerdisney.go.com,GMedia
+
 # > Now E
 USER-AGENT,PCCW*,GMedia
 HOST-KEYWORD,nowe,GMedia
