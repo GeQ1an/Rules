@@ -29,6 +29,7 @@ HOST-SUFFIX,mbcloud.com,Mainland
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,Mainland
 HOST-SUFFIX,icbc.com.cn,Mainland
 
+# Type
 # > Beplay
 HOST-KEYWORD,beplay,Mainland
 
@@ -132,7 +133,6 @@ HOST-SUFFIX,eudic.net,Mainland
 HOST-SUFFIX,ewqcxz.com,Mainland
 HOST-SUFFIX,feng.com,Mainland
 HOST-SUFFIX,fir.im,Mainland
-HOST-SUFFIX,firefox.com,Mainland
 HOST-SUFFIX,frdic.com,Mainland
 HOST-SUFFIX,fresh-ideas.cc,Mainland
 HOST-SUFFIX,geetest.com,Mainland
