@@ -10,9 +10,13 @@
 ---
 
 ### 使用
+
+#### 根据样本快速配置
+如使用高于 1.0.3(148) 版本的 Quantumult X，且使用 Dler Cloud，请直接查看 [Sample_DlerCloud.conf](https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Sample/Sample_DlerCloud.conf)，安装 [Dler Cloud 证书](https://dler.cloud/download/Dler%20Cloud%20Surge%20TLS%20ECC%20CA.mobileconfig) 并填写自己的托管 token 便可以快速配置。<br>
+*我将在近期更新通用型样本配置文件，以方便入门级用户使用。*
+
 #### 方法一  拷贝配置文件 `更适用于初次配置或重新配置`
 将 [QuantumultX.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf) 所有内容复制，在 Quantumult X 中选择编辑配置文件，清空后粘贴，保存；<br>
-分别同步 “分流规则” 和 “Rewrite” 的 “引用”；<br>
 [添加节点](#添加节点) 后，可自行 [编辑策略组](#编辑策略组)。
 ````
 正式使用前请打开 MitM 功能，安装并信任证书 (根据提示操作)。
