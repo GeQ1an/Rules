@@ -14,9 +14,16 @@ HOST-SUFFIX,abchina.com,Mainland
 # > Bank of China
 HOST-SUFFIX,boc.cn,Mainland
 
+# > China Citic Bank
+HOST-SUFFIX,citicbank.com,Mainland
+HOST-SUFFIX,ecitic.com,Mainland
+
 # > China Construction Bank
 HOST-SUFFIX,ccb.com,Mainland
 HOST-SUFFIX,ccb.com.cn,Mainland
+
+# > China Everbright Bank
+HOST-SUFFIX,cebbank.com,Mainland
 
 # > China Merchants Bank
 USER-AGENT,cmb*,Mainland
@@ -28,6 +35,10 @@ HOST-SUFFIX,mbcloud.com,Mainland
 # > Industrial and Commercial Bank of China
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,Mainland
 HOST-SUFFIX,icbc.com.cn,Mainland
+
+# > Ping An Bank
+HOST-SUFFIX,pingan.com,Mainland
+HOST-SUFFIX,pingan.com.cn,Mainland
 
 # Type
 # > Beplay
