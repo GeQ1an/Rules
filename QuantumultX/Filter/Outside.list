@@ -34,6 +34,7 @@ HOST-SUFFIX,steamstatic.com,Outside
 
 # > TikTok
 USER-AGENT,TikTok*,Outside
+HOST-SUFFIX,muscdn.com,Outside
 HOST-SUFFIX,musical.ly,Outside
 HOST-SUFFIX,tiktokv.com,Outside
 HOST-SUFFIX,tiktokcdn.com,Outside
