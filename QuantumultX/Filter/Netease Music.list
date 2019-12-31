@@ -1,3 +1,4 @@
+# 网易云音乐可选规则，排序需在 CMedia 上方
 USER-AGENT,NeteaseMusic*,Netease Music
 HOST-SUFFIX,music.126.net,Netease Music
 HOST-SUFFIX,music.163.com,Netease Music
