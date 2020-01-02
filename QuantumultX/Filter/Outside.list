@@ -40,6 +40,9 @@ HOST-SUFFIX,tiktokv.com,Outside
 HOST-SUFFIX,tiktokcdn.com,Outside
 HOST-KEYWORD,-tiktokcdn-com,Outside
 
+# > Zooba
+USER-AGENT,battleroyale*,Outside
+
 # > Top blocked sites
 HOST-SUFFIX,2o7.net,Outside
 HOST-SUFFIX,4everProxy.com,Outside
