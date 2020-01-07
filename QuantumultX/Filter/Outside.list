@@ -458,7 +458,6 @@ HOST-SUFFIX,techcrunch.com,Outside
 HOST-SUFFIX,technorati.com,Outside
 HOST-SUFFIX,techsmith.com,Outside
 HOST-SUFFIX,teddysun.com,Outside
-HOST-SUFFIX,telegra.ph,Outside
 HOST-SUFFIX,textnow.me,Outside
 HOST-SUFFIX,thebobs.com,Outside
 HOST-SUFFIX,theinitium.com,Outside
@@ -627,7 +626,6 @@ HOST-KEYWORD,facebook,Outside
 HOST-KEYWORD,github,Outside
 HOST-KEYWORD,instagram,Outside
 HOST-KEYWORD,porn,Outside
-HOST-KEYWORD,telegram,Outside
 HOST-KEYWORD,twitter,Outside
 HOST-KEYWORD,whatsapp,Outside
 HOST-KEYWORD,google,Outside
@@ -752,16 +750,5 @@ IP-CIDR,74.86.0.0/16,Outside
 IP-CIDR,75.126.0.0/16,Outside
 IP-CIDR,174.37.0.0/16,Outside
 IP-CIDR,208.43.0.0/16,Outside
-
-# > Telegram
-IP-CIDR,67.198.55.0/24,Outside
-IP-CIDR,91.108.4.0/22,Outside
-IP-CIDR,91.108.8.0/22,Outside
-IP-CIDR,91.108.12.0/22,Outside
-IP-CIDR,91.108.16.0/22,Outside
-IP-CIDR,91.108.56.0/22,Outside
-IP-CIDR,109.239.140.0/24,Outside
-IP-CIDR,149.154.160.0/20,Outside
-IP-CIDR,205.172.60.0/22,Outside
 
 # > Others
