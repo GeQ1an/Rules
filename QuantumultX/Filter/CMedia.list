@@ -46,12 +46,6 @@ HOST-SUFFIX,miguvideo.com,CMedia
 # > MOOMusic
 USER-AGENT,MOO%E9%9F%B3%E4%B9%90*,CMedia
 
-# > NeteaseMusic
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,CMedia
-USER-AGENT,NeteaseMusic*,CMedia
-HOST-SUFFIX,music.126.net,CMedia
-HOST-SUFFIX,music.163.com,CMedia
-
 # > QQMusic
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*,CMedia
 USER-AGENT,QQMusic*,CMedia
