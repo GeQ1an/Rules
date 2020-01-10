@@ -2,15 +2,12 @@
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
 
-# > AbemaTV
+# > Abema TV
 USER-AGENT,AbemaTV*,GMedia
 HOST-SUFFIX,abema.io,GMedia
+HOST-SUFFIX,akamaized.net,GMedia
 HOST-SUFFIX,ameba.jp,GMedia
 HOST-SUFFIX,hayabusa.io,GMedia
-HOST,abematv.akamaized.net,GMedia
-HOST,ds-linear-abematv.akamaized.net,GMedia
-HOST,ds-vod-abematv.akamaized.net,GMedia
-HOST,linear-abematv.akamaized.net,GMedia
 
 # > Amazon Prime Video
 USER-AGENT,InstantVideo.US*,GMedia
@@ -84,6 +81,7 @@ HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GMedia
 HOST-SUFFIX,hbo.com,GMedia
 HOST-SUFFIX,hboasia.com,GMedia
 HOST-SUFFIX,hbogo.com,GMedia
+HOST-SUFFIX,hbogoasia.com,GMedia
 HOST-SUFFIX,hbogoasia.hk,GMedia
 
 # > Hulu
@@ -129,4 +127,8 @@ HOST-SUFFIX,spotify.com,GMedia
 IP-CIDR,35.186.224.47/32,GMedia
 
 # > viuTV
+USER-AGENT,ViuTV*,GMedia
+HOST-SUFFIX,cloudfront.net,GMedia
+HOST-SUFFIX,viu.com,GMedia
 HOST-SUFFIX,viu.tv,GMedia
+HOST-SUFFIX,viu.now.com,GMedia
