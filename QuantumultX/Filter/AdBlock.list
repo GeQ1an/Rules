@@ -288,7 +288,6 @@ HOST-KEYWORD,domob,AdBlock
 HOST-KEYWORD,duomeng,AdBlock
 HOST-KEYWORD,dwtrack,AdBlock
 HOST-KEYWORD,fenxi,AdBlock
-HOST-KEYWORD,googleads,AdBlock
 HOST-KEYWORD,guanggao,AdBlock
 HOST-KEYWORD,inmobi,AdBlock
 HOST-KEYWORD,lianmeng,AdBlock
@@ -923,7 +922,6 @@ HOST-SUFFIX,ad.beihai365.com,AdBlock
 HOST-SUFFIX,ad.bitmedia.io,AdBlock
 HOST-SUFFIX,ad.bjmama.net,AdBlock
 HOST-SUFFIX,ad.cacafly.com,AdBlock
-HOST-SUFFIX,ad.caiyunapp.com,AdBlock
 HOST-SUFFIX,ad.cctv.com,AdBlock
 HOST-SUFFIX,ad.cooks.com,AdBlock
 HOST-SUFFIX,ad.crichd.in,AdBlock
@@ -3740,7 +3738,6 @@ HOST-SUFFIX,gload.adhood.com,AdBlock
 HOST-SUFFIX,global.msads.net,AdBlock
 HOST-SUFFIX,global.ymtracking.com,AdBlock
 HOST-SUFFIX,gm682.com,AdBlock
-HOST-SUFFIX,gma.alicdn.com,AdBlock
 HOST-SUFFIX,gma1.com,AdBlock
 HOST-SUFFIX,gmota.g188.net,AdBlock
 HOST-SUFFIX,gmtdmp.mookie1.com,AdBlock
