@@ -19,6 +19,11 @@ HOST-SUFFIX,nhncorp.jp,Outside
 USER-AGENT,OneDrive*,Outside
 HOST-SUFFIX,onedrive.com,Outside
 
+# > PayPal
+USER-AGENT,PayPal*,Outside
+HOST-SUFFIX,paypal.com,Outside
+HOST-SUFFIX,paypalobjects.com,Outside
+
 # > Spark
 HOST-SUFFIX,api.amplitude.com,Outside
 HOST-SUFFIX,app.smartmailcloud.com,Outside
@@ -31,6 +36,22 @@ HOST-SUFFIX,humblebundle.com,Outside
 HOST-SUFFIX,steamcommunity.com,Outside
 HOST-SUFFIX,steampowered.com,Outside
 HOST-SUFFIX,steamstatic.com,Outside
+
+# > Telegram
+HOST-KEYWORD,telegram,Outside
+DOMAIN-SUFFIX,t.me,Outside
+DOMAIN-SUFFIX,tdesktop.com,Outside
+DOMAIN-SUFFIX,telegra.ph,Outside
+DOMAIN-SUFFIX,telegram.me,Outside
+DOMAIN-SUFFIX,telegram.org,Outside
+IP-CIDR,91.108.4.0/22,Outside
+IP-CIDR,91.108.56.0/22,Outside
+IP-CIDR,91.108.56.0/23,Outside
+IP-CIDR,109.239.140.0/24,Outside
+IP-CIDR,149.154.160.0/22,Outside
+IP-CIDR,149.154.164.0/22,Outside
+IP-CIDR,149.154.168.0/22,Outside
+IP-CIDR,149.154.172.0/22,Outside
 
 # > TikTok
 USER-AGENT,TikTok*,Outside
