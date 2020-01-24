@@ -107,6 +107,25 @@ HOST-KEYWORD,rthklive,GMedia
 HOST-SUFFIX,mytvsuper.com,GMedia
 HOST-SUFFIX,tvb.com,GMedia
 
+# > Netflix
+USER-AGENT,Argo*,GMedia
+HOST-SUFFIX,netflix.com,GMedia
+HOST-SUFFIX,netflix.net,GMedia
+HOST-SUFFIX,nflxext.com,GMedia
+HOST-SUFFIX,nflximg.com,GMedia
+HOST-SUFFIX,nflximg.net,GMedia
+HOST-SUFFIX,nflxso.net,GMedia
+HOST-SUFFIX,nflxvideo.net,GMedia
+IP-CIDR,23.246.0.0/18,GMedia
+IP-CIDR,37.77.184.0/21,GMedia
+IP-CIDR,45.57.0.0/17,GMedia
+IP-CIDR,64.120.128.0/17,GMedia
+IP-CIDR,66.197.128.0/17,GMedia
+IP-CIDR,108.175.32.0/20,GMedia
+IP-CIDR,192.173.64.0/18,GMedia
+IP-CIDR,198.38.96.0/19,GMedia
+IP-CIDR,198.45.48.0/20,GMedia
+
 # > Pandora
 HOST-SUFFIX,pandora.com,GMedia
 
@@ -125,6 +144,15 @@ HOST-SUFFIX,scdn.co,GMedia
 HOST-SUFFIX,spoti.fi,GMedia
 HOST-SUFFIX,spotify.com,GMedia
 IP-CIDR,35.186.224.47/32,GMedia
+
+# > YouTube
+USER-AGENT,*youtube*,GMedia
+USER-AGENT,YouTube*,GMedia
+HOST-KEYWORD,youtube,GMedia
+HOST-SUFFIX,googlevideo.com,GMedia
+HOST-SUFFIX,gvt2.com,GMedia
+HOST-SUFFIX,youtu.be,GMedia
+HOST,youtubei.googleapis.com,GMedia
 
 # > viuTV
 USER-AGENT,ViuTV*,GMedia
