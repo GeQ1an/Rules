@@ -25,19 +25,21 @@
 ````
 
 #### 方法二  粘贴规则列表 `更适用于仅想更换规则`
+默认注释网易云音乐（包含在 CMedia 内）、Netflix 和 YouTube（包含在 GMedia 内）、Telegram 和 PayPal（包含在 Outside 内）、微软（包含在 Mainland 内）策略组，如需使用请取消 ; 注释
 复制以下内容：<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list, tag=AdBlock (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list, tag=Apple (Stick Rules), enabled=true`<br>
+`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Netease%20Music.list, tag=Netease Music (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list, tag=CMedia (Stick Rules), enabled=true`<br>
+`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Netflix.list, tag=Netflix (Stick Rules), enabled=true`<br>
+`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/YouTube.list, tag=YouTube (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list, tag=GMedia (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Netflix.list, tag=Netflix (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/YouTube.list, tag=YouTube (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Microsoft.list, tag=Microsoft (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/PayPal.list, tag=PayPal (Stick Rules), enabled=true`<br>
+`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Telegram.list, tag=Telegram (Stick Rules), enabled=true`<br>
+`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/PayPal.list, tag=PayPal (Stick Rules), enabled=true`<br>
+`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Microsoft.list, tag=Microsoft (Stick Rules), enabled=true`<br>
+`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true`<br>
 `https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list, tag=LAN (Stick Rules), enabled=true`<br>
 粘贴到配置文件 [filter_remote] 中。
 
 #### 方法三  自行引用规则 `不推荐!`
@@ -85,5 +87,5 @@ round-robbin 策略是负载均衡策略，会轮询对每个节点进行测试�
 如需手动更新，可长按主页右下角的功能键更新全部远程资源 (需在设置内打开 “长按主页功能键切换模式” 开关)。
 
 ---
-该文档基于 Quantumult X 1.0.2 版本编写，部分可选功能已在配置文件中注明，请注意查看。<br>
+该文档基于 Quantumult X 1.0.5 版本编写，部分可选功能已在配置文件中注明，请注意查看。<br>
 更多功能还请自己摸索，如有问题请在 [Telegram](https://t.me/GeQ1an) 联系我。
