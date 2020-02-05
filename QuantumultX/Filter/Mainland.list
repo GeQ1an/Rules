@@ -343,7 +343,7 @@ HOST-SUFFIX,zhihu.com,Mainland
 HOST-SUFFIX,zhimg.com,Mainland
 HOST-SUFFIX,zimuzu.tv,Mainland
 HOST-SUFFIX,zmz002.com,Mainland
-
+HOST-SUFFIX,cn,Mainland
 IP-CIDR,1.255.62.0/24,Mainland
 
 # GEOIP 
