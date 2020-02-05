@@ -17,6 +17,7 @@ USER-AGENT,Maps*,Apple
 USER-AGENT,TestFlight*,Apple
 HOST-SUFFIX,apple.co,Apple
 HOST-SUFFIX,apple.com,Apple
+HOST-SUFFIX,apple.com.cn,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple
 HOST-SUFFIX,appstore.com,Apple
 HOST-SUFFIX,cdn-apple.com,Apple
