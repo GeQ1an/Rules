@@ -8,17 +8,9 @@ HOST-SUFFIX,aixifan.com,CMedia
 # > Bilibili
 USER-AGENT,*bili*,CMedia
 HOST-KEYWORD,bilibili,CMedia
-HOST-SUFFIX,acg.tv,CMedia
-HOST-SUFFIX,acgvideo.com,CMedia
-HOST-SUFFIX,b23.tv,CMedia
-HOST-SUFFIX,biliapi.com,CMedia
-HOST-SUFFIX,biliapi.net,CMedia
-HOST-SUFFIX,bilibili.com,CMedia
-HOST-SUFFIX,biligame.com,CMedia
-HOST-SUFFIX,biligame.net,CMedia
-HOST-SUFFIX,bilivideo.com,CMedia
-HOST-SUFFIX,hdslb.com,CMedia
-HOST-SUFFIX,im9.com,CMedia
+HOST-SUFFIX,acgvideo.com,PROXY
+HOST-SUFFIX,bilibili.com,PROXY
+HOST-SUFFIX,hdslb.com,PROXY
 
 # > iQiyi
 USER-AGENT,QIYI*,CMedia
@@ -42,6 +34,7 @@ HOST-SUFFIX,letv.com,CMedia
 
 # > MGTV
 USER-AGENT,MGTV*,CMedia
+HOST-SUFFIX,hitv.com,CMedia
 HOST-SUFFIX,hunantv.com,CMedia
 HOST-SUFFIX,mgtv.com,CMedia
 
@@ -96,6 +89,7 @@ HOST-SUFFIX,v.qq.com,CMedia
 HOST-SUFFIX,video.qq.com,CMedia
 
 # > Xiami Music
+USER-AGENT,walkman*,CMedia
 USER-AGENT,xiami*,CMedia
 HOST-SUFFIX,xiami.com,CMedia
 HOST-SUFFIX,xiami.net,CMedia
