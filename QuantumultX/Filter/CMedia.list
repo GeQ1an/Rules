@@ -8,9 +8,9 @@ HOST-SUFFIX,aixifan.com,CMedia
 # > Bilibili
 USER-AGENT,*bili*,CMedia
 HOST-KEYWORD,bilibili,CMedia
-HOST-SUFFIX,acgvideo.com,PROXY
-HOST-SUFFIX,bilibili.com,PROXY
-HOST-SUFFIX,hdslb.com,PROXY
+HOST-SUFFIX,acgvideo.com,CMedia
+HOST-SUFFIX,bilibili.com,CMedia
+HOST-SUFFIX,hdslb.com,CMedia
 
 # > iQiyi
 USER-AGENT,QIYI*,CMedia
