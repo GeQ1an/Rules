@@ -5,7 +5,7 @@
 
 有关 Stick Rules 的详细介绍请转至项目主目录的 [README.md](https://github.com/GeQ1an/Rules/blob/master/README.md)<br>
 <br>
-本文件为 Quantumult X 专用规则使用手册，目前 Quantumult X 规则有 “广告&阻止”、“苹果服务”、“中国媒体”、“国际媒体”、“Netflix”、“YouTube”、“微软服务”、“PayPal”、“外部网络”、“大陆网络”、“Speedtest” 和 “其他” 列表 (策略组) 可供选择。
+本文件为 Quantumult X 专用规则使用手册，目前 Quantumult X 规则有 “广告&阻止”、“苹果服务”、“中国媒体”、“网易云音乐”、“国际媒体”、“Netflix”、“Spotify”、“YouTube”、“外部网络”、“Telegram”、“PayPal”、“大陆网络”、“微软服务”、“Speedtest” 和 “其他” 规则列表 (策略组) 可供选择。
 
 ---
 
@@ -25,21 +25,24 @@
 ````
 
 #### 方法二  粘贴规则列表 `更适用于仅想更换规则`
-默认注释网易云音乐（包含在 CMedia 内）、Netflix 和 YouTube（包含在 GMedia 内）、Telegram 和 PayPal（包含在 Outside 内）、微软（包含在 Mainland 内）策略组，如需使用请取消 ; 注释
+默认注释网易云音乐（包含在 CMedia 内）、Netflix/Spotify/YouTube（包含在 GMedia 内）、Telegram/PayPal（包含在 Outside 内）、微软（包含在 Mainland 内）策略组，如需使用请取消 ; 注释
 复制以下内容：<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list, tag=AdBlock (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list, tag=Apple (Stick Rules), enabled=true`<br>
-`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Netease%20Music.list, tag=Netease Music (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list, tag=CMedia (Stick Rules), enabled=true`<br>
-`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Netflix.list, tag=Netflix (Stick Rules), enabled=true`<br>
-`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/YouTube.list, tag=YouTube (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list, tag=GMedia (Stick Rules), enabled=true`<br>
-`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Telegram.list, tag=Telegram (Stick Rules), enabled=true`<br>
-`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/PayPal.list, tag=PayPal (Stick Rules), enabled=true`<br>
-`;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Microsoft.list, tag=Microsoft (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true`<br>
-`https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), enabled=true`<br>
+```
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list, tag=AdBlock (Stick Rules), enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list, tag=Apple (Stick Rules), enabled=true
+;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Netease%20Music.list, tag=Netease Music (Stick Rules), enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list, tag=CMedia (Stick Rules), enabled=true
+;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Netflix.list, tag=Netflix (Stick Rules), enabled=true
+;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Spotify.list, tag=Spotify (Stick Rules), enabled=true
+;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/YouTube.list, tag=YouTube (Stick Rules), enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list, tag=GMedia (Stick Rules), enabled=true
+;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Telegram.list, tag=Telegram (Stick Rules), enabled=true
+;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/PayPal.list, tag=PayPal (Stick Rules), enabled=true
+;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Microsoft.list, tag=Microsoft (Stick Rules), enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (Stick Rules), enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), enabled=true
+```
 粘贴到配置文件 [filter_remote] 中。
 
 #### 方法三  自行引用规则 `不推荐!`

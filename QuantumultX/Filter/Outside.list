@@ -15,9 +15,12 @@ HOST-SUFFIX,line-cdn.net,Outside
 HOST-SUFFIX,line-scdn.net,Outside
 HOST-SUFFIX,nhncorp.jp,Outside
 
-# > OneDrive
+# > Microsoft Proxy
 USER-AGENT,OneDrive*,Outside
+HOST-KEYWORD,onedrive,Outside
 HOST-SUFFIX,onedrive.com,Outside
+HOST-SUFFIX,skype.com,Outside
+HOST-SUFFIX,storage.live.com,Outside
 
 # > PayPal
 USER-AGENT,PayPal*,Outside
@@ -429,7 +432,6 @@ HOST-SUFFIX,sidelinesnews.com,Outside
 HOST-SUFFIX,simp.ly,Outside
 HOST-SUFFIX,simplenote.com,Outside
 HOST-SUFFIX,sketchappsources.com,Outside
-HOST-SUFFIX,skype.com,Outside
 HOST-SUFFIX,slack.com,Outside
 HOST-SUFFIX,slack-edge.com,Outside
 HOST-SUFFIX,slack-msgs.com,Outside
@@ -698,7 +700,6 @@ HOST-SUFFIX,waveprotocol.org,Outside
 HOST-SUFFIX,webmproject.org,Outside
 HOST-SUFFIX,webrtc.org,Outside
 HOST-KEYWORD,dlercloud,Outside
-HOST-SUFFIX,dler.cloud,Outside
 
 # > Amazon
 IP-CIDR,13.32.0.0/16,Outside
