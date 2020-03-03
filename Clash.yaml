@@ -1,4 +1,4 @@
-# 2020年03月03日 15:30 UTC/GMT +8
+# 2020年03月04日 01:37 UTC/GMT +8
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -425,6 +425,7 @@ Rule:
 - DOMAIN-SUFFIX,bdimg.com,Domestic
 - DOMAIN-SUFFIX,bdstatic.com,Domestic
 - DOMAIN-SUFFIX,caiyunapp.com,Domestic
+- DOMAIN-SUFFIX,chaoxing.com,Domestic
 - DOMAIN-SUFFIX,clouddn.com,Domestic
 - DOMAIN-SUFFIX,cnbeta.com,Domestic
 - DOMAIN-SUFFIX,cnbetacdn.com,Domestic
@@ -623,6 +624,7 @@ Rule:
 - DOMAIN-SUFFIX,feedly.com,Proxy
 - DOMAIN-SUFFIX,feedsportal.com,Proxy
 - DOMAIN-SUFFIX,fiftythree.com,Proxy
+- DOMAIN-SUFFIX,figma.com,Proxy
 - DOMAIN-SUFFIX,firebaseio.com,Proxy
 - DOMAIN-SUFFIX,flexibits.com,Proxy
 - DOMAIN-SUFFIX,flickr.com,Proxy

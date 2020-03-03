@@ -219,6 +219,7 @@ HOST-SUFFIX,feedburner.com,Outside
 HOST-SUFFIX,feedly.com,Outside
 HOST-SUFFIX,feedsportal.com,Outside
 HOST-SUFFIX,fiftythree.com,Outside
+HOST-SUFFIX,figma.com,Outside
 HOST-SUFFIX,firebaseio.com,Outside
 HOST-SUFFIX,flexibits.com,Outside
 HOST-SUFFIX,flickr.com,Outside
@@ -607,6 +608,7 @@ HOST-SUFFIX,wikipedia.org,Outside
 HOST-SUFFIX,wn.com,Outside
 HOST-SUFFIX,wordpress.com,Outside
 HOST-SUFFIX,workflow.is,Outside
+HOST-SUFFIX,workflowy.com,Outside
 HOST-SUFFIX,worldcat.org,Outside
 HOST-SUFFIX,wow.com,Outside
 HOST-SUFFIX,wp.com,Outside
