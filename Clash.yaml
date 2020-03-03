@@ -1,4 +1,4 @@
-# 2020年03月01日 20:00 UTC/GMT +8
+# 2020年03月03日 15:30 UTC/GMT +8
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -774,6 +774,7 @@ Rule:
 - DOMAIN-SUFFIX,ublock.org,Proxy
 - DOMAIN-SUFFIX,ubnt.com,Proxy
 - DOMAIN-SUFFIX,ulyssesapp.com,Proxy
+- DOMAIN-SUFFIX,unsplash.com,Proxy
 - DOMAIN-SUFFIX,urchin.com,Proxy
 - DOMAIN-SUFFIX,usertrust.com,Proxy
 - DOMAIN-SUFFIX,v.gd,Proxy
