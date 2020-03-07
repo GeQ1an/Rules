@@ -38,6 +38,15 @@ HOST-SUFFIX,bbci.co.uk,GMedia
 USER-AGENT,TwDramas*,GMedia
 HOST-SUFFIX,chocotv.com.tw,GMedia
 
+# > DAZN
+HOST-SUFFIX,d151l6v8er5bdm.cloudfront.net,GMedia
+HOST-SUFFIX,dazn.com,GMedia
+HOST-SUFFIX,dazn-api.com,GMedia
+HOST-SUFFIX,indazn.com,GMedia
+HOST-SUFFIX,dazndn.com,GMedia
+HOST-SUFFIX,indazn.com,GMedia
+HOST-SUFFIX,intercom.io,GMedia
+
 # > Disney Plus
 USER-AGENT,Disney*,GMedia
 HOST-SUFFIX,disneyplus.com,GMedia
@@ -136,6 +145,8 @@ HOST-SUFFIX,skygo.co.nz,GMedia
 
 # > SoundCloud
 USER-AGENT,SoundCloud*,GMedia
+DOMAIN-SUFFIX,sndcdn.com,GMedia
+DOMAIN-SUFFIX,soundcloud.com,GMedia
 
 # > Spotify
 USER-AGENT,Spotify*,GMedia

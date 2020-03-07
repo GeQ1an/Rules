@@ -1,0 +1,5 @@
+# > iQiyi
+DOMAIN,cache.video.iqiyi.com,HKMTMedia
+# > bilibili
+DOMAIN,api.bilibili.com,HKMTMedia
+DOMAIN,upos-hz-mirrorakam.akamaized.net,HKMTMedia

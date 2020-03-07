@@ -1,4 +1,4 @@
-# 2020年03月04日 01:37 UTC/GMT +8
+# 2020年03月07日 16:45 UTC/GMT +8
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -302,6 +302,12 @@ Rule:
 - DOMAIN-SUFFIX,bbci.co,GMedia
 - DOMAIN-SUFFIX,bbci.co.uk,GMedia
 - DOMAIN-SUFFIX,chocotv.com.tw,GMedia
+- DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,GMedia
+- DOMAIN-SUFFIX,dazn.com,GMedia
+- DOMAIN-SUFFIX,dazn-api.com,GMedia
+- DOMAIN-SUFFIX,dazndn.com,GMedia
+- DOMAIN-SUFFIX,indazn.com,GMedia
+- DOMAIN-SUFFIX,intercom.io,GMedia
 - DOMAIN-SUFFIX,disneyplus.com,GMedia
 - DOMAIN-SUFFIX,disney-plus.net,GMedia
 - DOMAIN-SUFFIX,dssott.com,GMedia
@@ -347,6 +353,8 @@ Rule:
 - DOMAIN-SUFFIX,pandora.com,GMedia
 - DOMAIN-SUFFIX,sky.com,GMedia
 - DOMAIN-SUFFIX,skygo.co.nz,GMedia
+- DOMAIN-SUFFIX,sndcdn.com,GMedia
+- DOMAIN-SUFFIX,soundcloud.com,GMedia
 - DOMAIN-SUFFIX,pscdn.co,GMedia
 - DOMAIN-SUFFIX,scdn.co,GMedia
 - DOMAIN-SUFFIX,spoti.fi,GMedia
@@ -416,6 +424,7 @@ Rule:
 - DOMAIN-SUFFIX,360buyimg.com,Domestic
 - DOMAIN-SUFFIX,36kr.com,Domestic
 - DOMAIN-SUFFIX,air-matters.com,Domestic
+- DOMAIN-SUFFIX,alibaba.com,Domestic
 - DOMAIN-KEYWORD,alicdn,Domestic
 - DOMAIN-KEYWORD,alipay,Domestic
 - DOMAIN-KEYWORD,taobao,Domestic
