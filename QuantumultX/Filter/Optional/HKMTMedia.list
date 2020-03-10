@@ -1,3 +1,6 @@
+# 名称及初始域名来自于 ConnersHua 的神机规则
+# 链接: https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/HKMTMedia.list
+
 # > iQiyi
 DOMAIN,cache.video.iqiyi.com,HKMTMedia
 # > bilibili
