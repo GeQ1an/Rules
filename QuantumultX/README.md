@@ -3,9 +3,15 @@
 
 ### 介绍
 
-有关 Stick Rules 的详细介绍请转至项目主目录的 [README.md](https://github.com/GeQ1an/Rules/blob/master/README.md)<br>
+有关 Stick Rules 的更多信息请转至项目主目录的 [README.md](https://github.com/GeQ1an/Rules/blob/master/README.md)<br>
 <br>
 本文件为 Quantumult X 专用规则使用手册，目前 Quantumult X 规则有 “广告&阻止”、“苹果服务”、“中国媒体”、“网易云音乐”、“国际媒体”、“Netflix”、“Spotify”、“YouTube”、“外部网络”、“Telegram”、“PayPal”、“大陆网络”、“微软服务”、“Speedtest” 和 “其他” 规则列表 (策略组) 可供选择。
+
+---
+
+### 频道
+
+欢迎 [点击此处](https://t.me/usestick) 订阅 Stick Rules 的 Telegram 频道，及时获取规则更新详情，以及 Apple、iPhone、Mac 等相关信息。
 
 ---
 

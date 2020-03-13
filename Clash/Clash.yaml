@@ -1,4 +1,4 @@
-# 2020年03月10日 21:40 UTC/GMT +8
+# 2020年03月14日 00:40 UTC/GMT +8
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 
@@ -726,6 +726,8 @@ Rule:
 - DOMAIN-SUFFIX,parse.com,Proxy
 - DOMAIN-SUFFIX,pdfexpert.com,Proxy
 - DOMAIN-SUFFIX,periscope.tv,Proxy
+- DOMAIN-SUFFIX,phncdn.com,Proxy
+- DOMAIN-SUFFIX,phprcdn.com,Proxy
 - DOMAIN-SUFFIX,pinboard.in,Proxy
 - DOMAIN-SUFFIX,pinterest.com,Proxy
 - DOMAIN-SUFFIX,pixelmator.com,Proxy
@@ -735,6 +737,8 @@ Rule:
 - DOMAIN-SUFFIX,playstation.com.hk,Proxy
 - DOMAIN-SUFFIX,playstation.net,Proxy
 - DOMAIN-SUFFIX,playstationnetwork.com,Proxy
+- DOMAIN-SUFFIX,pornhub.com.com,Proxy
+- DOMAIN-SUFFIX,pornhubpremium.com,Proxy
 - DOMAIN-SUFFIX,pushwoosh.com,Proxy
 - DOMAIN-SUFFIX,rime.im,Proxy
 - DOMAIN-SUFFIX,servebom.com,Proxy

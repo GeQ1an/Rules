@@ -7,22 +7,24 @@
 
 ### 频道
 
-欢迎 [点击此处](https://t.me/usestick) 订阅 Stick Rules 的 Telegram 频道，及时获取规则更新详情，以及 Apple、iPhone、Mac 等相关信息。
+欢迎 [点击此处](https://t.me/usestick) 订阅 Stick Rules 的 Telegram 频道，及时获取规则更新详情，以及 Apple、iPhone、Mac 等有关信息。
 
 ---
 
 * 支持应用
   * [Quantumult X](https://apps.apple.com/app/quantumult-x/id1443988620)
-  * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438)
+  * [Loon](https://apps.apple.com/app/loon/id1373567447)
   * [ClashX](https://github.com/yichengchen/clashX)
+  * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438)
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
 * 使用教程
   * [拥有中国大陆节点](#购买大陆节点如已拥有请跳过此步骤)
   * [使用 Quantumult X](https://github.com/GeQ1an/Rules/blob/master/QuantumultX/README.md)
-  * [使用 Quantumult](#在-quantumult-中添加规则以添加-quantumultconf-为例)
+  * [使用 Loon](https://github.com/GeQ1an/Rules/blob/master/Loon/README.md)
   * [使用 ClashX](#在-clashx-中使用规则)
+  * [使用 Quantumult](#在-quantumult-中添加规则以添加-quantumultconf-为例)
 * [证书的安装及信任](#mitm)
 * [常见问题](#qa)
 * [鸣谢](#鸣谢)
@@ -55,25 +57,25 @@
 ### URL
 
 Quantumult（长按复制链接即可）:
-* [Quantumult.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf): 代理所有中国大陆链接，同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
-* [Quantumult_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_lite.conf): 代理所有中国大陆链接，同步 [ConnersHua Profiles](https://github.com/ConnersHua/Profiles) 的广告拦截
-* [Quantumult_media_only.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only.conf): 仅代理中国大陆媒体链接，同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
-* [Quantumult_media_only_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult_media_only_lite.conf): 仅代理中国大陆媒体链接，同步 [ConnersHua Profiles](https://github.com/ConnersHua/Profiles) 的广告拦截
+* [Quantumult.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult/Quantumult.conf): 代理所有中国大陆链接，同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
+* [Quantumult_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult/Quantumult_lite.conf): 代理所有中国大陆链接，同步 [ConnersHua Profiles](https://github.com/ConnersHua/Profiles) 的广告拦截
+* [Quantumult_media_only.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult/Quantumult_media_only.conf): 仅代理中国大陆媒体链接，同步 [lhie1 Rules](https://github.com/lhie1/Rules) 的广告拦截
+* [Quantumult_media_only_lite.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult/Quantumult_media_only_lite.conf): 仅代理中国大陆媒体链接，同步 [ConnersHua Profiles](https://github.com/ConnersHua/Profiles) 的广告拦截
 * [链接阻止 REJECTION](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Rejection.conf): 请直接使用 [ConnersHua Profiles](https://github.com/ConnersHua/Profiles) 内的 Rejection
 
 ClashX（下载配置文件到本地）:
-* [Clash.yaml](https://raw.githubusercontent.com/GeQ1an/Rules/master/Clash.yaml): 使用前请参考文件内相关说明配置节点信息，并将节点信息加入到策略组
+* [Clash.yaml](https://raw.githubusercontent.com/GeQ1an/Rules/master/Clash/Clash.yaml): 使用前请参考文件内相关说明配置节点信息，并将节点信息加入到策略组
 
 ---
 
 ### 使用教程
 
 #### 购买大陆节点（如已拥有请跳过此步骤）
-* 推荐重度用户使用“Dler Cloud”，[点此](https://dlercloud.com/auth/register?affid=7237)注册使用，如需邀请码可通过 Telegram 联系我获取。
+* 推荐重度用户使用“Dler Cloud”，[点此](https://dlercloud.com/auth/register?affid=7237) 注册使用，如需邀请码可通过 Telegram 联系我获取。
 ````
   请根据个人需求自行选择套餐，充值、购买。
 ````
-* 推荐轻度用户使用“CordCloud”，[点此](https://www.cordcloud.cc/auth/register?code=16249)注册使用，如需邀请码可通过 Telegram 联系我获取。
+* 推荐轻度用户使用“CordCloud”，[点此](https://www.cordcloud.cc/auth/register?code=16249) 注册使用，如需邀请码可通过 Telegram 联系我获取。
 ````
   请根据个人需求自行选择套餐，充值、购买。
 ````
@@ -81,6 +83,16 @@ ClashX（下载配置文件到本地）:
 #### 在 Quantumult X 中使用规则
 * 详情请转至 Quantumult X 目录的 [README.md](https://github.com/GeQ1an/Rules/blob/master/QuantumultX/README.md)
 
+#### 在 Loon 中使用规则
+* 详情请转至 Loon 目录的 [README.md](https://github.com/GeQ1an/Rules/blob/master/Loon/README.md)
+#### 在 ClashX 中使用规则
+（也适用于其他基于 Clash 内核的客户端，如 Clash for Android、Clash for Windows）
+1. 打开下载好的 Clash.yaml 文件 (可使用`文本编辑`打开)，按照说明添加节点信息并编辑策略组节点，存储
+2. 将配置文件放入 “$HOME/.config/clash/” 目录 (可通过 “点击状态栏 ClashX 图标 —— 配置 —— 打开配置文件夹” 来打开该目录)
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/ClashX01.png)
+3. 应用配置文件 (方式为 “点击 ClashX 图标 —— 配置 —— 重载配置文件”)
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/ClashX02.png)
+4. 点击 ClashX 图标选择各个策略组节点
 #### 在 Quantumult 中添加规则（以添加 Quantumult.conf 为例）
 1. 打开 Quantumult，点击“设置”选项卡，点击“订阅”，点击右上角“+”，选择“分流”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)
@@ -94,14 +106,6 @@ ClashX（下载配置文件到本地）:
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult05.PNG)
 6. [安装并信任证书](#mitm)
 7. 规则有更新时，重新进行第 3 步和第 5 步的向左滑动条目，点击“替换”即可
-
-#### 在 ClashX 中使用规则
-1. 打开下载好的 Clash.yaml 文件 (可使用`文本编辑`打开)，按照说明添加节点信息并编辑策略组节点，存储
-2. 将配置文件放入 “$HOME/.config/clash/” 目录 (可通过 “点击状态栏 ClashX 图标 —— 配置 —— 打开配置文件夹” 来打开该目录)
-![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/ClashX01.png)
-3. 应用配置文件 (方式为 “点击 ClashX 图标 —— 配置 —— 重载配置文件”)
-![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/ClashX02.png)
-4. 点击 ClashX 图标选择各个策略组节点
 
 ---
 

@@ -27,6 +27,12 @@ USER-AGENT,PayPal*,Outside
 HOST-SUFFIX,paypal.com,Outside
 HOST-SUFFIX,paypalobjects.com,Outside
 
+# > Pornhub
+HOST-SUFFIX,phncdn.com,Outside
+HOST-SUFFIX,phprcdn.com,Outside
+HOST-SUFFIX,pornhub.com,Outside
+HOST-SUFFIX,pornhubpremium.com,Outside
+
 # > Spark
 HOST-SUFFIX,api.amplitude.com,Outside
 HOST-SUFFIX,app.smartmailcloud.com,Outside
@@ -652,7 +658,6 @@ HOST-KEYWORD,dropbox,Outside
 HOST-KEYWORD,facebook,Outside
 HOST-KEYWORD,github,Outside
 HOST-KEYWORD,instagram,Outside
-HOST-KEYWORD,porn,Outside
 HOST-KEYWORD,twitter,Outside
 HOST-KEYWORD,whatsapp,Outside
 HOST-KEYWORD,google,Outside
