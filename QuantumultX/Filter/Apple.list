@@ -23,6 +23,7 @@ HOST-SUFFIX,appstore.com,Apple
 HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,crashlytics.com,Apple
 HOST-SUFFIX,icloud.com,Apple
+HOST-SUFFIX,icloud.com.cn,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,itunes.com,Apple
 HOST-SUFFIX,me.com,Apple

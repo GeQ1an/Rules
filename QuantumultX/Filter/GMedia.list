@@ -2,9 +2,10 @@
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
 
-# > Abema TV
+# > AbemaTV
 USER-AGENT,AbemaTV*,GMedia
 HOST-SUFFIX,abema.io,GMedia
+HOST-SUFFIX,abema.tv,GMedia
 HOST-SUFFIX,akamaized.net,GMedia
 HOST-SUFFIX,ameba.jp,GMedia
 HOST-SUFFIX,hayabusa.io,GMedia
@@ -23,16 +24,12 @@ HOST-SUFFIX,bahamut.com.tw,GMedia
 HOST-SUFFIX,gamer.com.tw,GMedia
 HOST-SUFFIX,hinet.net,GMedia
 
-# > BBC
+# > BBC iPlayer
 USER-AGENT,BBCiPlayer*,GMedia
-HOST-KEYWORD,bbcfmt,GMedia
-HOST-KEYWORD,co.uk,GMedia
-HOST-KEYWORD,uk-live,GMedia
-HOST-SUFFIX,bbc.co,GMedia
 HOST-SUFFIX,bbc.co.uk,GMedia
-HOST-SUFFIX,bbc.com,GMedia
-HOST-SUFFIX,bbci.co,GMedia
 HOST-SUFFIX,bbci.co.uk,GMedia
+HOST-KEYWORD,bbcfmt,GMedia
+HOST-KEYWORD,uk-live,GMedia
 
 # > CHOCO TV
 USER-AGENT,TwDramas*,GMedia
@@ -67,24 +64,19 @@ HOST-SUFFIX,youboranqs01.com,GMedia
 HOST-KEYWORD,epicgames,GMedia
 HOST-SUFFIX,helpshift.com,GMedia
 
-# > Fox+
+# > Fox Now
 USER-AGENT,FOX%20NOW*,GMedia
-USER-AGENT,FOXPlus*,GMedia
-HOST-KEYWORD,foxplus,GMedia
-HOST-SUFFIX,config.fox.com,GMedia
-HOST-SUFFIX,emome.net,GMedia
 HOST-SUFFIX,fox.com,GMedia
 HOST-SUFFIX,foxdcg.com,GMedia
-HOST-SUFFIX,foxnow.com,GMedia
-HOST-SUFFIX,foxplus.com,GMedia
-HOST-SUFFIX,foxplay.com,GMedia
-HOST-SUFFIX,ipinfo.io,GMedia
-HOST-SUFFIX,mstage.io,GMedia
-HOST-SUFFIX,now.com,GMedia
-HOST-SUFFIX,theplatform.com,GMedia
-HOST-SUFFIX,urlload.net,GMedia
+HOST-SUFFIX,uplynk.com,GMedia
 
-# > HBO & HBO Go
+# > Fox+ (HK|TW|SG)
+USER-AGENT,FOXPlus*,GMedia
+HOST-SUFFIX,akamaized.net,GMedia
+HOST-SUFFIX,foxplus.com,GMedia
+HOST-SUFFIX,theplatform.com,GMedia
+
+# > HBO NOW & HBO Go
 USER-AGENT,HBO%20NOW*,GMedia
 HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GMedia
 HOST-SUFFIX,hbo.com,GMedia
@@ -93,26 +85,48 @@ HOST-SUFFIX,hbogo.com,GMedia
 HOST-SUFFIX,hbogoasia.com,GMedia
 HOST-SUFFIX,hbogoasia.hk,GMedia
 
-# > Hulu
+# > Hulu(フールー)
 USER-AGENT,Hulu*,GMedia
 HOST-SUFFIX,happyon.jp,GMedia
-HOST-SUFFIX,hulu.com,GMedia
 HOST-SUFFIX,hulu.jp,GMedia
+
+# > Hulu
+HOST-SUFFIX,hulu.com,GMedia
 HOST-SUFFIX,huluim.com,GMedia
 HOST-SUFFIX,hulustream.com,GMedia
 
 # > Imkan
 HOST-SUFFIX,imkan.tv,GMedia
 
+# > Japonx
+HOST-KEYWORD,japonx,GMedia
+HOST-KEYWORD,japronx,GMedia
+HOST-SUFFIX,japonx.com,GMedia
+HOST-SUFFIX,japonx.tv,GMedia
+HOST-SUFFIX,japonx.net,GMedia
+HOST-SUFFIX,japonx.vip,GMedia
+HOST-SUFFIX,japronx.com,GMedia
+HOST-SUFFIX,japronx.tv,GMedia
+HOST-SUFFIX,japronx.net,GMedia
+HOST-SUFFIX,japronx.vip,GMedia
+
 # > JOOX
 USER-AGENT,WeMusic*,GMedia
 USER-AGENT,JOOX*,GMedia
 HOST-SUFFIX,joox.com,GMedia
 
-# > MytvSUPER
+# > KKBOX
+HOST-SUFFIX,kkbox.com,GMedia
+HOST-SUFFIX,kkbox.com.tw,GMedia
+HOST-SUFFIX,kfs.io,GMedia
+
+# > Line TV
+USER-AGENT,LINE*,GMedia
+HOST-SUFFIX,d3c7rimkq79yfu.cloudfront.net,GMedia
+HOST-SUFFIX,linetv.tw,GMedia
+
+# > myTV SUPER
 USER-AGENT,mytv*,GMedia
-HOST-KEYWORD,nowtv100,GMedia
-HOST-KEYWORD,rthklive,GMedia
 HOST-SUFFIX,mytvsuper.com,GMedia
 HOST-SUFFIX,tvb.com,GMedia
 
@@ -125,15 +139,21 @@ HOST-SUFFIX,nflximg.com,GMedia
 HOST-SUFFIX,nflximg.net,GMedia
 HOST-SUFFIX,nflxso.net,GMedia
 HOST-SUFFIX,nflxvideo.net,GMedia
+IP-CIDR,8.41.4.0/24,GMedia
 IP-CIDR,23.246.0.0/18,GMedia
 IP-CIDR,37.77.184.0/21,GMedia
 IP-CIDR,45.57.0.0/17,GMedia
 IP-CIDR,64.120.128.0/17,GMedia
 IP-CIDR,66.197.128.0/17,GMedia
+IP-CIDR,69.53.224.0/19,GMedia
 IP-CIDR,108.175.32.0/20,GMedia
+IP-CIDR,185.2.220.0/22,GMedia
+IP-CIDR,185.9.188.0/22,GMedia
 IP-CIDR,192.173.64.0/18,GMedia
 IP-CIDR,198.38.96.0/19,GMedia
 IP-CIDR,198.45.48.0/20,GMedia
+IP-CIDR,207.45.72.0/22,GMedia
+IP-CIDR,208.75.76.0/22,GMedia
 
 # > Pandora
 HOST-SUFFIX,pandora.com,GMedia
@@ -164,7 +184,11 @@ HOST-SUFFIX,gvt2.com,GMedia
 HOST-SUFFIX,youtu.be,GMedia
 HOST,youtubei.googleapis.com,GMedia
 
-# > viuTV
+# > Youtube Music
+USER-AGENT,*YouTubeMusic*,GMedia
+USER-AGENT,*com.google.ios.youtubemusic*,GMedia
+
+# > ViuTV
 USER-AGENT,ViuTV*,GMedia
 HOST-SUFFIX,cloudfront.net,GMedia
 HOST-SUFFIX,viu.com,GMedia
