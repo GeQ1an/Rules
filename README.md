@@ -96,7 +96,7 @@ ClashX（下载配置文件到本地）:
 #### 在 Quantumult 中添加规则（以添加 Quantumult.conf 为例）
 1. 打开 Quantumult，点击“设置”选项卡，点击“订阅”，点击右上角“+”，选择“分流”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult01.PNG)
-2. 进入的页面中，输入“名称”（如“Stick Rules”），粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult.conf`，在“高级”栏中勾选“个性化”，然后点击右上角的“保存”按钮
+2. 进入的页面中，输入“名称”（如“Stick Rules”），粘贴规则地址 `https://raw.githubusercontent.com/GeQ1an/Rules/master/Quantumult/Quantumult.conf`，在“高级”栏中勾选“个性化”，然后点击右上角的“保存”按钮
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult02.PNG)
 3. “订阅”界面“分流”栏多出“Stick Rules”，向左滑动该条目，点击“替换”，选择 Netflix、PayPal、Apple、微软等服务的特殊政策，如不明白请选择“DIRECT”，点击右上角“保存”。回到“订阅”界面后，点击右上角“+”，选择“链接阻止”
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Quantumult03.PNG)

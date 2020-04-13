@@ -281,6 +281,7 @@ HOST-KEYWORD,adwords,AdBlock
 HOST-KEYWORD,allyes,AdBlock
 HOST-KEYWORD,analysis,AdBlock
 HOST-KEYWORD,analysys,AdBlock
+HOST-KEYWORD,applvn,AdBlock
 HOST-KEYWORD,applovin,AdBlock
 HOST-KEYWORD,appsflyer,AdBlock
 HOST-KEYWORD,dnserror,AdBlock
@@ -1585,7 +1586,6 @@ HOST-SUFFIX,app.3987.com,AdBlock
 HOST-SUFFIX,app.9yyg.cn,AdBlock
 HOST-SUFFIX,app.abc000.today,AdBlock
 HOST-SUFFIX,app.acm.dzwww.com,AdBlock
-HOST-SUFFIX,app.adjust.com,AdBlock
 HOST-SUFFIX,app.eduancm.com,AdBlock
 HOST-SUFFIX,app.houyi.baofeng.net,AdBlock
 HOST-SUFFIX,app.hytdsm.com,AdBlock
@@ -5460,7 +5460,6 @@ HOST-SUFFIX,mnwan.com,AdBlock
 HOST-SUFFIX,mnxtu.com,AdBlock
 HOST-SUFFIX,mo.haloapps.cn,AdBlock
 HOST-SUFFIX,mo.kugou.com,AdBlock
-HOST-SUFFIX,mo.res.wpscdn.cn,AdBlock
 HOST-SUFFIX,mo.test.haloapps.com,AdBlock
 HOST-SUFFIX,moad.cn,AdBlock
 HOST-SUFFIX,moatads.com,AdBlock
@@ -5913,7 +5912,6 @@ HOST-SUFFIX,pc.ctsywy.com,AdBlock
 HOST-SUFFIX,pc.quansj.cn,AdBlock
 HOST-SUFFIX,pc.videoclick.baidu.com,AdBlock
 HOST-SUFFIX,pcauto.irs01.com,AdBlock
-HOST-SUFFIX,pcbrowser.dd.qq.com,AdBlock
 HOST-SUFFIX,pcd.autohome.com.cn,AdBlock
 HOST-SUFFIX,pcfg.wps.cn,AdBlock
 HOST-SUFFIX,pclog.dftoutiao.com,AdBlock
@@ -6776,7 +6774,6 @@ HOST-SUFFIX,sitemeter.com,AdBlock
 HOST-SUFFIX,sitemobia.com,AdBlock
 HOST-SUFFIX,sitescout.com,AdBlock
 HOST-SUFFIX,sitetag.us,AdBlock
-HOST-SUFFIX,sj.uukanshu.com,AdBlock
 HOST-SUFFIX,sj1.3987.com,AdBlock
 HOST-SUFFIX,sjj.jsyjwj.com,AdBlock
 HOST-SUFFIX,skatehot.net,AdBlock
