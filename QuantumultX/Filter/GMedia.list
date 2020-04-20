@@ -46,12 +46,16 @@ HOST-SUFFIX,intercom.io,GMedia
 
 # > Disney Plus
 USER-AGENT,Disney*,GMedia
+HOST,cdn.registerdisney.go.com,GMedia
+HOST,cdn.cdn.unid.go.com,GMedia
+HOST-SUFFIX,bamgrid.com,GMedia
+HOST-SUFFIX,braze.com,GMedia
+HOST-SUFFIX,conviva.com,GMedia
+HOST-SUFFIX,disney.demdex.net,GMedia
 HOST-SUFFIX,disneyplus.com,GMedia
 HOST-SUFFIX,disney-plus.net,GMedia
 HOST-SUFFIX,dssott.com,GMedia
-HOST-SUFFIX,bamgrid.com,GMedia
 HOST-SUFFIX,execute-api.us-east-1.amazonaws.com,GMedia
-HOST,cdn.registerdisney.go.com,GMedia
 
 # > Now E
 USER-AGENT,PCCW*,GMedia
@@ -190,7 +194,14 @@ USER-AGENT,*com.google.ios.youtubemusic*,GMedia
 
 # > ViuTV
 USER-AGENT,ViuTV*,GMedia
+HOST-SUFFIX,bootstrapcdn.com,GMedia
 HOST-SUFFIX,cloudfront.net,GMedia
+HOST-SUFFIX,cognito-identity.us-east-1.amazonaws.com,GMedia
+HOST-SUFFIX,firebaseio.com,GMedia
+HOST-SUFFIX,jwpcdn.com,GMedia
+HOST-SUFFIX,jwplayer.com,GMedia
+HOST-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,GMedia
+HOST-SUFFIX,nowe.com,GMedia
 HOST-SUFFIX,viu.com,GMedia
 HOST-SUFFIX,viu.tv,GMedia
 HOST-SUFFIX,viu.now.com,GMedia
