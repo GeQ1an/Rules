@@ -88,6 +88,8 @@ HOST-SUFFIX,hboasia.com,GMedia
 HOST-SUFFIX,hbogo.com,GMedia
 HOST-SUFFIX,hbogoasia.com,GMedia
 HOST-SUFFIX,hbogoasia.hk,GMedia
+HOST-SUFFIX,hbonow.com,DIRECT
+HOST-SUFFIX,hbomax.com,DIRECT
 
 # > Hulu(フールー)
 USER-AGENT,Hulu*,GMedia
