@@ -6,11 +6,20 @@ HOST-SUFFIX,acfun.tv,CMedia
 HOST-SUFFIX,aixifan.com,CMedia
 
 # > Bilibili
-USER-AGENT,*bili*,CMedia
-HOST-KEYWORD,bilibili,CMedia
+USER-AGENT,bili*,CMedia
+USER-AGENT,Bilibili*,CMedia
+HOST-SUFFIX,acg.tv,CMedia
 HOST-SUFFIX,acgvideo.com,CMedia
+HOST-SUFFIX,b23.tv,CMedia
+HOST-SUFFIX,biliapi.com,CMedia
+HOST-SUFFIX,biliapi.net,CMedia
 HOST-SUFFIX,bilibili.com,CMedia
+HOST-SUFFIX,biligame.com,CMedia
+HOST-SUFFIX,biligame.net,CMedia
+HOST-SUFFIX,bilivideo.com,CMedia
 HOST-SUFFIX,hdslb.com,CMedia
+HOST-SUFFIX,im9.com,CMedia
+HOST-SUFFIX,smtcdns.net,CMedia
 
 # > iQiyi
 USER-AGENT,QIYI*,CMedia
@@ -52,16 +61,12 @@ USER-AGENT,TencentMidasConnect*,CMedia
 # > Netease Music
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,CMedia
 USER-AGENT,NeteaseMusic*,CMedia
-HOST-SUFFIX,music.126.net,CMedia
-HOST-SUFFIX,music.163.com,CMedia
-IP-CIDR,39.105.63.80/32,CMedia
-IP-CIDR,45.254.48.1/32,CMedia
-IP-CIDR,47.100.127.239/32,CMedia
-IP-CIDR,59.111.160.195/32,CMedia
-IP-CIDR,59.111.160.197/32,CMedia
-IP-CIDR,59.111.181.35/32,CMedia
-IP-CIDR,59.111.181.38/32,CMedia
-IP-CIDR,59.111.181.60/32,CMedia
+HOST,apm.music.163.com,CMedia
+HOST,apm3.music.163.com,CMedia
+HOST,interface.music.163.com,CMedia
+HOST,interface3.music.163.com,CMedia
+HOST,music.126.net,CMedia
+HOST,music.163.com,CMedia
 IP-CIDR,101.71.154.241/32,CMedia
 IP-CIDR,103.126.92.132/32,CMedia
 IP-CIDR,103.126.92.133/32,CMedia
@@ -73,6 +78,14 @@ IP-CIDR,118.24.63.156/32,CMedia
 IP-CIDR,193.112.159.225/32,CMedia
 IP-CIDR,223.252.199.66/32,CMedia
 IP-CIDR,223.252.199.67/32,CMedia
+IP-CIDR,39.105.63.80/32,CMedia
+IP-CIDR,45.254.48.1/32,CMedia
+IP-CIDR,47.100.127.239/32,CMedia
+IP-CIDR,59.111.160.195/32,CMedia
+IP-CIDR,59.111.160.197/32,CMedia
+IP-CIDR,59.111.181.35/32,CMedia
+IP-CIDR,59.111.181.38/32,CMedia
+IP-CIDR,59.111.181.60/32,CMedia
 
 # > QQMusic
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*,CMedia

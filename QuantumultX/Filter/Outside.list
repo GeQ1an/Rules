@@ -6,6 +6,9 @@ USER-AGENT,Instagram*,Outside
 USER-AGENT,Resilio Sync*,Outside
 USER-AGENT,WhatsApp*,Outside
 
+# > Google Voice
+HOST,voice.telephony.goog,Outside
+
 # > Line
 HOST-SUFFIX,lin.ee,Outside
 HOST-SUFFIX,line.me,Outside
@@ -24,6 +27,7 @@ HOST-SUFFIX,storage.live.com,Outside
 
 # > PayPal
 USER-AGENT,PayPal*,Outside
+HOST-KEYWORD,paypal,Outside
 HOST-SUFFIX,paypal.com,Outside
 HOST-SUFFIX,paypalobjects.com,Outside
 
@@ -48,56 +52,17 @@ HOST-SUFFIX,steamstatic.com,Outside
 
 # > Telegram
 HOST-KEYWORD,telegram,Outside
-DOMAIN-SUFFIX,t.me,Outside
-DOMAIN-SUFFIX,tdesktop.com,Outside
-DOMAIN-SUFFIX,telegra.ph,Outside
-DOMAIN-SUFFIX,telegram.me,Outside
-DOMAIN-SUFFIX,telegram.org,Outside
-IP-CIDR,149.154.167.99/32,Outside
-IP-CIDR,149.154.175.10/32,Outside
-IP-CIDR,149.154.167.40/32,Outside
-IP-CIDR,149.154.167.42/32,Outside
-IP-CIDR,149.154.175.117/32,Outside
-IP-CIDR,149.154.175.50/32,Outside
-IP-CIDR,149.154.167.50/32,Outside
-IP-CIDR,149.154.167.51/32,Outside
-IP-CIDR,149.154.175.100/32,Outside
-IP-CIDR,149.154.167.91/32,Outside
-IP-CIDR,149.154.167.90/32,Outside
-IP-CIDR,149.154.165.120/32,Outside
-IP-CIDR,149.154.166.120/32,Outside
-IP-CIDR,149.154.164.250/32,Outside
-IP-CIDR,149.154.167.117/32,Outside
-IP-CIDR,149.154.167.118/32,Outside
-IP-CIDR,149.154.167.192/27,Outside
-IP-CIDR,149.154.164.8/29,Outside
-IP-CIDR,91.108.8.0/27,Outside
-IP-CIDR,91.108.12.0/27,Outside
-IP-CIDR,91.108.16.0/27,Outside
-IP-CIDR,91.108.56.0/24,Outside
-IP-CIDR,91.108.4.0/24,Outside
-IP-CIDR,149.154.160.0/22,Outside
-IP-CIDR,149.154.164.0/22,Outside
-IP-CIDR,149.154.168.0/22,Outside
-IP-CIDR,149.154.172.0/22,Outside
-IP-CIDR,91.108.56.0/22,Outside
-IP-CIDR,91.108.4.0/22,Outside
-IP-CIDR,91.108.8.0/22,Outside
-IP-CIDR,91.108.16.0/22,Outside
-IP-CIDR,91.108.12.0/22,Outside
+HOST-SUFFIX,t.me,Outside
+HOST-SUFFIX,tdesktop.com,Outside
+HOST-SUFFIX,telegra.ph,Outside
+HOST-SUFFIX,telegram.me,Outside
+HOST-SUFFIX,telegram.org,Outside
+IP-CIDR,91.108.0.0/16,Outside
+IP-CIDR,109.239.140.0/24,Outside
 IP-CIDR,149.154.160.0/20,Outside
-IP6-CIDR,2001:b28:f23d:f001::e/128,Outside
-IP6-CIDR,2001:67c:4e8:f002::e/128,Outside
-IP6-CIDR,2001:b28:f23d:f003::e/128,Outside
-IP6-CIDR,2001:b28:f23d:f001::a/128,Outside
-IP6-CIDR,2001:67c:4e8:f002::a/128,Outside
-IP6-CIDR,2001:b28:f23d:f003::a/128,Outside
-IP6-CIDR,2001:67c:4e8:f004::a/128,Outside
-IP6-CIDR,2001:b28:f23f:f005::a/128,Outside
-IP6-CIDR,2001:67c:4e8:fa60::/64,Outside
+IP6-CIDR,2001:67c:4e8::/48,Outside
 IP6-CIDR,2001:b28:f23d::/48,Outside
 IP6-CIDR,2001:b28:f23f::/48,Outside
-IP6-CIDR,2001:67c:4e8::/48,Outside
 
 # > TikTok
 USER-AGENT,TikTok*,Outside
@@ -431,6 +396,7 @@ HOST-SUFFIX,ping.pe,Outside
 HOST-SUFFIX,pinterest.com,Outside
 HOST-SUFFIX,pixelmator.com,Outside
 HOST-SUFFIX,pixiv.net,Outside
+HOST-SUFFIX,pixivsketch.net,Outside
 HOST-SUFFIX,pixnet.net,Outside
 HOST-SUFFIX,playpcesor.com,Outside
 HOST-SUFFIX,playstation.com,Outside
@@ -688,6 +654,7 @@ HOST-SUFFIX,zacebook.com,Outside
 HOST-SUFFIX,zalmos.com,Outside
 HOST-SUFFIX,zaobao.com.sg,Outside
 HOST-SUFFIX,zeutch.com,Outside
+HOST-SUFFIX,zoom.us,Outside
 HOST-SUFFIX,zynamics.com,Outside
 
 # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
