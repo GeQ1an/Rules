@@ -225,4 +225,5 @@ HOST,yt3.ggpht.com,GMedia
 HOST-SUFFIX,googlevideo.com,GMedia
 HOST-SUFFIX,gvt2.com,GMedia
 HOST-SUFFIX,youtu.be,GMedia
+HOST,youtubei.googleapis.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia

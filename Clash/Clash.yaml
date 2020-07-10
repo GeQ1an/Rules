@@ -1,4 +1,4 @@
-# 2020年07月08日 16:20 UTC/GMT +8
+# 2020年07月10日 14:30 UTC/GMT +8
 
 # 配置文件需要放置在 $HOME/.config/clash/config.yaml
 
@@ -91,44 +91,47 @@ dns:
 
 # 本地服务器列表
 proxies:
-  # Shadowsocks 支持 aead_aes_128_gcm/aead_aes_192_gcm/aead_aes_256_gcm/aead_chacha20_poly1305/aes-128-ctr/aes-192-ctr/aes-256-ctr/aes-128-cfb/aes-192-cfb/aes-256-cfb/chacha20-ietf/xchacha20/chacha20/rc4-md5/xchacha20-ietf-poly1305 加密格式
-  # Vmess 支持 auto/aes-128-gcm/chacha20-poly1305/none 加密方式
-  - name: "cn1"
+  # 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+  - name: "CN1"
     type: ss
     server: cn1.xx.com
     port: 1111
     cipher: chacha20-ietf-poly1305
     password: ABCDEF
-  - name: "cn2"
+  - name: "CN2"
     type: ss
     server: cn2.xx.com
     port: 1111
     cipher: chacha20-ietf-poly1305
     password: ABCDEF
-  - name: "hk1"
+  - name: "HK1"
     type: ss
     server: hk1.xx.com
     port: 1111
     cipher: chacha20-ietf-poly1305
     password: ABCDEF
-    obfs: http
-    obfs-host: wns.windows.com
-  - name: "hk2"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: wns.windows.com
+  - name: "HK2"
     type: ss
     server: hk2.xx.com
     port: 1111
     cipher: chacha20-ietf-poly1305
     password: ABCDEF
-    obfs: tls
-    obfs-host: bing.com
-  - name: "us1"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: wns.windows.com
+  - name: "US1"
     type: vmess
     server: us1.xx.com
     port: 1111
     uuid: uuiduu-idu-uid
     alterId: 32
     cipher: auto
-  - name: "us2"
+  - name: "US2"
     type: vmess
     server: us2.xx.com
     port: 1111
@@ -154,57 +157,57 @@ proxy-providers:
 # 策略组
 proxy-groups:
   # 按照下方格式写入策略组，其中 Domestic 和 CMedia 为回国策略(可以仅代理媒体），请将大陆节点填入
-  - name: Auto
+  - name: "Auto"
     type: url-test
     proxies:
-      - "hk1"
-      - "hk2"
-      - "us1"
-      - "us2"
+      - HK1
+      - HK2
+      - US1
+      - US2
     url: http://www.gstatic.com/generate_204
     interval: 300
-  - name: Proxy
+  - name: "Proxy"
     type: select
     proxies:
       - Auto
       - DIRECT
-      - "hk1"
-      - "hk2"
-      - "us1"
-      - "us2"
-  - name: Apple
+      - HK1
+      - HK2
+      - US1
+      - US2
+  - name: "Apple"
     type: select
     proxies:
       - Proxy
       - DIRECT
-  - name: CMedia
+  - name: "CMedia"
     type: select
     proxies:
       - DIRECT
-      - "cn1"
-      - "cn2"
-  - name: GMedia
-    type: select
-    proxies:
-      - Proxy
-      - DIRECT
-  - name: Netflix
+      - CN1
+      - CN2
+  - name: "GMedia"
     type: select
     proxies:
       - Proxy
       - DIRECT
-  - name: YouTube
+  - name: "Netflix"
     type: select
     proxies:
       - Proxy
       - DIRECT
-  - name: Domestic
+  - name: "YouTube"
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+  - name: "Domestic"
     type: select
     proxies:
       - DIRECT
-      - "cn1"
-      - "cn2"
-  - name: Others
+      - CN1
+      - CN2
+  - name: "Others"
     type: select
     proxies:
       - Proxy
@@ -221,26 +224,30 @@ rule-providers:
 
 # 本地规则
 rules:
-  # Apple
-  - DOMAIN,api.smoot.apple.cn,Apple
-  - DOMAIN,beta.itunes.apple.com,Apple
-  - DOMAIN,gs.apple.com,Apple
-  - DOMAIN,hls.itunes.apple.com,Apple
-  - DOMAIN,itunes.apple.com,Apple
-  - DOMAIN-SUFFIX,apple.co,Apple
-  - DOMAIN-SUFFIX,apple.com,Apple
-  - DOMAIN-SUFFIX,apple.com.cn,Apple
-  - DOMAIN-SUFFIX,apple-cloudkit.com,Apple
-  - DOMAIN-SUFFIX,appstore.com,Apple
-  - DOMAIN-SUFFIX,cdn-apple.com,Apple
-  - DOMAIN-SUFFIX,crashlytics.com,Apple
-  - DOMAIN-SUFFIX,icloud.com,Apple
-  - DOMAIN-SUFFIX,icloud-content.com,Apple
-  - DOMAIN-SUFFIX,itunes.com,Apple
-  - DOMAIN-SUFFIX,me.com,Apple
-  - DOMAIN-SUFFIX,mzstatic.com,Apple
-
-  #- DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释
+  # 常见广告拦截
+  - DOMAIN-KEYWORD,admarvel,REJECT
+  - DOMAIN-KEYWORD,admaster,REJECT
+  - DOMAIN-KEYWORD,adsage,REJECT
+  - DOMAIN-KEYWORD,adsmogo,REJECT
+  - DOMAIN-KEYWORD,adsrvmedia,REJECT
+  - DOMAIN-KEYWORD,adwords,REJECT
+  - DOMAIN-KEYWORD,adservice,REJECT
+  - DOMAIN-KEYWORD,domob,REJECT
+  - DOMAIN-KEYWORD,duomeng,REJECT
+  - DOMAIN-KEYWORD,dwtrack,REJECT
+  - DOMAIN-KEYWORD,guanggao,REJECT
+  - DOMAIN-KEYWORD,lianmeng,REJECT
+  - DOMAIN-SUFFIX,mmstat.com,REJECT
+  - DOMAIN-KEYWORD,omgmta,REJECT
+  - DOMAIN-KEYWORD,openx,REJECT
+  - DOMAIN-KEYWORD,partnerad,REJECT
+  - DOMAIN-KEYWORD,pingfore,REJECT
+  - DOMAIN-KEYWORD,supersonicads,REJECT
+  - DOMAIN-KEYWORD,uedas,REJECT
+  - DOMAIN-KEYWORD,umeng,REJECT
+  - DOMAIN-KEYWORD,usage,REJECT
+  - DOMAIN-KEYWORD,wlmonitor,REJECT
+  - DOMAIN-KEYWORD,zjtoolbar,REJECT
 
   # CMedia（中国媒体）
   # AcFun
@@ -309,83 +316,108 @@ rules:
   # Global Media（国际媒体）
   - DOMAIN-SUFFIX,edgedatg.com,GMedia
   - DOMAIN-SUFFIX,go.com,GMedia
-  - DOMAIN,linear-abematv.akamaized.net,GMedia
   - DOMAIN-SUFFIX,abema.io,GMedia
   - DOMAIN-SUFFIX,abema.tv,GMedia
   - DOMAIN-SUFFIX,akamaized.net,GMedia
   - DOMAIN-SUFFIX,ameba.jp,GMedia
   - DOMAIN-SUFFIX,hayabusa.io,GMedia
+  - DOMAIN-SUFFIX,aiv-cdn.net,GMedia
+  - DOMAIN-SUFFIX,amazonaws.co.uk,GMedia
   - DOMAIN-SUFFIX,amazonaws.com,GMedia
+  - DOMAIN-SUFFIX,amazonvideo.com,GMedia
+  - DOMAIN-SUFFIX,llnwd.net,GMedia
+  - DOMAIN,np-edge.itunes.apple.com,GMedia
+  - DOMAIN,play-edge.itunes.apple.com,GMedia
+  - DOMAIN-SUFFIX,tv.apple.com,GMedia
   - DOMAIN-SUFFIX,bahamut.com.tw,GMedia
   - DOMAIN-SUFFIX,gamer.com.tw,GMedia
   - DOMAIN-SUFFIX,hinet.net,GMedia
   - DOMAIN-KEYWORD,bbcfmt,GMedia
-  - DOMAIN-KEYWORD,co.uk,GMedia
-  - DOMAIN-KEYWORD,uk-live,GMedia
+  - DOMAIN,aod-dash-uk-live.akamaized.net,GMedia
+  - DOMAIN,aod-hls-uk-live.akamaized.net,GMedia
+  - DOMAIN,vod-dash-uk-live.akamaized.net,GMedia
+  - DOMAIN,vod-thumb-uk-live.akamaized.net,GMedia
   - DOMAIN-SUFFIX,bbc.co,GMedia
   - DOMAIN-SUFFIX,bbc.co.uk,GMedia
   - DOMAIN-SUFFIX,bbc.com,GMedia
+  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,GMedia
   - DOMAIN-SUFFIX,bbci.co,GMedia
   - DOMAIN-SUFFIX,bbci.co.uk,GMedia
-  - DOMAIN-SUFFIX,chocotv.com.tw,GMedia
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,GMedia
   - DOMAIN-SUFFIX,dazn.com,GMedia
   - DOMAIN-SUFFIX,dazn-api.com,GMedia
   - DOMAIN-SUFFIX,dazndn.com,GMedia
   - DOMAIN-SUFFIX,indazn.com,GMedia
   - DOMAIN-SUFFIX,intercom.io,GMedia
+  - DOMAIN,cdn.registerdisney.go.com,GMedia
+  - DOMAIN,cdn.cdn.unid.go.com,GMedia
+  - DOMAIN-SUFFIX,bamgrid.com,GMedia
+  - DOMAIN-SUFFIX,braze.com,GMedia
+  - DOMAIN-SUFFIX,conviva.com,GMedia
+  - DOMAIN-SUFFIX,disney.demdex.net,GMedia
   - DOMAIN-SUFFIX,disneyplus.com,GMedia
   - DOMAIN-SUFFIX,disney-plus.net,GMedia
   - DOMAIN-SUFFIX,dssott.com,GMedia
-  - DOMAIN-SUFFIX,bamgrid.com,GMedia
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,GMedia
-  - DOMAIN,cdn.registerdisney.go.com,GMedia
-  - DOMAIN,bcbolthboa-a.akamaihd.net,GMedia
-  - DOMAIN-KEYWORD,nowe,GMedia
-  - DOMAIN-SUFFIX,nowe.com,GMedia
-  - DOMAIN-SUFFIX,youboranqs01.com,GMedia
-  - DOMAIN-KEYWORD,epicgames,GMedia
-  - DOMAIN-SUFFIX,helpshift.com,GMedia
-  - DOMAIN-KEYWORD,foxplus,GMedia
-  - DOMAIN-SUFFIX,config.fox.com,GMedia
-  - DOMAIN-SUFFIX,emome.net,GMedia
+  - DOMAIN-SUFFIX,encoretvb.com,GMedia
+  - DOMAIN,content.jwplatform.com,GMedia
+  - DOMAIN,videos-f.jwpsrv.com,GMedia
   - DOMAIN-SUFFIX,fox.com,GMedia
   - DOMAIN-SUFFIX,foxdcg.com,GMedia
-  - DOMAIN-SUFFIX,foxnow.com,GMedia
+  - DOMAIN-SUFFIX,uplynk.com,GMedia
+  - DOMAIN-SUFFIX,akamaized.net,GMedia
   - DOMAIN-SUFFIX,foxplus.com,GMedia
-  - DOMAIN-SUFFIX,foxplay.com,GMedia
-  - DOMAIN-SUFFIX,ipinfo.io,GMedia
-  - DOMAIN-SUFFIX,mstage.io,GMedia
-  - DOMAIN-SUFFIX,now.com,GMedia
   - DOMAIN-SUFFIX,theplatform.com,GMedia
-  - DOMAIN-SUFFIX,urlload.net,GMedia
   - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GMedia
   - DOMAIN-SUFFIX,hbo.com,GMedia
   - DOMAIN-SUFFIX,hboasia.com,GMedia
   - DOMAIN-SUFFIX,hbogo.com,GMedia
   - DOMAIN-SUFFIX,hbogoasia.com,GMedia
   - DOMAIN-SUFFIX,hbogoasia.hk,GMedia
+  - DOMAIN-SUFFIX,hbonow.com,GMedia
+  - DOMAIN-SUFFIX,hbomax.com,GMedia
   - DOMAIN-SUFFIX,happyon.jp,GMedia
   - DOMAIN-SUFFIX,hulu.com,GMedia
   - DOMAIN-SUFFIX,hulu.jp,GMedia
   - DOMAIN-SUFFIX,huluim.com,GMedia
   - DOMAIN-SUFFIX,hulustream.com,GMedia
-  - DOMAIN-SUFFIX,imkan.tv,GMedia
+  - DOMAIN-KEYWORD,japronx,GMedia
+  - DOMAIN-SUFFIX,japonx.com,GMedia
+  - DOMAIN-SUFFIX,japonx.tv,GMedia
+  - DOMAIN-SUFFIX,japonx.net,GMedia
+  - DOMAIN-SUFFIX,japonx.vip,GMedia
+  - DOMAIN-SUFFIX,japronx.com,GMedia
+  - DOMAIN-SUFFIX,japronx.tv,GMedia
+  - DOMAIN-SUFFIX,japronx.net,GMedia
+  - DOMAIN-SUFFIX,japronx.vip,GMedia
   - DOMAIN-SUFFIX,joox.com,GMedia
-  - DOMAIN-KEYWORD,nowtv100,GMedia
-  - DOMAIN-KEYWORD,rthklive,GMedia
+  - DOMAIN-SUFFIX,kkbox.com,GMedia
+  - DOMAIN-SUFFIX,kkbox.com.tw,GMedia
+  - DOMAIN-SUFFIX,kfs.io,GMedia
+  - DOMAIN-SUFFIX,kktv.me,GMedia
+  - DOMAIN-SUFFIX,kktv.com.tw,GMedia
+  - DOMAIN,kktv-theater.kk.stream,GMedia
+  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,GMedia
+  - DOMAIN-SUFFIX,linetv.tw,GMedia
   - DOMAIN-SUFFIX,mytvsuper.com,GMedia
   - DOMAIN-SUFFIX,tvb.com,GMedia
   - DOMAIN-SUFFIX,pandora.com,GMedia
-  - DOMAIN-SUFFIX,sky.com,GMedia
-  - DOMAIN-SUFFIX,skygo.co.nz,GMedia
+  - DOMAIN-SUFFIX,pbs.org,GMedia
   - DOMAIN-SUFFIX,sndcdn.com,GMedia
   - DOMAIN-SUFFIX,soundcloud.com,GMedia
   - DOMAIN-SUFFIX,pscdn.co,GMedia
   - DOMAIN-SUFFIX,scdn.co,GMedia
   - DOMAIN-SUFFIX,spoti.fi,GMedia
   - DOMAIN-SUFFIX,spotify.com,GMedia
+  - DOMAIN-SUFFIX,spotifycdn.net,GMedia
+  - DOMAIN-SUFFIX,bootstrapcdn.com,GMedia
   - DOMAIN-SUFFIX,cloudfront.net,GMedia
+  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,GMedia
+  - DOMAIN-SUFFIX,firebaseio.com,GMedia
+  - DOMAIN-SUFFIX,jwpcdn.com,GMedia
+  - DOMAIN-SUFFIX,jwplayer.com,GMedia
+  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,GMedia
+  - DOMAIN-SUFFIX,nowe.com,GMedia
   - DOMAIN-SUFFIX,viu.com,GMedia
   - DOMAIN-SUFFIX,viu.tv,GMedia
   - DOMAIN-SUFFIX,viu.now.com,GMedia
@@ -416,35 +448,33 @@ rules:
 
   # YouTube
   - DOMAIN-KEYWORD,youtube,YouTube
+  - DOMAIN,yt3.ggpht.com,YouTube
   - DOMAIN-SUFFIX,googlevideo.com,YouTube
   - DOMAIN-SUFFIX,gvt2.com,YouTube
   - DOMAIN-SUFFIX,youtu.be,YouTube
   - DOMAIN,youtubei.googleapis.com,YouTube
+  - DOMAIN-SUFFIX,ytimg.com,YouTube
 
-  # 常见广告拦截
-  - DOMAIN-KEYWORD,admarvel,REJECT
-  - DOMAIN-KEYWORD,admaster,REJECT
-  - DOMAIN-KEYWORD,adsage,REJECT
-  - DOMAIN-KEYWORD,adsmogo,REJECT
-  - DOMAIN-KEYWORD,adsrvmedia,REJECT
-  - DOMAIN-KEYWORD,adwords,REJECT
-  - DOMAIN-KEYWORD,adservice,REJECT
-  - DOMAIN-KEYWORD,domob,REJECT
-  - DOMAIN-KEYWORD,duomeng,REJECT
-  - DOMAIN-KEYWORD,dwtrack,REJECT
-  - DOMAIN-KEYWORD,guanggao,REJECT
-  - DOMAIN-KEYWORD,lianmeng,REJECT
-  - DOMAIN-SUFFIX,mmstat.com,REJECT
-  - DOMAIN-KEYWORD,omgmta,REJECT
-  - DOMAIN-KEYWORD,openx,REJECT
-  - DOMAIN-KEYWORD,partnerad,REJECT
-  - DOMAIN-KEYWORD,pingfore,REJECT
-  - DOMAIN-KEYWORD,supersonicads,REJECT
-  - DOMAIN-KEYWORD,uedas,REJECT
-  - DOMAIN-KEYWORD,umeng,REJECT
-  - DOMAIN-KEYWORD,usage,REJECT
-  - DOMAIN-KEYWORD,wlmonitor,REJECT
-  - DOMAIN-KEYWORD,zjtoolbar,REJECT
+  # Apple
+  - DOMAIN,api.smoot.apple.cn,Apple
+  - DOMAIN,beta.itunes.apple.com,Apple
+  - DOMAIN,gs.apple.com,Apple
+  - DOMAIN,hls.itunes.apple.com,Apple
+  - DOMAIN,itunes.apple.com,Apple
+  - DOMAIN-SUFFIX,apple.co,Apple
+  - DOMAIN-SUFFIX,apple.com,Apple
+  - DOMAIN-SUFFIX,apple.com.cn,Apple
+  - DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+  - DOMAIN-SUFFIX,appstore.com,Apple
+  - DOMAIN-SUFFIX,cdn-apple.com,Apple
+  - DOMAIN-SUFFIX,crashlytics.com,Apple
+  - DOMAIN-SUFFIX,icloud.com,Apple
+  - DOMAIN-SUFFIX,icloud-content.com,Apple
+  - DOMAIN-SUFFIX,itunes.com,Apple
+  - DOMAIN-SUFFIX,me.com,Apple
+  - DOMAIN-SUFFIX,mzstatic.com,Apple
+
+  #- DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释
 
   # Proxy
   - DOMAIN-KEYWORD,amazon,Proxy
@@ -733,17 +763,18 @@ rules:
   - DOMAIN-SUFFIX,yimg.com,Proxy
   - DOMAIN-SUFFIX,ying.com,Proxy
   - DOMAIN-SUFFIX,yoyo.org,Proxy
-  - DOMAIN-SUFFIX,ytimg.com,Proxy
+  - DOMAIN-SUFFIX,zoom.us,Proxy
+  - DOMAIN-KEYWORD,dlercloud,Proxy
 
   # Telegram
+  - DOMAIN-SUFFIX,t.me,Proxy
+  - DOMAIN-SUFFIX,tdesktop.com,Proxy
   - DOMAIN-SUFFIX,telegra.ph,Proxy
+  - DOMAIN-SUFFIX,telegram.me,Proxy
   - DOMAIN-SUFFIX,telegram.org,Proxy
-  - IP-CIDR,91.108.56.0/22,Proxy
-  - IP-CIDR,91.108.4.0/22,Proxy
-  - IP-CIDR,91.108.8.0/22,Proxy
+  - IP-CIDR,91.108.0.0/16,Proxy
   - IP-CIDR,109.239.140.0/24,Proxy
   - IP-CIDR,149.154.160.0/20,Proxy
-  - IP-CIDR,149.154.164.0/22,Proxy
 
   # Domestic（中国网站）
   - DOMAIN-SUFFIX,cn,Domestic
