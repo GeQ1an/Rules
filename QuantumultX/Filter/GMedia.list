@@ -56,6 +56,10 @@ HOST-SUFFIX,bbcfmt.hs.llnwd.net,GMedia
 HOST-SUFFIX,bbci.co,GMedia
 HOST-SUFFIX,bbci.co.uk,GMedia
 
+# > Curiosity Stream & Nebula
+HOST-SUFFIX,curiositystream.com,GMedia
+HOST-SUFFIX,gvsm.zype.com,GMedia
+
 # > DAZN
 HOST-SUFFIX,d151l6v8er5bdm.cloudfront.net,GMedia
 HOST-SUFFIX,dazn.com,GMedia
