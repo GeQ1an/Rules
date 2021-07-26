@@ -423,6 +423,7 @@ rules:
   - DOMAIN-SUFFIX,viu.now.com,GMedia
   - DOMAIN-SUFFIX,curiositystream.com,GMedia
   - DOMAIN-SUFFIX,gvsm.zype.com,GMedia
+  - DOMAIN-SUFFIX,peacocktv.com,GMedia
 
   # Netflix
   - DOMAIN-SUFFIX,netflix.com,Netflix

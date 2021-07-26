@@ -186,6 +186,9 @@ IP-CIDR,208.75.76.0/22,GMedia
 # > Pandora
 HOST-SUFFIX,pandora.com,GMedia
 
+# > Peacock
+HOST-SUFFIX,peacocktv.com,GMedia
+
 # > PBS
 USER-AGENT,PBS*,GMedia
 HOST-SUFFIX,pbs.org,GMedia
