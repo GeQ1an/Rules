@@ -421,6 +421,11 @@ rules:
   - DOMAIN-SUFFIX,viu.com,GMedia
   - DOMAIN-SUFFIX,viu.tv,GMedia
   - DOMAIN-SUFFIX,viu.now.com,GMedia
+  - DOMAIN-SUFFIX,curiositystream.com,GMedia
+  - DOMAIN-SUFFIX,nebula.app,GMedia
+  - DOMAIN-SUFFIX,watchnebula.com,GMedia
+  - DOMAIN-SUFFIX,zype.com,GMedia
+  - DOMAIN-SUFFIX,peacocktv.com,GMedia
 
   # Netflix
   - DOMAIN-SUFFIX,netflix.com,Netflix
