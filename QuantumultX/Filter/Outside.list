@@ -74,7 +74,7 @@ IP6-CIDR,2001:b28:f23d::/48,Outside
 IP6-CIDR,2001:b28:f23f::/48,Outside
 
 # > Tesla
-HOST-KEYWORD,tesla
+HOST-KEYWORD,tesla,Outside
 
 # > TestFlight
 HOST,testflight.apple.com,Outside
