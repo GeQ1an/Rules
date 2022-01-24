@@ -120,7 +120,7 @@ HOST-SUFFIX,hbogoasia.com,GMedia
 HOST,hbolb.onwardsmg.com,GMedia
 HOST,hbounify-prod.evergent.com,GMedia
 HOST,dai3fd1oh325y.cloudfront.net,GMedia
-HOST-AGENT,HBOMAX*,GMedia
+USER-AGENT,HBOMAX*,GMedia
 HOST-SUFFIX,hbo.com,GMedia
 HOST-SUFFIX,hbogo.com,GMedia
 HOST-SUFFIX,hbonow.com,GMedia
