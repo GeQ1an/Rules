@@ -1,5 +1,6 @@
 HOST-KEYWORD,telegram,Telegram
 HOST-SUFFIX,t.me,Telegram
+HOST-SUFFIX,tx.me,Telegram
 HOST-SUFFIX,tdesktop.com,Telegram
 HOST-SUFFIX,telegra.ph,Telegram
 HOST-SUFFIX,telegram.me,Telegram

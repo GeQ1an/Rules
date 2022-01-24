@@ -1,0 +1,111 @@
+# > Dler Cloud
+HOST-SUFFIX,dler.cloud,DIRECT
+
+# > Apple CDN
+USER-AGENT,com.apple.appstored*,DIRECT
+HOST,aod.itunes.apple.com,DIRECT
+HOST,api.smoot.apple.cn,DIRECT
+HOST,appldnld.apple.com,DIRECT
+HOST,apptrailers.itunes.apple.com,DIRECT
+HOST,gs-loc-cn.apple.com,DIRECT
+HOST,iosapps.itunes.apple.com,DIRECT
+HOST,music.apple.com,DIRECT
+HOST,mvod.itunes.apple.com,DIRECT
+HOST,osxapps.itunes.apple.com,DIRECT
+HOST,supportdownload.apple.com,DIRECT
+HOST,swcdn.apple.com,DIRECT
+HOST,updates-http.cdn-apple.com,DIRECT
+HOST-SUFFIX,ls.apple.com,DIRECT
+HOST-SUFFIX,mzstatic.com,DIRECT
+
+# > Duet
+USER-AGENT,duet*,DIRECT
+
+# > Epic
+HOST-KEYWORD,epicgames,DIRECT
+
+# > Google
+HOST,safebrowsing.googleapis.com,DIRECT
+HOST-SUFFIX,dl.google.com,DIRECT
+
+# > Microsoft
+USER-AGENT,Microsoft%20Remote%20Desktop*,DIRECT
+HOST-SUFFIX,msftconnecttest.com,DIRECT
+HOST-SUFFIX,windows.com,DIRECT
+HOST-SUFFIX,windows.net,DIRECT
+HOST-SUFFIX,windowsupdate.com,DIRECT
+HOST-SUFFIX,xbox.com,DIRECT
+HOST-SUFFIX,xboxlive.com,DIRECT
+
+# > Mugglepay
+HOST-SUFFIX,invoice.mugglepay.com,DIRECT
+
+# > Steam
+USER-AGENT,Steam*,DIRECT
+HOST-SUFFIX,steamcontent.com,DIRECT
+HOST-SUFFIX,steamchina.com,DIRECT
+
+HOST,csgo.wmsj.cn,DIRECT
+HOST,dota2.wmsj.cn,DIRECT
+HOST,wmsjsteam.com,DIRECT
+
+HOST,dl.steam.clngaa.com,DIRECT
+HOST,dl.steam.ksyna.com,DIRECT
+
+HOST,st.dl.bscstorage.net,DIRECT
+HOST,st.dl.eccdnx.com,DIRECT
+HOST,st.dl.pinyuncloud.com,DIRECT
+
+HOST,steampipe.steamcontent.tnkjmec.com,DIRECT
+
+HOST,steampowered.com.8686c.com,DIRECT
+HOST,steamstatic.com.8686c.com,DIRECT
+
+HOST,steambroadcast.akamaized.net,DIRECT
+HOST,steamcdn-a.akamaihd.net,DIRECT
+HOST,steamcommunity-a.akamaihd.net,DIRECT
+HOST,steamstore-a.akamaihd.net,DIRECT
+HOST,steamusercontent-a.akamaihd.net,DIRECT
+HOST,steamuserimages-a.akamaihd.net,DIRECT
+
+# > Tesla
+HOST,tesla-cdn.thron.cn,DIRECT
+HOST,tesla-cdn.thron.com,DIRECT
+HOST-SUFFIX,solarcity.com,DIRECT
+HOST-SUFFIX,tesla.cn,DIRECT
+HOST-SUFFIX,tesla.com,DIRECT
+HOST-SUFFIX,tesla.com.cn,DIRECT
+HOST-SUFFIX,teslamotors.cn,DIRECT
+HOST-SUFFIX,teslamotors.com,DIRECT
+HOST-SUFFIX,teslamotors.com.cn,DIRECT
+HOST-SUFFIX,ts.la,DIRECT
+
+# > Xunlei
+USER-AGENT,%E8%BF%85%E9%9B%B7,DIRECT
+HOST-SUFFIX,xunlei.com,DIRECT
+
+# > Private Tracker
+HOST-SUFFIX,awesome-hd.me,DIRECT
+HOST-SUFFIX,broadcasthe.net,DIRECT
+HOST-SUFFIX,chdbits.co,DIRECT
+HOST-SUFFIX,classix-unlimited.co.uk,DIRECT
+HOST-SUFFIX,empornium.me,DIRECT
+HOST-SUFFIX,gazellegames.net,DIRECT
+HOST-SUFFIX,hdchina.org,DIRECT
+HOST-SUFFIX,hdsky.me,DIRECT
+HOST-SUFFIX,icetorrent.org,DIRECT
+HOST-SUFFIX,jpopsuki.eu,DIRECT
+HOST-SUFFIX,keepfrds.com,DIRECT
+HOST-SUFFIX,madsrevolution.net,DIRECT
+HOST-SUFFIX,m-team.cc,DIRECT
+HOST-SUFFIX,nanyangpt.com,DIRECT
+HOST-SUFFIX,ncore.cc,DIRECT
+HOST-SUFFIX,open.cd,DIRECT
+HOST-SUFFIX,ourbits.club,DIRECT
+HOST-SUFFIX,passthepopcorn.me,DIRECT
+HOST-SUFFIX,privatehd.to,DIRECT
+HOST-SUFFIX,redacted.ch,DIRECT
+HOST-SUFFIX,springsunday.net,DIRECT
+HOST-SUFFIX,tjupt.org,DIRECT
+HOST-SUFFIX,totheglory.im,DIRECT
+HOST-SUFFIX,smtp,DIRECT

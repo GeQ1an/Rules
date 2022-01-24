@@ -18,7 +18,7 @@
 ### 使用
 
 #### 根据样本文件快速配置
-如使用高于 1.0.3(148) 版本的 Quantumult X，且使用 Dler Cloud，请直接查看 [Sample_DlerCloud.conf](https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Sample/Sample_DlerCloud.conf)，安装 [Dler Cloud 证书](https://dler.cloud/download/Dler%20Cloud%20Surge%20TLS%20ECC%20CA.mobileconfig) 并填写自己的托管 token 便可以快速配置。<br>
+如使用高于 1.0.3(148) 版本的 Quantumult X，且使用 Dler Cloud，请直接查看 [Sample_DlerCloud.conf](https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Sample/Sample_DlerCloud.conf)，填写自己的托管 token 便可以快速配置。<br>
 <br>
 *我将在近期更新通用型样本配置文件，以方便入门级用户使用。*
 

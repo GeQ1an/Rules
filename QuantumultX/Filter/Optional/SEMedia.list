@@ -1,0 +1,23 @@
+# 名称及初始规则来自于 ConnersHua 的 DivineEngine
+# 链接: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/StreamingSE.list
+
+# > bilibili
+HOST,api.bilibili.com,SEMedia
+HOST,app.bilibili.com,SEMedia
+HOST,grpc.biliapi.net,SEMedia
+HOST,upos-hz-mirrorakam.akamaized.net,SEMedia
+HOST-KEYWORD,cn-hk-eq-bcache-,SEMedia
+
+# > 愛奇藝台灣站
+HOST,cache.video.iqiyi.com,SEMedia
+IP-CIDR,116.211.202.206/32,SEMedia
+IP-CIDR,116.211.202.216/32,SEMedia
+
+# > MGTV
+HOST-SUFFIX,api.mgtv.com,SEMedia
+
+# > WeTV
+USER-AGENT,WeTV*,SEMedia
+HOST-SUFFIX,wetv.vip,SEMedia
+HOST-SUFFIX,wetvinfo.com,SEMedia
+IP-CIDR,150.109.28.51/32,SEMedia
