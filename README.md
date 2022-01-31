@@ -14,8 +14,8 @@
 * 支持应用
   * [Quantumult X](https://apps.apple.com/app/quantumult-x/id1443988620)
   * [Loon](https://apps.apple.com/app/loon/id1373567447)
-  * [ClashX](https://github.com/yichengchen/clashX)
-  * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438)
+  * [ClashX](https://github.com/yichengchen/clashX)（已停止更新）
+  * [Quantumult](https://itunes.apple.com/app/quantumult/id1252015438)（已停止更新）
 * [可实现功能](#function)
 * 导入方式
   * [URL](#url)
@@ -175,10 +175,10 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 ---
 
 ### 鸣谢
-* [lhie1](https://github.com/lhie1/Rules)
-* [shigalin](https://github.com/shigalin/Config)
-* [Hackl0us](https://github.com/Hackl0us/SS-Rule-Snippet)
-* [ConnersHua](https://github.com/ConnersHua/Profiles)
+* [lhie1 Rules](https://github.com/lhie1/Rules)
+* [DivineEngine Profiles](https://github.com/DivineEngine/Profiles/tree/master)
+* [Hackl0us SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet)
+* [Dler Cloud](https://dlercloud.com)
 
 ---
 
