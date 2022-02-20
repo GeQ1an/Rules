@@ -2,9 +2,14 @@
 # 链接: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/StreamingSE.list
 
 # > bilibili
+HOST,api.biliapi.com,SEMedia
+HOST,api.biliapi.net,SEMedia
 HOST,api.bilibili.com,SEMedia
+HOST,app.biliapi.com,SEMedia
+HOST,app.biliapi.net,SEMedia
 HOST,app.bilibili.com,SEMedia
 HOST,grpc.biliapi.net,SEMedia
+HOST,m.bilibili.com,SEMedia
 HOST,upos-hz-mirrorakam.akamaized.net,SEMedia
 HOST-KEYWORD,cn-hk-eq-bcache-,SEMedia
 
@@ -15,6 +20,7 @@ IP-CIDR,116.211.202.216/32,SEMedia
 
 # > MGTV
 HOST-SUFFIX,api.mgtv.com,SEMedia
+HOST,mobileso.bz.mgtv.com,SEMedia
 
 # > WeTV
 USER-AGENT,WeTV*,SEMedia

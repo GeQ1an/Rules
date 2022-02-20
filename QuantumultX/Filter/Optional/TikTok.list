@@ -1,5 +1,5 @@
 USER-AGENT,TikTok*,TikTok
-HOST-KEYWORD,-tiktokcdn-com,TikTok
+HOST-KEYWORD,tiktokcdn-,TikTok
 HOST-KEYWORD,musical.ly,TikTok
 HOST-KEYWORD,tiktok,TikTok
 HOST-KEYWORD,tiktokv,TikTok
