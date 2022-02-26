@@ -31,8 +31,8 @@
 ````
 
 #### 方法二  粘贴规则列表 `更适用于仅想更换规则`
-默认不启用网易云音乐（包含在 CMedia 内）、Netflix/Disney Plus/Spotify/YouTube（包含在 GMedia 内）、TikTok/Telegram/PayPal（包含在 Outside 内）、微软（包含在 Mainland 内）规则，如需使用请修改 false 为 true，对于完全不需要的规则，删除即可
-复制以下内容：<br>
+默认不启用网易云音乐（包含在 CMedia 内）、Netflix/Disney Plus/Spotify/YouTube（包含在 GMedia 内）、TikTok/Telegram/PayPal（包含在 Outside 内）、微软（包含在 Mainland 内）规则，如需使用请修改 false 为 true，对于完全不需要的规则，删除即可。<br>
+复制以下内容：
 ```
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Special.list, tag=Special (Stick Rules), update-interval=43200, enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list, tag=AdBlock (Stick Rules), update-interval=43200, enabled=true
@@ -100,7 +100,8 @@ round-robbin 策略是负载均衡策略，会轮询对每个节点进行测试�
 如需手动更新，可长按主页右下角的功能键更新全部远程资源 (需在设置内打开 “长按主页功能键切换模式” 开关)。
 
 #### 替换 GeoIP 数据源 `推荐!`
-在 Quantumult X 主页，点击右下角功能键进入设置，在设置中下拉到最下方，点击其他设置，找到 GeoLite2，点击右侧来源，粘贴下方两个链接之一，保存后开启自动更新，选择周期为 7 日。<br>
+在 Quantumult X 主页，点击右下角【功能键】进入设置，在设置中下拉到最下方，点击【其他设置】，找到 GeoLite2，点击右侧【来源】，粘贴下方两个链接之一，保存后开启自动更新，选择周期为【7 日】。<br>
+<br>
 链接 1：[GitHub 直连链接](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb) | 链接 2：[大陆 cdn 加速链接](https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb)
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX05.png)
 
