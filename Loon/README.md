@@ -5,7 +5,7 @@
 
 有关 Stick Rules 的更多信息请转至项目主目录的 [README.md](https://github.com/GeQ1an/Rules/blob/master/README.md)<br>
 <br>
-本文件为 Loon 专用配置文件使用手册，Loon 规则直接使用 [lhie1 大佬](https://github.com/lhie1) 的 [Surge 3 规则列表](https://github.com/lhie1/Rules/tree/master/Surge/Surge%203/Provider)，配置文件内默认配置了一些规则列表及策略，更多规则列表请自己添加。
+本文件为 Loon 专用配置文件使用手册，Loon 规则直接使用 [lhie1 大佬](https://github.com/lhie1) 的 [Surge 3 规则列表](https://github.com/dler-io/Rules/tree/main/Surge/Surge%203/Provider)，配置文件内默认配置了一些规则列表及策略，更多规则列表请自己添加。
 
 ---
 

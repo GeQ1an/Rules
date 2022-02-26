@@ -23,7 +23,7 @@
 *我将在近期更新通用型样本配置文件，以方便入门级用户使用。*
 
 #### 方法一  拷贝配置文件 `更适用于初次配置或重新配置`
-将 [QuantumultX.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf) 所有内容复制，在 Quantumult X 中选择编辑配置文件，清空后粘贴，保存；<br>
+将 [QuantumultX.conf](https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf) 所有内容复制，在 Quantumult X 中选择编辑配置文件，清空后粘贴，修改自己的订阅链接，按需编辑，保存；<br>
 [添加节点](#添加节点) 后，可自行 [编辑策略组](#编辑策略组)。
 ````
 正式使用前请打开 MitM 功能，安装并信任证书 (根据提示操作)。
@@ -31,23 +31,27 @@
 ````
 
 #### 方法二  粘贴规则列表 `更适用于仅想更换规则`
-默认注释网易云音乐（包含在 CMedia 内）、Netflix/Spotify/YouTube（包含在 GMedia 内）、Telegram/PayPal（包含在 Outside 内）、微软（包含在 Mainland 内）策略组，如需使用请取消 ; 注释
+默认不启用网易云音乐（包含在 CMedia 内）、Netflix/Disney Plus/Spotify/YouTube（包含在 GMedia 内）、TikTok/Telegram/PayPal（包含在 Outside 内）、微软（包含在 Mainland 内）规则，如需使用请修改 false 为 true，对于完全不需要的规则，删除即可
 复制以下内容：<br>
 ```
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list, tag=AdBlock (Stick Rules), enabled=true
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list, tag=Apple (Stick Rules), enabled=true
-;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netease%20Music.list, tag=Netease Music (Stick Rules), enabled=true
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list, tag=CMedia (Stick Rules), enabled=true
-;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netflix.list, tag=Netflix (Stick Rules), enabled=true
-;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Spotify.list, tag=Spotify (Stick Rules), enabled=true
-;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/YouTube.list, tag=YouTube (Stick Rules), enabled=true
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list, tag=GMedia (Stick Rules), enabled=true
-;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list, tag=Telegram (Stick Rules), enabled=true
-;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list, tag=PayPal (Stick Rules), enabled=true
-;https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Microsoft.list, tag=Microsoft (Stick Rules), enabled=true
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (Stick Rules), enabled=true
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Special.list, tag=Special (Stick Rules), update-interval=43200, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list, tag=AdBlock (Stick Rules), update-interval=43200, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netease%20Music.list, tag=Netease Music (Stick Rules), update-interval=43200, enabled=false
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list, tag=CMedia (Stick Rules), update-interval=43200, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netflix.list, tag=Netflix (Stick Rules), update-interval=43200, enabled=false
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Disney%20Plus.list, tag=Disney+ (Stick Rules), update-interval=43200, enabled=false
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Spotify.list, tag=Spotify (Stick Rules), update-interval=43200, enabled=false
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/YouTube.list, tag=YouTube (Stick Rules), update-interval=43200, enabled=false
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list, tag=GMedia (Stick Rules), update-interval=43200, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list, tag=Apple (Stick Rules), update-interval=43200, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/TikTok.list, tag=TikTok (Stick Rules), update-interval=43200, enabled=false
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list, tag=Telegram (Stick Rules), update-interval=43200, enabled=false
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list, tag=PayPal (Stick Rules), update-interval=43200, enabled=false
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Microsoft.list, tag=Microsoft (Stick Rules), update-interval=43200, enabled=false
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (Stick Rules), update-interval=43200, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), update-interval=43200, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), update-interval=43200, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list, tag=LAN (Stick Rules), update-interval=43200, enabled=true
 ```
 粘贴到配置文件 [filter_remote] 中。
 
@@ -56,8 +60,8 @@ https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainlan
 
 ````
 使用方法二和方法三时，请注意
-在配置文件 [filter_local] 处自行添加最终规则 (final, Others)，
-在配置文件 [policy] 处添加 Others 策略组 (static=Others, Outside, direct)。
+在配置文件 [filter_local] 处自行添加最终规则 `final, Others`，
+在配置文件 [policy] 处添加 Others 策略组 `static=Others, Outside, direct`。
 无论使用哪种方式导入规则都应先启用 MitM 功能
 ````
 
@@ -94,6 +98,13 @@ round-robbin 策略是负载均衡策略，会轮询对每个节点进行测试�
 #### 更新规则
 一般重新载入软件时会自动更新引用 (包括节点引用和规则引用)，无需手动操作。<br>
 如需手动更新，可长按主页右下角的功能键更新全部远程资源 (需在设置内打开 “长按主页功能键切换模式” 开关)。
+
+#### 替换 GeoIP 数据源 `推荐!`
+在 Quantumult X 主页，点击右下角功能键进入设置，在设置中下拉到最下方，点击其他设置，找到 GeoLite2，点击右侧来源，粘贴下方两个链接之一，保存后开启自动更新，选择周期为 7 日。<br>
+链接 1：[GitHub 直连链接](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb) | 链接 2：[大陆 cdn 加速链接](https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb)
+![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX05.png)
+
+感谢 Hackl0us 的 [GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) 项目。
 
 ---
 该文档基于 Quantumult X 1.0.5 版本编写，部分可选功能已在配置文件中注明，请注意查看。<br>
