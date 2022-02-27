@@ -175,7 +175,7 @@ MitM：https://zh.wikipedia.org/wiki/中间人攻击
 ---
 
 ### 鸣谢
-* [lhie1 Rules](https://github.com/lhie1/Rules)
+* [lhie1 Rules](https://github.com/dler-io/Rules)
 * [DivineEngine Profiles](https://github.com/DivineEngine/Profiles/tree/master)
 * [Hackl0us SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet)
 * [Dler Cloud](https://dlercloud.com)
