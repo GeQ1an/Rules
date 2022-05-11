@@ -5,7 +5,7 @@
 
 有关 Stick Rules 的更多信息请转至项目主目录的 [README.md](https://github.com/GeQ1an/Rules/blob/master/README.md)<br>
 <br>
-本文件为 Quantumult X 专用规则使用手册，目前 Quantumult X 规则有 “广告&阻止”、“苹果服务”、“中国媒体”、“网易云音乐”、“国际媒体”、“Netflix”、“Spotify”、“YouTube”、“外部网络”、“Telegram”、“PayPal”、“大陆网络”、“微软服务”、“Speedtest” 和 “其他” 规则列表 (策略组) 可供选择。
+本文件为 Quantumult X 专用规则使用手册，目前 Quantumult X 规则有 “广告&阻止”、“苹果服务”、“中国媒体”、“网易云音乐”、“国际媒体”、“Netflix”、“Spotify”、“YouTube”、“外部网络”、“Telegram”、“PayPal”、“大陆网络”、“微软服务”、“Speedtest” 和 “其他” 规则列表可供选择。
 
 ---
 
@@ -102,7 +102,7 @@ round-robbin 策略是负载均衡策略，会轮询对每个节点进行测试�
 #### 替换 GeoIP 数据源 `推荐!`
 在 Quantumult X 主页，点击右下角【功能键】进入设置，在设置中下拉到最下方，点击【其他设置】，找到 GeoLite2，点击右侧【来源】，粘贴下方两个链接之一，保存后开启自动更新，选择周期为【7 日】。<br>
 <br>
-链接 1：[GitHub 直连链接](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb) | 链接 2：[大陆 cdn 加速链接](https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb)
+链接 1：[GitHub 直连链接](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb) | 链接 2：[大陆 CDN 加速链接](https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb)
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/QuantumultX05.png)
 
 感谢 Hackl0us 的 [GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) 项目。
