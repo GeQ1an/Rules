@@ -28,9 +28,6 @@ HOST-KEYWORD,epicgames,DIRECT
 HOST,safebrowsing.googleapis.com,DIRECT
 HOST-SUFFIX,dl.google.com,DIRECT
 
-# > jsdelivr.net
-HOST,cdn.jsdelivr.net,DIRECT
-
 # > Microsoft
 USER-AGENT,Microsoft%20Remote%20Desktop*,DIRECT
 HOST-SUFFIX,msftconnecttest.com,DIRECT
