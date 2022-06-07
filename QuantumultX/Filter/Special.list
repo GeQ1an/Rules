@@ -42,8 +42,9 @@ HOST-SUFFIX,invoice.mugglepay.com,DIRECT
 
 # > Steam
 USER-AGENT,Steam*,DIRECT
+HOST,cm.steampowered.com,DIRECT
+HOST,ol.epicgames.com,DIRECT
 HOST-SUFFIX,steamcontent.com,DIRECT
-HOST-SUFFIX,steamchina.com,DIRECT
 
 HOST,csgo.wmsj.cn,DIRECT
 HOST,dota2.wmsj.cn,DIRECT
