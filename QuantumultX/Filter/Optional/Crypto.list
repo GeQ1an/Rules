@@ -1,0 +1,126 @@
+# Forum
+DOMAIN-SUFFIX,bitcointalk.org,Crypto
+
+# Exchange
+DOMAIN-SUFFIX,aex.com,Crypto
+DOMAIN-SUFFIX,bibox.com,Crypto
+DOMAIN-SUFFIX,bitfinex.com,Crypto
+DOMAIN-SUFFIX,bithumb.com,Crypto
+DOMAIN-SUFFIX,bitmex.com,Crypto
+DOMAIN-SUFFIX,bitstamp.net,Crypto
+DOMAIN-SUFFIX,bittrex.com,Crypto
+DOMAIN-SUFFIX,bybit.com,Crypto
+DOMAIN-SUFFIX,coinbase.com,Crypto
+DOMAIN-SUFFIX,coincheck.com,Crypto
+DOMAIN-SUFFIX,coinone.co.kr,Crypto
+DOMAIN-SUFFIX,ftx.com,Crypto
+DOMAIN-SUFFIX,gate.io,Crypto
+DOMAIN-SUFFIX,gemini.com,Crypto
+DOMAIN-SUFFIX,korbit.co.kr,Crypto
+DOMAIN-SUFFIX,kraken.com,Crypto
+DOMAIN-SUFFIX,kucoin.com,Crypto
+DOMAIN-SUFFIX,liquid.com,Crypto
+DOMAIN-SUFFIX,poloniex.com,Crypto
+DOMAIN-SUFFIX,sushi.com,Crypto
+DOMAIN-SUFFIX,uniswap.org,Crypto
+DOMAIN-SUFFIX,bitbank.cc,Crypto
+DOMAIN-SUFFIX,bitcoin.org,Crypto
+DOMAIN-SUFFIX,bitquick.co,Crypto
+DOMAIN-SUFFIX,btcbox.co.jp,Crypto
+DOMAIN-SUFFIX,cex.io,Crypto
+DOMAIN-SUFFIX,dogecoin.com,Crypto
+DOMAIN-SUFFIX,paxful.com,Crypto
+
+# > Binance
+DOMAIN-SUFFIX,binance.cc,Crypto
+DOMAIN-SUFFIX,binance.cloud,Crypto
+DOMAIN-SUFFIX,binance.com,Crypto
+DOMAIN-SUFFIX,binance.im,Crypto
+DOMAIN-SUFFIX,binance.me,Crypto
+DOMAIN-SUFFIX,binance.us,Crypto
+DOMAIN-SUFFIX,bnappzh.co,Crypto
+DOMAIN-SUFFIX,bnappzh.com,Crypto
+DOMAIN-SUFFIX,bnbstatic.com,Crypto
+DOMAIN-SUFFIX,bntrace.com,Crypto
+DOMAIN-SUFFIX,binance.charity,Crypto
+DOMAIN-SUFFIX,binance.co,Crypto
+DOMAIN-SUFFIX,binance.info,Crypto
+DOMAIN-SUFFIX,binance.net,Crypto
+DOMAIN-SUFFIX,binance.org,Crypto
+DOMAIN-SUFFIX,binance.vision,Crypto
+DOMAIN-SUFFIX,binanceapi.com,Crypto
+DOMAIN-SUFFIX,binancezh.be,Crypto
+DOMAIN-SUFFIX,binancezh.biz,Crypto
+DOMAIN-SUFFIX,binancezh.cc,Crypto
+DOMAIN-SUFFIX,binancezh.co,Crypto
+DOMAIN-SUFFIX,binancezh.com,Crypto
+DOMAIN-SUFFIX,binancezh.info,Crypto
+DOMAIN-SUFFIX,binancezh.ink,Crypto
+DOMAIN-SUFFIX,binancezh.kim,Crypto
+DOMAIN-SUFFIX,binancezh.link,Crypto
+DOMAIN-SUFFIX,binancezh.live,Crypto
+DOMAIN-SUFFIX,binancezh.mobi,Crypto
+DOMAIN-SUFFIX,binancezh.net,Crypto
+DOMAIN-SUFFIX,binancezh.pro,Crypto
+DOMAIN-SUFFIX,binancezh.sh,Crypto
+DOMAIN-SUFFIX,binancezh.top,Crypto
+
+# > Huobi
+DOMAIN-SUFFIX,hbabit.com,Crypto
+DOMAIN-SUFFIX,hbfile.net,Crypto
+DOMAIN-SUFFIX,huobi.com,Crypto
+DOMAIN-SUFFIX,huobi.me,Crypto
+DOMAIN-SUFFIX,huobi.pro,Crypto
+DOMAIN-SUFFIX,huobi.sc,Crypto
+DOMAIN-SUFFIX,huobiasia.vip,Crypto
+DOMAIN-SUFFIX,huobigroup.com,Crypto
+DOMAIN-SUFFIX,huobitoken.com,Crypto
+DOMAIN-SUFFIX,heco-scan.com,Crypto
+DOMAIN-SUFFIX,hecoview.com,Crypto
+DOMAIN-SUFFIX,hbfile.net,Crypto
+DOMAIN-SUFFIX,huobi.br.com,Crypto
+DOMAIN-SUFFIX,bitderiv.com,Crypto
+
+# > OKX
+DOMAIN-SUFFIX,okex.com,Crypto
+DOMAIN-SUFFIX,okx.com,Crypto
+
+# > asproex
+DOMAIN-SUFFIX,asproex.com,Crypto
+DOMAIN-SUFFIX,asproexapi.com,Crypto
+
+# > bitflyer
+DOMAIN-SUFFIX,bitflyer.com,Crypto
+DOMAIN-SUFFIX,bitflyer.jp,Crypto
+    
+# > bitsquare
+DOMAIN-SUFFIX,bisq.io,Crypto
+DOMAIN-SUFFIX,bisq.network,Crypto
+DOMAIN-SUFFIX,bitsquare.io,Crypto
+    
+# > coinone
+DOMAIN-SUFFIX,coinone.co.kr,Crypto
+DOMAIN-SUFFIX,coinonecore.com,Crypto
+DOMAIN-SUFFIX,coinonecorp.com,Crypto
+    
+# > ethereum
+DOMAIN-SUFFIX,devcon.org,Crypto
+DOMAIN-SUFFIX,ethereum.foundation,Crypto
+DOMAIN-SUFFIX,ethereum.org,Crypto
+    
+# > localbitcoins
+DOMAIN-SUFFIX,localbitcoins.com,Crypto
+DOMAIN-SUFFIX,localbitcoinschain.com,Crypto
+
+# > zb
+DOMAIN-SUFFIX,zb.app,Crypto
+DOMAIN-SUFFIX,zb.com,Crypto
+DOMAIN-SUFFIX,zb.io,Crypto
+DOMAIN-SUFFIX,zb.live,Crypto
+    
+# Analysis
+DOMAIN-SUFFIX,aicoin.com,Crypto
+DOMAIN-SUFFIX,aimoon.com,Crypto
+DOMAIN-SUFFIX,coingecko.com,Crypto
+DOMAIN-SUFFIX,coinmarketcap.com,Crypto
+    
