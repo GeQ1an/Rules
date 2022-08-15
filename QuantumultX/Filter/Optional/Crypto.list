@@ -1,7 +1,7 @@
-# Forum
+# > Forum
 HOST-SUFFIX,bitcointalk.org,Crypto
 
-# Exchange
+# > Exchange
 HOST-SUFFIX,aex.com,Crypto
 HOST-SUFFIX,bibox.com,Crypto
 HOST-SUFFIX,bitfinex.com,Crypto
@@ -13,16 +13,12 @@ HOST-SUFFIX,bybit.com,Crypto
 HOST-SUFFIX,coinbase.com,Crypto
 HOST-SUFFIX,coincheck.com,Crypto
 HOST-SUFFIX,coinone.co.kr,Crypto
-HOST-SUFFIX,ftx.com,Crypto
-HOST-SUFFIX,gate.io,Crypto
 HOST-SUFFIX,gemini.com,Crypto
 HOST-SUFFIX,korbit.co.kr,Crypto
 HOST-SUFFIX,kraken.com,Crypto
 HOST-SUFFIX,kucoin.com,Crypto
 HOST-SUFFIX,liquid.com,Crypto
 HOST-SUFFIX,poloniex.com,Crypto
-HOST-SUFFIX,sushi.com,Crypto
-HOST-SUFFIX,uniswap.org,Crypto
 HOST-SUFFIX,bitbank.cc,Crypto
 HOST-SUFFIX,bitcoin.org,Crypto
 HOST-SUFFIX,bitquick.co,Crypto
@@ -30,6 +26,16 @@ HOST-SUFFIX,btcbox.co.jp,Crypto
 HOST-SUFFIX,cex.io,Crypto
 HOST-SUFFIX,dogecoin.com,Crypto
 HOST-SUFFIX,paxful.com,Crypto
+HOST-SUFFIX,tether.to,Crypto
+HOST-SUFFIX,dydx.exchange,Crypto
+HOST-SUFFIX,solana.com,Crypto
+HOST-SUFFIX,avax.network,Crypto
+HOST-SUFFIX,optimism.io,Crypto
+HOST-SUFFIX,arbitrum.io,Crypto
+HOST-SUFFIX,poly.network,Crypto
+HOST-SUFFIX,zkscan.io,Crypto
+HOST-SUFFIX,zksync.io,Crypto
+HOST-SUFFIX,boba.network,Crypto
 
 # > Binance
 HOST-SUFFIX,binance.cc,Crypto
@@ -64,6 +70,11 @@ HOST-SUFFIX,binancezh.net,Crypto
 HOST-SUFFIX,binancezh.pro,Crypto
 HOST-SUFFIX,binancezh.sh,Crypto
 HOST-SUFFIX,binancezh.top,Crypto
+HOST-SUFFIX,bnappzh.mobi,Crypto
+HOST-SUFFIX,bsc.getblock.io,Crypto
+HOST-SUFFIX,bscscan.com,Crypto
+PROCESS-NAME,Binance.exe,Crypto
+DOMAIN-KEYWORD,binance,Crypto
 
 # > Huobi
 HOST-SUFFIX,hbabit.com,Crypto
@@ -80,34 +91,58 @@ HOST-SUFFIX,hecoview.com,Crypto
 HOST-SUFFIX,hbfile.net,Crypto
 HOST-SUFFIX,huobi.br.com,Crypto
 HOST-SUFFIX,bitderiv.com,Crypto
+HOST-SUFFIX,hecochain.com,Crypto
+HOST-SUFFIX,huobi.ws,Crypto
+HOST-SUFFIX,huobi.ug,Crypto
+HOST-SUFFIX,huobi.co.ma,Crypto
+HOST-SUFFIX,huobi.br.com,Crypto
+PROCESS-NAME,Huobi.exe,Crypto
+DOMAIN-KEYWORD,huobi,Crypto
 
 # > OKX
 HOST-SUFFIX,okex.com,Crypto
 HOST-SUFFIX,okx.com,Crypto
+PROCESS-NAME,OKX.exe,Crypto
+DOMAIN-KEYWORD,okx,Crypto
 
 # > asproex
 HOST-SUFFIX,asproex.com,Crypto
 HOST-SUFFIX,asproexapi.com,Crypto
-
+    
 # > bitflyer
 HOST-SUFFIX,bitflyer.com,Crypto
 HOST-SUFFIX,bitflyer.jp,Crypto
-
+    
 # > bitsquare
 HOST-SUFFIX,bisq.io,Crypto
 HOST-SUFFIX,bisq.network,Crypto
 HOST-SUFFIX,bitsquare.io,Crypto
-
+    
 # > coinone
 HOST-SUFFIX,coinone.co.kr,Crypto
 HOST-SUFFIX,coinonecore.com,Crypto
 HOST-SUFFIX,coinonecorp.com,Crypto
-
+    
 # > ethereum
 HOST-SUFFIX,devcon.org,Crypto
 HOST-SUFFIX,ethereum.foundation,Crypto
 HOST-SUFFIX,ethereum.org,Crypto
-
+HOST-SUFFIX,etherscan.io,Crypto
+HOST-SUFFIX,nansen.ai,Crypto
+HOST-SUFFIX,ethgasstation.info,Crypto
+HOST-SUFFIX,watchtheburn.com,Crypto
+HOST-SUFFIX,flashbots.net,Crypto
+HOST-SUFFIX,cryptofees.info,Crypto
+HOST-SUFFIX,etherscan.io,Crypto
+HOST-SUFFIX,ethereum-magicians.org,Crypto
+HOST-SUFFIX,vitalik.ca,Crypto
+HOST-SUFFIX,ethfans.org,Crypto
+HOST-SUFFIX,ethereum.cn,Crypto
+HOST-SUFFIX,ethereum.stackexchange.com,Crypto
+HOST-SUFFIX,etherscan.com,Crypto
+HOST-SUFFIX,parity.io,Crypto
+HOST-SUFFIX,ethernodes.org,Crypto
+    
 # > localbitcoins
 HOST-SUFFIX,localbitcoins.com,Crypto
 HOST-SUFFIX,localbitcoinschain.com,Crypto
@@ -117,9 +152,148 @@ HOST-SUFFIX,zb.app,Crypto
 HOST-SUFFIX,zb.com,Crypto
 HOST-SUFFIX,zb.io,Crypto
 HOST-SUFFIX,zb.live,Crypto
-
-# Analysis
+    
+# > Analysis
 HOST-SUFFIX,aicoin.com,Crypto
 HOST-SUFFIX,aimoon.com,Crypto
 HOST-SUFFIX,coingecko.com,Crypto
 HOST-SUFFIX,coinmarketcap.com,Crypto
+HOST-SUFFIX,glassnode.com,Crypto
+HOST-SUFFIX,coinmetrics.io,Crypto
+HOST-SUFFIX,tokenview.com,Crypto
+HOST-SUFFIX,oklink.com,Crypto
+HOST-SUFFIX,blockchair.com,Crypto
+HOST-SUFFIX,intotheblock.com,Crypto
+HOST-SUFFIX,bytetree.com,Crypto
+HOST-SUFFIX,coin.dance,Crypto
+HOST-SUFFIX,defieye.io,Crypto
+HOST-SUFFIX,duneanalytics.com,Crypto
+HOST-SUFFIX,tokenterminal.com,Crypto
+HOST-SUFFIX,dapp.review,Crypto
+HOST-SUFFIX,dappradar.com,Crypto
+HOST-SUFFIX,stateofthedapps.com,Crypto
+HOST-SUFFIX,thegraph.com,Crypto
+HOST-SUFFIX,debank.com,Crypto
+HOST-SUFFIX,vfat.tools,Crypto
+HOST-SUFFIX,loanscan.io,Crypto
+HOST-SUFFIX,defirate.com,Crypto
+HOST-SUFFIX,defipulse.com,Crypto
+HOST-SUFFIX,apy999.com,Crypto
+HOST-SUFFIX,defieye.io,Crypto
+HOST-SUFFIX,dextools.io,Crypto
+HOST-SUFFIX,tradingview.com,Crypto
+HOST-SUFFIX,dcabtc.com,Crypto
+HOST-SUFFIX,chainalysis.com,Crypto
+HOST-SUFFIX,cryptoquant.com,Crypto
+HOST-SUFFIX,viewbase.com,Crypto
+HOST-SUFFIX,bitcoinity.org,Crypto
+HOST-SUFFIX,cryptocompare.com,Crypto
+HOST-SUFFIX,coincodex.com,Crypto
+HOST-SUFFIX,cointrendz.com,Crypto
+HOST-SUFFIX,coincheckup.com,Crypto
+HOST-SUFFIX,thetie.io,Crypto
+HOST-SUFFIX,cryptorank.io,Crypto
+HOST-SUFFIX,tradeblock.com,Crypto
+HOST-SUFFIX,nyctale.io,Crypto
+HOST-SUFFIX,dovemetrics.com,Crypto
+HOST-SUFFIX,cryptorank.io,Crypto
+HOST-SUFFIX,icodrops.com,Crypto
+HOST-SUFFIX,chainbroker.io,Crypto
+HOST-SUFFIX,crunchbase.com,Crypto
+HOST-SUFFIX,defillama.com,Crypto
+HOST-SUFFIX,coinowo.com,Crypto
+HOST-SUFFIX,earni.fi,Crypto
+HOST-SUFFIX,dropsearn.com,Crypto
+HOST-SUFFIX,bitcoin.it,Crypto
+HOST-SUFFIX,bitcoinmagazine.com,Crypto
+HOST-SUFFIX,blockchain.com,Crypto
+HOST-SUFFIX,tronscan.org,Crypto
+
+# > POOL
+HOST-SUFFIX,btc.com,Crypto
+HOST-SUFFIX,f2pool.com,Crypto
+HOST-SUFFIX,cbeci.org,Crypto
+HOST-SUFFIX,digiconomist.net,Crypto
+HOST-SUFFIX,1ml.com,Crypto
+HOST-SUFFIX,bitcoinvisuals.com,Crypto
+HOST-SUFFIX,crypto51.app,Crypto
+HOST-SUFFIX,masternodes.online,Crypto
+HOST-SUFFIX,bitnodes.earn.com,Crypto
+HOST-SUFFIX,poolin.com,Crypto
+HOST-SUFFIX,ethermine.org,Crypto
+HOST-SUFFIX,ewapool.net,Crypto
+
+# > FTX
+HOST-SUFFIX,ftx.com,Crypto
+
+# > Metamask
+DOMAIN-KEYWORD,metamask
+DOMAIN,token-api.metaswap.codefi.network,Crypto
+DOMAIN,min-api.cryptocompare.com,Crypto
+
+# > NFT
+HOST-SUFFIX,opensea.io,Crypto
+HOST-SUFFIX,nftscan.com,Crypto
+HOST-SUFFIX,makersplace.com,Crypto
+HOST-SUFFIX,nonfungible.com,Crypto
+HOST-SUFFIX,cryptoslam.io,Crypto
+HOST-SUFFIX,cryptoart.io,Crypto
+HOST-SUFFIX,nftcalendar.io,Crypto
+HOST-SUFFIX,nftgo.io,Crypto
+
+# > IPFS
+HOST-SUFFIX,filecoin.io,Crypto
+HOST-SUFFIX,docs.lotu.sh,Crypto
+HOST-SUFFIX,ipfs.io,Crypto
+HOST-SUFFIX,docs.ipfs.io,Crypto
+HOST-SUFFIX,discuss.ipfs.io,Crypto
+
+# > EOS
+HOST-SUFFIX,eos.io,Crypto
+HOST-SUFFIX,developers.eos.io,Crypto
+HOST-SUFFIX,block.one,Crypto
+HOST-SUFFIX,eostracker.io,Crypto
+HOST-SUFFIX,eosflare.io,Crypto
+HOST-SUFFIX,eospark.com,Crypto
+HOST-SUFFIX,bloks.io,Crypto
+
+# > Lightning
+HOST-SUFFIX,lightning.engineering,Crypto
+HOST-SUFFIX,lightning.community,Crypto
+HOST-SUFFIX,acinq.co,Crypto
+HOST-SUFFIX,1ml.com,Crypto
+
+# > Token
+HOST-SUFFIX,tokenpocket.pro,Crypto
+HOST-SUFFIX,token.im,Crypto
+HOST-SUFFIX,phantom.app,Crypto
+HOST-SUFFIX,tronlink.org,Crypto
+HOST-SUFFIX,myetherwallet.com,Crypto
+HOST-SUFFIX,jaxx.io,Crypto
+HOST-SUFFIX,trustwalletapp.com,Crypto
+
+# > Gate
+HOST-SUFFIX,gate.ac,Crypto
+HOST-SUFFIX,gate.io,Crypto
+
+# > Mexc
+HOST-SUFFIX,mexc.com,Crypto
+
+# > Dapp
+HOST-SUFFIX,sushi.com,Crypto
+HOST-SUFFIX,uniswap.org,Crypto
+HOST-SUFFIX,sunswap.com,Crypto
+HOST-SUFFIX,traderjoexyz.com,Crypto
+HOST-SUFFIX,raydium.io,Crypto
+HOST-SUFFIX,synthetix.io,Crypto
+HOST-SUFFIX,aave.com,Crypto
+HOST-SUFFIX,compound.finance,Crypto
+HOST-SUFFIX,makerdao.com,Crypto
+HOST-SUFFIX,wbtc.network,Crypto
+HOST-SUFFIX,pancakeswap.finance,Crypto
+HOST-SUFFIX,pancakeswap.com,Crypto
+HOST-SUFFIX,mdex.co,Crypto
+HOST-SUFFIX,mdex.one,Crypto
+HOST-SUFFIX,mdex.com,Crypto
+HOST-SUFFIX,mdex.me,Crypto
+HOST-SUFFIX,1inch.io,Crypto

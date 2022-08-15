@@ -1415,6 +1415,7 @@ HOST-SUFFIX,am.szhome.com,AdBlock
 HOST-SUFFIX,am.zdnet.com.cn,AdBlock
 HOST-SUFFIX,am15.net,AdBlock
 HOST-SUFFIX,amazingmagics.com,AdBlock
+HOST-SUFFIX,amazon-adsystem.com,AdBlock
 HOST-SUFFIX,amdc.m.taobao.com,AdBlock
 HOST-SUFFIX,amfi.gou.sogou.com,AdBlock
 HOST-SUFFIX,amiok.org,AdBlock
@@ -1577,6 +1578,7 @@ HOST-SUFFIX,apps.supfast.net,AdBlock
 HOST-SUFFIX,apps2.outfit7.com,AdBlock
 HOST-SUFFIX,appsdk.tanv.com,AdBlock
 HOST-SUFFIX,appservices.comcsoft.com,AdBlock
+HOST-SUFFIX,appsflyer.com,AdBlock
 HOST-SUFFIX,appspromote.wostore.cn,AdBlock
 HOST-SUFFIX,appsrv1.madserving.com,AdBlock
 HOST-SUFFIX,appsrv4.madserving.com,AdBlock
@@ -3683,6 +3685,7 @@ HOST-SUFFIX,gog9.qzdfc.com,AdBlock
 HOST-SUFFIX,go-mpulse.net,AdBlock
 HOST-SUFFIX,good.ta80.com,AdBlock
 HOST-SUFFIX,googleadsserving.cn,AdBlock
+HOST-SUFFIX,googleads.g.doubleclick.net,AdBlock
 HOST-SUFFIX,googlecommerce.com,AdBlock
 HOST-SUFFIX,googlesyndication.com,AdBlock
 HOST-SUFFIX,goolpter.com,AdBlock
