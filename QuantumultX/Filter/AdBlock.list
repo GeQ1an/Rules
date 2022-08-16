@@ -8112,7 +8112,6 @@ HOST-SUFFIX,zhichi08.com,AdBlock
 HOST-SUFFIX,zhidian3g.cn,AdBlock
 HOST-SUFFIX,zhifenjie.com,AdBlock
 HOST-SUFFIX,zhihei.com,AdBlock
-HOST-SUFFIX,zhihu.xmcimg.com,AdBlock
 HOST-SUFFIX,zhiong.net,AdBlock
 HOST-SUFFIX,zhiyuanteam.com,AdBlock
 HOST-SUFFIX,zhiziyun.com,AdBlock
@@ -8240,6 +8239,7 @@ HOST,zhihu-analytics.zhihu.com,AdBlock
 HOST,zhihu-web-analytics.zhihu.com,AdBlock
 HOST,118.89.204.198,AdBlock
 HOST-SUFFIX,xdrig.com,AdBlock
+HOST-SUFFIX,zhihu.xmcimg.com,AdBlock
 IP-CIDR,39.107.15.115/32,AdBlock
 IP-CIDR,47.89.59.182/32,AdBlock
 IP-CIDR,103.49.209.27/32,AdBlock

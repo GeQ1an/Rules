@@ -20,7 +20,7 @@
 可参考配置文件内的注释说明，配置好使用。
 
 #### 替换 GeoIP 数据源 `推荐!`
-点击右下角【更多】，找到【GEOIP】并点击，进入后选择【使用自定义数据库】，粘贴下方两个链接之一，点击自动更新策略，选择【每隔7天更新】。<br>
+点击底栏【配置】，拉到最下方其他，点击【高级设置】，找到【GEOIP】并点击，进入后选择【使用自定义数据库】，粘贴下方两个链接之一，点击自动更新策略，选择【每隔7天更新】。<br>
 <br>
 链接 1：[GitHub 直连链接](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb) | 链接 2：[CDN 加速链接](https://fastly.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb)
 ![](https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Loon01.png)
