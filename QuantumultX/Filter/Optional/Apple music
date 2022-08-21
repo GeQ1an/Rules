@@ -1,0 +1,10 @@
+  # > Apple Music
+  - HOST-SUFFIX,applemusic.com
+  - HOST-SUFFIX,music.apple.com
+  - HOST,aod.itunes.apple.com
+  - HOST,aod-ssl.itunes.apple.com
+  - HOST,audio.itunes.apple.com
+  - HOST,audio-ssl.itunes.apple.com
+  - HOST,mvod.itunes.apple.com
+  - HOST,streamingaudio.itunes.apple.com
+  - HOST-SUFFIX,blobstore.apple.com // iCloud Music Library
