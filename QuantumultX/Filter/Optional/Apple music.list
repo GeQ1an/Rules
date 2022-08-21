@@ -7,4 +7,5 @@
   - HOST,audio-ssl.itunes.apple.com
   - HOST,mvod.itunes.apple.com
   - HOST,streamingaudio.itunes.apple.com
-  - HOST-SUFFIX,blobstore.apple.com // iCloud Music Library
+  # iCloud Music Library
+  - HOST-SUFFIX,blobstore.apple.com 
