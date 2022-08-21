@@ -1,11 +1,14 @@
-  # > Apple Music
-  - HOST-SUFFIX,applemusic.com,Apple Music
-  - HOST-SUFFIX,music.apple.com,Apple Music
-  - HOST,aod.itunes.apple.com,Apple Music
-  - HOST,aod-ssl.itunes.apple.com,Apple Music
-  - HOST,audio.itunes.apple.com,Apple Music
-  - HOST,audio-ssl.itunes.apple.com,Apple Music
-  - HOST,mvod.itunes.apple.com,Apple Music
-  - HOST,streamingaudio.itunes.apple.com,Apple Music
-  # iCloud Music Library
-  - HOST-SUFFIX,blobstore.apple.com,Apple Music
+#From ConnersHua 
+#https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Extra/Apple/Music.list
+# > Apple Music
+USER-AGENT,Music*,Apple Music
+HOST-SUFFIX,applemusic.com,Apple Music
+HOST-SUFFIX,music.apple.com,Apple Music
+HOST,aod.itunes.apple.com,Apple Music
+HOST,aod-ssl.itunes.apple.com,Apple Music
+HOST,audio.itunes.apple.com,Apple Music
+HOST,audio-ssl.itunes.apple.com,Apple Music
+HOST,mvod.itunes.apple.com,Apple Music
+HOST,streamingaudio.itunes.apple.com,Apple Music
+# iCloud Music Library
+HOST-SUFFIX,blobstore.apple.com,Apple Music
