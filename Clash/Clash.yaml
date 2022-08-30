@@ -1,4 +1,4 @@
-# 2022年08月16日 01:30 UTC/GMT +8
+# 2022年08月30日 22:00 UTC/GMT +8
 
 port: 7890
 socks-port: 7891
@@ -731,14 +731,15 @@ rules:
   - RULE-SET,ViuTV,🎥 国际媒体
   # 苹果服务
   - RULE-SET,Apple,🍏 苹果服务
-  # 电报、微软及 Steam / PayPal 可选规则
-#  - RULE-SET,Telegram,📡 电报服务
-#  - RULE-SET,Microsoft,📦 微软服务
+  # 电报、微软、贝宝及 Steam 可选规则，如需为某个规则列表单独设置策略，请直接修改策略名称与上方策略组名称保持一致
+  - RULE-SET,Microsoft,🥏 大陆网络
+  - RULE-SET,Telegram,✈️ 国际代理
+  - RULE-SET,PayPal,✈️ 国际代理
 #  - RULE-SET,Steam,🎮 蒸汽游戏
-#  - RULE-SET,PayPal,💳 贝宝服务
+
   # 必须规则
   - RULE-SET,Speedtest,⏳ 网速测试
-  - RULE-SET,Proxy,✈️ 代理
+  - RULE-SET,Proxy,✈️ 国际代理
   - RULE-SET,Domestic,🥏 大陆网络
   - RULE-SET,LAN,DIRECT
 

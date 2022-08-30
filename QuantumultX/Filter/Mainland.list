@@ -185,6 +185,7 @@ HOST-SUFFIX,ford.com,Mainland
 HOST-SUFFIX,frdic.com,Mainland
 HOST-SUFFIX,fresh-ideas.cc,Mainland
 HOST-SUFFIX,gameloft.com,Mainland
+HOST-SUFFIX,garmin.com,Mainland
 HOST-SUFFIX,geetest.com,Mainland
 HOST-SUFFIX,godic.net,Mainland
 HOST-SUFFIX,goodread.com,Mainland
@@ -356,8 +357,6 @@ HOST-SUFFIX,zhihu.com,Mainland
 HOST-SUFFIX,zhimg.com,Mainland
 HOST-SUFFIX,zimuzu.tv,Mainland
 HOST-SUFFIX,zmz002.com,Mainland
+HOST-SUFFIX,gov.cn,Mainland
 HOST-SUFFIX,cn,Mainland
 IP-CIDR,1.255.62.0/24,Mainland
-
-# GEOIP 
-GEOIP,CN,Mainland
