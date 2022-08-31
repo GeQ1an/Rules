@@ -1,9 +1,9 @@
-# 2022年08月30日 22:00 UTC/GMT +8
+# 2022年08月31日 14:02 UTC/GMT +8
 
 port: 7890
 socks-port: 7891
 redir-port: 7892
-mixed-port: 7890
+mixed-port: 7893
 allow-lan: false
 # bind-address: "*"
 # 此功能仅在 allow-lan 设置为 true 时生效，支持三种参数：
@@ -52,39 +52,39 @@ dns:
   fake-ip-filter:
     - '*.lan'
     - 'cable.auth.com'
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
     - 'network-test.debian.org'
     - 'detectportal.firefox.com'
     - 'resolver1.opendns.com'
-    - '*.srv.nintendo.net'
-    - '*.stun.playstation.net'
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
     - 'xbox.*.microsoft.com'
-    - '*.xboxlive.com'
+    - '+.xboxlive.com'
     - 'stun.*'
     - 'localhost.*.qq.com'
-    - '*.logon.battlenet.com.cn'
-    - '*.logon.battle.net'
-    - '*.blzstatic.cn'
-    - '*.cmpassport.com'
+    - '+.logon.battlenet.com.cn'
+    - '+.logon.battle.net'
+    - '+.blzstatic.cn'
+    - '+.cmpassport.com'
     - 'id6.me'
     - 'open.e.189.cn'
     - 'mdn.open.wo.cn'
     - 'auth.wosms.cn'
-    - '*.jegotrip.com.cn'
-    - '*.icitymobile.mobi'
-    - '*.pingan.com.cn'
-    - '*.cmbchina.com'
-    - '*?miwifi.com'
+    - '+.jegotrip.com.cn'
+    - '+.icitymobile.mobi'
+    - '+.pingan.com.cn'
+    - '+.cmbchina.com'
+    - '+?miwifi.com'
     - 'pool.ntp.org'
-    - '*.pool.ntp.org'
+    - '+.pool.ntp.org'
     - 'ntp.*.com'
     - 'time.*.com'
     - 'ntp?.*.com'
     - 'time?.*.com'
     - 'time.*.gov'
     - 'time.*.edu.cn'
-    - '*.ntp.org.cn'
+    - '+.ntp.org.cn'
     - 'time.*.apple.com'
     - 'PDC._msDCS.*.*'
     - 'DC._msDCS.*.*'
@@ -394,12 +394,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Letv.yaml
     path: ./Rules/Media/Letv.yaml
     interval: 86400
-  MOO:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/MOO.yaml
-    path: ./Rules/Media/MOO.yaml
-    interval: 86400
   Netease Music:
     type: http
     behavior: classical
@@ -442,6 +436,12 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Amazon.yaml
     path: ./Rules/Media/Amazon.yaml
+    interval: 86400
+  Apple Music:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Apple%20Music.yaml
+    path: ./Rules/Media/Apple_Music.yaml
     interval: 86400
   Apple News:
     type: http
@@ -690,7 +690,6 @@ rules:
   - RULE-SET,IQ,📽 国内媒体
   - RULE-SET,IQIYI,📽 国内媒体
   - RULE-SET,Letv,📽 国内媒体
-  - RULE-SET,MOO,📽 国内媒体
   - RULE-SET,Netease Music,📽 国内媒体
   - RULE-SET,Tencent Video,📽 国内媒体
   - RULE-SET,Youku,📽 国内媒体
