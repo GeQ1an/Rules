@@ -1,4 +1,4 @@
-# 2022年10月22日 01:30 UTC/GMT +8
+# 2022年10月22日 02:14 UTC/GMT +8
 
 port: 7890
 socks-port: 7891
@@ -634,7 +634,7 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml
     path: ./Rules/Apple.yaml
     interval: 86400
-# 电报、微软、Steam、PayPal 及多邻国可选规则列表
+# 电报、微软、Steam 及 PayPal 可选规则列表
   Telegram:
     type: http
     behavior: classical
@@ -658,12 +658,6 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml
     path: ./Rules/PayPal.yaml
-    interval: 86400
-  Duolingo:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Duolingo.yaml
-    path: ./Rules/Duolingo.yaml
     interval: 86400
 # 必须规则列表
   Speedtest:
@@ -744,7 +738,6 @@ rules:
   - RULE-SET,Microsoft,🥏 大陆网络
   - RULE-SET,Telegram,✈️ 国际代理
   - RULE-SET,PayPal,✈️ 国际代理
-  - RULE-SET,Duolingo,✈️ 国际代理
 #  - RULE-SET,Steam,🎮 蒸汽游戏
 
   # 必须规则
