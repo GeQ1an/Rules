@@ -47,7 +47,6 @@ HOST,d25xi40x97liuc.cloudfront.net,GMedia
 HOST,dmqdd6hw24ucf.cloudfront.net,GMedia
 HOST,d27xxe7juh1us6.cloudfront.net,GMedia
 HOST,dualstack.pefs-alb-266603904.eu-west-1.elb.amazonaws.com,GMedia
-HOST,www.amazon.com,GMedia
 
 # > Apple TV
 HOST-SUFFIX,tv.apple.com,GMedia
@@ -270,6 +269,16 @@ IP-CIDR,208.75.76.0/22,GMedia
 IP-CIDR,34.210.42.111/32,GMedia
 IP-CIDR,52.89.124.203/32,GMedia
 IP-CIDR,54.148.37.5/32,GMedia
+
+# > Niconico
+HOST-SUFFIX,dmc.nico,GMedia
+HOST-SUFFIX,nicovideo.jp,GMedia
+HOST-SUFFIX,nicodic.jp,GMedia
+HOST-SUFFIX,nicomanga.jp,GMedia
+HOST-SUFFIX,niconico.com,GMedia
+HOST-SUFFIX,nicoseiga.jp,GMedia
+HOST-SUFFIX,nimg.jp,GMedia
+HOST-SUFFIX,simg.jp,GMedia
 
 # > Pandora
 HOST-SUFFIX,pandora.com,GMedia

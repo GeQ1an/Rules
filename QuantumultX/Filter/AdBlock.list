@@ -519,6 +519,7 @@ HOST-SUFFIX,52lubo.cn,AdBlock
 HOST-SUFFIX,5345ll.com,AdBlock
 HOST-SUFFIX,537901.com,AdBlock
 HOST-SUFFIX,55.la,AdBlock
+HOST-SUFFIX,5534edee5a.com,AdBlock
 HOST-SUFFIX,555p555p.com,AdBlock
 HOST-SUFFIX,559gp.com,AdBlock
 HOST-SUFFIX,55lu.com,AdBlock
@@ -1566,7 +1567,6 @@ HOST-SUFFIX,appgift.sinaapp.com,AdBlock
 HOST-SUFFIX,appjiagu.com,AdBlock
 HOST-SUFFIX,applifier.com,AdBlock
 HOST-SUFFIX,applog.uc.cn,AdBlock
-HOST-SUFFIX,applogapi.autohome.com.cn,AdBlock
 HOST-SUFFIX,applogios.uc.cn,AdBlock
 HOST-SUFFIX,app-monitor.ele.me,AdBlock
 HOST-SUFFIX,appnext.com,AdBlock
@@ -3229,6 +3229,7 @@ HOST-SUFFIX,e706.net,AdBlock
 HOST-SUFFIX,e708.net,AdBlock
 HOST-SUFFIX,e719.net,AdBlock
 HOST-SUFFIX,e9377f.com,AdBlock
+HOST-SUFFIX,ea778a21c7.com,AdBlock
 HOST-SUFFIX,eacash.streamplay.to,AdBlock
 HOST-SUFFIX,eap.big5.enorth.com.cn,AdBlock
 HOST-SUFFIX,eap.enorth.com.cn,AdBlock
@@ -8200,7 +8201,6 @@ HOST,mobads-logs.baidu.com,AdBlock
 HOST,nsclick.baidu.com,AdBlock
 HOST,wn.pos.baidu.com,AdBlock
 HOST,ps.map.baidu.com,AdBlock
-HOST,sv.map.baidu.com,AdBlock
 HOST,offnavi.map.baidu.com,AdBlock
 HOST,newvector.map.baidu.com,AdBlock
 HOST,ulog.imap.baidu.com,AdBlock

@@ -45,7 +45,7 @@ USER-AGENT,Steam*,DIRECT
 HOST,cm.steampowered.com,DIRECT
 HOST,ol.epicgames.com,DIRECT
 HOST-SUFFIX,steamcontent.com,DIRECT
-
+HOST-SUFFIX,steamserver.net,DIRECT
 HOST-SUFFIX,steamchina.com,DIRECT
 
 HOST,csgo.wmsj.cn,DIRECT
@@ -82,6 +82,9 @@ HOST-SUFFIX,teslamotors.cn,DIRECT
 HOST-SUFFIX,teslamotors.com,DIRECT
 HOST-SUFFIX,teslamotors.com.cn,DIRECT
 HOST-SUFFIX,ts.la,DIRECT
+
+# > WiFiman
+HOST-SUFFIX,app-measurement.com,DIRECT
 
 # > Xunlei
 USER-AGENT,%E8%BF%85%E9%9B%B7,DIRECT

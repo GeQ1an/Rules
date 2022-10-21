@@ -1,6 +1,6 @@
-# Mainland China ASN list
+# China Mainland ASN list
 # From VirgilClyne
-# https://raw.githubusercontent.com/VirgilClyne/VirgilClyne/main/modules/ASN/ASN.China.list
+# https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
 
 IP-ASN,4134,Mainland
 IP-ASN,4538,Mainland
@@ -21,12 +21,9 @@ IP-ASN,7497,Mainland
 IP-ASN,7586,Mainland
 IP-ASN,7640,Mainland
 IP-ASN,7641,Mainland
-IP-ASN,7720,Mainland
-IP-ASN,7721,Mainland
 IP-ASN,9298,Mainland
 IP-ASN,9306,Mainland
 IP-ASN,9308,Mainland
-IP-ASN,9384,Mainland
 IP-ASN,9389,Mainland
 IP-ASN,9391,Mainland
 IP-ASN,9392,Mainland
@@ -34,7 +31,6 @@ IP-ASN,9394,Mainland
 IP-ASN,9395,Mainland
 IP-ASN,9401,Mainland
 IP-ASN,9405,Mainland
-IP-ASN,9516,Mainland
 IP-ASN,9535,Mainland
 IP-ASN,9800,Mainland
 IP-ASN,9801,Mainland
@@ -60,7 +56,6 @@ IP-ASN,17428,Mainland
 IP-ASN,17429,Mainland
 IP-ASN,17430,Mainland
 IP-ASN,17442,Mainland
-IP-ASN,17457,Mainland
 IP-ASN,17490,Mainland
 IP-ASN,17621,Mainland
 IP-ASN,17622,Mainland
@@ -75,7 +70,6 @@ IP-ASN,17781,Mainland
 IP-ASN,17785,Mainland
 IP-ASN,17799,Mainland
 IP-ASN,17816,Mainland
-IP-ASN,17830,Mainland
 IP-ASN,17897,Mainland
 IP-ASN,17962,Mainland
 IP-ASN,17964,Mainland
@@ -161,7 +155,6 @@ IP-ASN,24430,Mainland
 IP-ASN,24444,Mainland
 IP-ASN,24445,Mainland
 IP-ASN,24489,Mainland
-IP-ASN,24490,Mainland
 IP-ASN,24495,Mainland
 IP-ASN,24547,Mainland
 IP-ASN,24575,Mainland
@@ -205,7 +198,6 @@ IP-ASN,38379,Mainland
 IP-ASN,38380,Mainland
 IP-ASN,38381,Mainland
 IP-ASN,38439,Mainland
-IP-ASN,38564,Mainland
 IP-ASN,38587,Mainland
 IP-ASN,38834,Mainland
 IP-ASN,42962,Mainland
@@ -236,7 +228,6 @@ IP-ASN,49953,Mainland
 IP-ASN,55439,Mainland
 IP-ASN,55461,Mainland
 IP-ASN,55468,Mainland
-IP-ASN,55515,Mainland
 IP-ASN,55641,Mainland
 IP-ASN,55786,Mainland
 IP-ASN,55826,Mainland
@@ -407,7 +398,6 @@ IP-ASN,63724,Mainland
 IP-ASN,63727,Mainland
 IP-ASN,63835,Mainland
 IP-ASN,63838,Mainland
-IP-ASN,64021,Mainland
 IP-ASN,131134,Mainland
 IP-ASN,131137,Mainland
 IP-ASN,131171,Mainland
@@ -940,12 +930,7 @@ IP-ASN,208577,Mainland
 IP-ASN,208679,Mainland
 IP-ASN,209100,Mainland
 IP-ASN,210041,Mainland
-IP-ASN,210320,Mainland
-IP-ASN,210426,Mainland
-IP-ASN,210714,Mainland
 IP-ASN,210903,Mainland
-IP-ASN,210934,Mainland
 IP-ASN,211481,Mainland
 IP-ASN,211843,Mainland
 IP-ASN,212237,Mainland
-IP-ASN,212292,Mainland
