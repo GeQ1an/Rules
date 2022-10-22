@@ -1,4 +1,4 @@
-HOST-WILDCARD,netflixdnstest*.com,GMedia
+HOST-WILDCARD,netflixdnstest*.com,Netflix
 HOST-SUFFIX,flxvpn.net,Netflix
 HOST-SUFFIX,netflix.ca,Netflix
 HOST-SUFFIX,netflix.com,Netflix
@@ -14,11 +14,15 @@ HOST-SUFFIX,nflxso.net,Netflix
 HOST-SUFFIX,nflxvideo.net,Netflix
 HOST,e13252.dscg.akamaiedge.net,Netflix
 HOST,h-netflix.online-metrix.net,Netflix
+HOST,netflix.com.edgesuite.net,Netflix
 
 IP-CIDR,23.246.0.0/18,Netflix
+IP-CIDR,34.210.42.111/32,Netflix
 IP-CIDR,37.77.184.0/21,Netflix
 IP-CIDR,38.72.126.0/24,Netflix
 IP-CIDR,45.57.0.0/17,Netflix
+IP-CIDR,52.89.124.203/32,Netflix
+IP-CIDR,54.148.37.5/32,Netflix
 IP-CIDR,64.120.128.0/17,Netflix
 IP-CIDR,66.197.128.0/17,Netflix
 IP-CIDR,69.53.224.0/19,Netflix
@@ -30,6 +34,7 @@ IP-CIDR,192.173.64.0/18,Netflix
 IP-CIDR,198.38.96.0/19,Netflix
 IP-CIDR,198.45.48.0/20,Netflix
 IP-CIDR,208.75.76.0/22,Netflix
-IP-CIDR,34.210.42.111/32,Netflix
-IP-CIDR,52.89.124.203/32,Netflix
-IP-CIDR,54.148.37.5/32,Netflix
+IP6-CIDR,2607:fb10::/32,Netflix
+IP6-CIDR,2620:10c:7000::/44,Netflix
+IP6-CIDR,2a00:86c0::/32,Netflix
+IP6-CIDR,2a03:5640::/32,Netflix
