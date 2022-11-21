@@ -342,6 +342,7 @@ hostname = *.google.cn, www.firefox.com.cn, api.abema.io, app.biliintl.com, pass
 ^https?://api\.mgzf\.com/renter-operation/home/startHomePage url reject
 # > ManHuaRen
 ^https?://mangaapi\.manhuaren\.com/v\d/public/getStartPageAds url reject
+^https?://mangaapi\.manhuaren\.com/v\d/ad/ url reject
 # > Meituan-Dianping - flowplus.meituan.net
 #^https?://img\.meituan\.net/(adunion|display|dpmobile|midas)/\w+\.(gif|jpg|jpg\.webp)$ url reject
 #^https?://p\d\.meituan\.net/(bizad|wmbanner)/\w+\.jpg url reject
