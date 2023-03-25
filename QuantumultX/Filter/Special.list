@@ -31,14 +31,6 @@ HOST-SUFFIX,dl.google.com,DIRECT
 # > Microsoft
 USER-AGENT,Microsoft%20Remote%20Desktop*,DIRECT
 HOST-SUFFIX,msftconnecttest.com,DIRECT
-HOST-SUFFIX,windows.com,DIRECT
-HOST-SUFFIX,windows.net,DIRECT
-HOST-SUFFIX,windowsupdate.com,DIRECT
-HOST-SUFFIX,xbox.com,DIRECT
-HOST-SUFFIX,xboxlive.com,DIRECT
-
-# > Mugglepay
-HOST-SUFFIX,invoice.mugglepay.com,DIRECT
 
 # > Steam
 USER-AGENT,Steam*,DIRECT
@@ -83,6 +75,9 @@ HOST-SUFFIX,teslamotors.com,DIRECT
 HOST-SUFFIX,teslamotors.com.cn,DIRECT
 HOST-SUFFIX,ts.la,DIRECT
 
+# > UBI
+HOST,uplaypc-s-ubisoft.cdn.ubi.com,DIRECT
+
 # > WiFiman
 HOST-SUFFIX,app-measurement.com,DIRECT
 
@@ -91,6 +86,7 @@ USER-AGENT,%E8%BF%85%E9%9B%B7,DIRECT
 HOST-SUFFIX,xunlei.com,DIRECT
 
 # > Private Tracker
+HOST-SUFFIX,audiences.me,DIRECT
 HOST-SUFFIX,awesome-hd.me,DIRECT
 HOST-SUFFIX,broadcasthe.net,DIRECT
 HOST-SUFFIX,chdbits.co,DIRECT

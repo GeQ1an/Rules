@@ -1,6 +1,6 @@
 USER-AGENT,Microsoft*,Microsoft
 HOST-KEYWORD,microsoft,Microsoft
-HOST-SUFFIX,ms,Microsoft
+HOST-WILDCARD,windows-*.net,Microsoft
 HOST-SUFFIX,azure.com,Microsoft
 HOST-SUFFIX,bing.com,Microsoft
 HOST-SUFFIX,bing.net,Microsoft
@@ -23,3 +23,4 @@ HOST-SUFFIX,windows.com,Microsoft
 HOST-SUFFIX,windows.net,Microsoft
 HOST-SUFFIX,xbox.com,Microsoft
 HOST-SUFFIX,xboxlive.com,Microsoft
+HOST-SUFFIX,ms,Microsoft
