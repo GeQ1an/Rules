@@ -46,8 +46,8 @@ HOST-SUFFIX,storage.live.com,Outside
 HOST-SUFFIX,storage.msn.com,Outside
 
 # > OpenAI
-HOST-SUFFIX,ai.com,Outside
-HOST-SUFFIX,openai.com,Outside
+#HOST-SUFFIX,ai.com,Outside
+#HOST-SUFFIX,openai.com,Outside
 
 # > PayPal
 USER-AGENT,PayPal*,Outside
