@@ -1,4 +1,4 @@
-# 2022年10月22日 02:14 UTC/GMT +8
+# 2023年05月31日 00:30 UTC/GMT +8
 
 port: 7890
 socks-port: 7891
@@ -634,7 +634,7 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml
     path: ./Rules/Apple.yaml
     interval: 86400
-# 电报、微软、Steam 及 PayPal 可选规则列表
+# 电报、微软、ChatGPT、Steam 及 PayPal 可选规则列表
   Telegram:
     type: http
     behavior: classical
@@ -646,6 +646,12 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Microsoft.yaml
     path: ./Rules/Microsoft.yaml
+    interval: 86400
+  ChatGPT:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/ChatGPT.yaml
+    path: ./Rules/ChatGPT.yaml
     interval: 86400
   Steam:
     type: http
@@ -736,6 +742,7 @@ rules:
   - RULE-SET,Apple,🍏 苹果服务
   # 电报、微软、贝宝及 Steam 可选规则，如需为某个规则列表单独设置策略，请直接修改策略名称与上方策略组名称保持一致
   - RULE-SET,Microsoft,🥏 大陆网络
+  - RULE-SET,ChatGPT,✈️ 国际代理
   - RULE-SET,Telegram,✈️ 国际代理
   - RULE-SET,PayPal,✈️ 国际代理
 #  - RULE-SET,Steam,🎮 蒸汽游戏

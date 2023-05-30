@@ -1567,6 +1567,8 @@ HOST-SUFFIX,appjiagu.com,AdBlock
 HOST-SUFFIX,applifier.com,AdBlock
 HOST-SUFFIX,applog.uc.cn,AdBlock
 HOST-SUFFIX,applogios.uc.cn,AdBlock
+HOST-SUFFIX,applovin.com,AdBlock
+HOST-SUFFIX,applvn.com,AdBlock
 HOST-SUFFIX,app-monitor.ele.me,AdBlock
 HOST-SUFFIX,appnext.com,AdBlock
 HOST-SUFFIX,appodealx.com,AdBlock
@@ -2565,7 +2567,6 @@ HOST-SUFFIX,d.39.net,AdBlock
 HOST-SUFFIX,d.admx.baixing.com,AdBlock
 HOST-SUFFIX,d.agkn.com,AdBlock
 HOST-SUFFIX,d.annarbor.com,AdBlock
-HOST-SUFFIX,d.applovin.com,AdBlock
 HOST-SUFFIX,d.beigedi.com,AdBlock
 HOST-SUFFIX,d.businessinsider.com,AdBlock
 HOST-SUFFIX,d.clkservice.youdao.com,AdBlock
@@ -2864,6 +2865,7 @@ HOST-SUFFIX,dol.deliver.ifeng.com,AdBlock
 HOST-SUFFIX,dolphin.deliver.ifeng.com,AdBlock
 HOST-SUFFIX,dolphin.ftimg.net,AdBlock
 HOST-SUFFIX,dolphin4.ftimg.net,AdBlock
+HOST-SUFFIX,doubleclick.net,AdBlock
 HOST-SUFFIX,domed.shenbimall.com,AdBlock
 HOST-SUFFIX,do-not-tracker.org,AdBlock
 HOST-SUFFIX,dontblockme.modaco.com,AdBlock
@@ -8229,6 +8231,9 @@ HOST,pr.da.netease.com,AdBlock
 HOST,rd.da.netease.com,AdBlock
 HOST,wr.da.netease.com,AdBlock
 HOST,yt-adp.nosdn.127.net,AdBlock
+
+# > OpenAI
+HOST-SUFFIX,openaicom.imgix.net,AdBlock
 
 # > Zhihu
 HOST,appcloud2.in.zhihu.com,AdBlock
