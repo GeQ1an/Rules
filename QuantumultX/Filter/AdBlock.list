@@ -172,7 +172,6 @@ HOST-SUFFIX,nicorette.co.kr,AdBlock
 # > Sohu
 HOST-SUFFIX,adnet.sohu.com,AdBlock
 HOST-SUFFIX,aty.sohu.com,AdBlock
-HOST-SUFFIX,data.vod.itc.cn,AdBlock
 HOST-SUFFIX,epro.sogou.com,AdBlock
 HOST-SUFFIX,go.sohu.com,AdBlock
 HOST-SUFFIX,golden1.sogou.com,AdBlock
@@ -8233,7 +8232,8 @@ HOST,wr.da.netease.com,AdBlock
 HOST,yt-adp.nosdn.127.net,AdBlock
 
 # > OpenAI
-HOST-SUFFIX,openaicom.imgix.net,AdBlock
+HOST,o33249.ingest.sentry.io,AdBlock
+HOST,openaicom.imgix.net,AdBlock
 
 # > Zhihu
 HOST,appcloud2.in.zhihu.com,AdBlock
