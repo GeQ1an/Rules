@@ -3,7 +3,6 @@
 # > Apple Music
 USER-AGENT,Music*,Apple Music
 HOST-SUFFIX,applemusic.com,Apple Music
-HOST-SUFFIX,blobstore.apple.com,Apple Music
 HOST-SUFFIX,music.apple.com,Apple Music
 HOST,aod.itunes.apple.com,Apple Music
 HOST,aod-ssl.itunes.apple.com,Apple Music

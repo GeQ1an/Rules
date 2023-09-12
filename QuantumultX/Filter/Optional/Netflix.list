@@ -15,18 +15,15 @@ HOST-SUFFIX,nflxvideo.net,Netflix
 HOST,e13252.dscg.akamaiedge.net,Netflix
 HOST,h-netflix.online-metrix.net,Netflix
 HOST,netflix.com.edgesuite.net,Netflix
+HOST-SUFFIX,onetrust.com,Netflix
+HOST-SUFFIX,cookielaw.org,Netflix
 
-IP-CIDR,23.246.0.0/18,Netflix
-IP-CIDR,34.210.42.111/32,Netflix
+IP-CIDR,23.246.18.0/23,Netflix
 IP-CIDR,37.77.184.0/21,Netflix
-IP-CIDR,38.72.126.0/24,Netflix
 IP-CIDR,45.57.0.0/17,Netflix
-IP-CIDR,52.89.124.203/32,Netflix
-IP-CIDR,54.148.37.5/32,Netflix
 IP-CIDR,64.120.128.0/17,Netflix
 IP-CIDR,66.197.128.0/17,Netflix
 IP-CIDR,69.53.224.0/19,Netflix
-IP-CIDR,103.87.204.0/22,Netflix
 IP-CIDR,108.175.32.0/20,Netflix
 IP-CIDR,185.2.220.0/22,Netflix
 IP-CIDR,185.9.188.0/22,Netflix

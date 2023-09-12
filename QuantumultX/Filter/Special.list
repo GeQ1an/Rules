@@ -1,6 +1,3 @@
-# > Dler Cloud
-HOST-SUFFIX,dler.cloud,DIRECT
-
 # > Apple CDN
 USER-AGENT,com.apple.appstored*,DIRECT
 HOST,aod.itunes.apple.com,DIRECT
@@ -16,7 +13,6 @@ HOST,supportdownload.apple.com,DIRECT
 HOST,swcdn.apple.com,DIRECT
 HOST,updates-http.cdn-apple.com,DIRECT
 HOST-SUFFIX,ls.apple.com,DIRECT
-HOST-SUFFIX,mzstatic.com,DIRECT
 
 # > Duet
 USER-AGENT,duet*,DIRECT

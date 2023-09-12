@@ -1255,7 +1255,7 @@ HOST-SUFFIX,adstat.cp11.ott.cibntv.net,AdBlock
 HOST-SUFFIX,adstextview.qq.com,AdBlock
 HOST-SUFFIX,adstil.indiatimes.com,AdBlock
 HOST-SUFFIX,ad-stir.com,AdBlock
-HOST-SUFFIX,adsmind.ugdtimg.com,AdBlock
+HOST-SUFFIX,adsmind.gdtimg.com,AdBlock
 HOST-SUFFIX,adstream.123.sogoucdn.com,AdBlock
 HOST-SUFFIX,ads-twitter.com,AdBlock
 HOST-SUFFIX,ads-v-darwin.hulustream.com,AdBlock
@@ -1944,6 +1944,7 @@ HOST-SUFFIX,btlaunch.baidu.com,AdBlock
 HOST-SUFFIX,btn.onlylady.com,AdBlock
 HOST-SUFFIX,btn.pchome.net,AdBlock
 HOST-SUFFIX,btr.domywife.com,AdBlock
+HOST-SUFFIX,btrace.qq.com,AdBlock
 HOST-SUFFIX,bttrack.com,AdBlock
 HOST-SUFFIX,btyou.com,AdBlock
 HOST-SUFFIX,bu01.zybang.com,AdBlock
@@ -3766,6 +3767,7 @@ HOST-SUFFIX,h5.jiumaster.com,AdBlock
 HOST-SUFFIX,h5.pk1179.com,AdBlock
 HOST-SUFFIX,h5.super-dreamers.com,AdBlock
 HOST-SUFFIX,h5.taihao.cc,AdBlock
+HOST-SUFFIX,h5-api.feiersmart.com,AdBlock
 HOST-SUFFIX,h8.bec.com,AdBlock
 HOST-SUFFIX,h9377c.com,AdBlock
 HOST-SUFFIX,haitaoad.nosdn.127.net,AdBlock
@@ -4174,6 +4176,8 @@ HOST-SUFFIX,info.sec.miui.com,AdBlock
 HOST-SUFFIX,info.stockstar.com,AdBlock
 HOST-SUFFIX,info.yitsoftware.com,AdBlock
 HOST-SUFFIX,infocenter.meizu.com,AdBlock
+HOST-SUFFIX,info4.video.qq.com,AdBlock
+HOST-SUFFIX,info6.video.qq.com,AdBlock
 HOST-SUFFIX,ingameads.gameloft.com,AdBlock
 HOST-SUFFIX,ini.litingxin.cn,AdBlock
 HOST-SUFFIX,ini.update.360safe.com,AdBlock
@@ -4202,6 +4206,7 @@ HOST-SUFFIX,interactive.huanqiu.com,AdBlock
 HOST-SUFFIX,interest.mix.sina.com.cn,AdBlock
 HOST-SUFFIX,ioc.mmakd.top,AdBlock
 HOST-SUFFIX,ios.bugly.qq.com,AdBlock
+HOST-SUFFIX,ios.video.mpush.qq.com,AdBlock
 HOST-SUFFIX,ios-dc.51y5.net,AdBlock
 HOST-SUFFIX,ios-informationplatform.wps.cn,AdBlock
 HOST-SUFFIX,iosipa.b0.upaiyun.com,AdBlock
