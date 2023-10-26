@@ -707,15 +707,15 @@ rules:
   - RULE-SET,IQ,📽 国内媒体
   - RULE-SET,IQIYI,📽 国内媒体
   - RULE-SET,Letv,📽 国内媒体
-  - RULE-SET,Netease Music,📽 国内媒体
+  - RULE-SET,Netease Music,📽 国内媒体 #🎵 网易云音乐
   - RULE-SET,Tencent Video,📽 国内媒体
   - RULE-SET,Youku,📽 国内媒体
   - RULE-SET,WeTV,📽 国内媒体
   # 国际媒体分组
-  - RULE-SET,Netflix,🎥 国际媒体
-  - RULE-SET,Disney Plus,🎥 国际媒体
-  - RULE-SET,Spotify,🎥 国际媒体
-  - RULE-SET,YouTube,🎥 国际媒体
+  - RULE-SET,Netflix,🎥 国际媒体 #📺 网飞视频
+  - RULE-SET,Disney Plus,🎥 国际媒体 #🎬 迪士尼+
+  - RULE-SET,Spotify,🎥 国际媒体 #🎧 声田音乐
+  - RULE-SET,YouTube,🎥 国际媒体 #📹 油管视频
   - RULE-SET,YouTube Music,🎥 国际媒体
   - RULE-SET,ABC,🎥 国际媒体
   - RULE-SET,Abema TV,🎥 国际媒体
@@ -745,13 +745,15 @@ rules:
   - RULE-SET,Pornhub,🎥 国际媒体
   - RULE-SET,Soundcloud,🎥 国际媒体
   - RULE-SET,ViuTV,🎥 国际媒体
+  
   # 苹果服务
   - RULE-SET,Apple,🍏 苹果服务
+  
   # 电报、微软、贝宝及 Steam 可选规则，如需为某个规则列表单独设置策略，请直接修改策略名称与上方策略组名称保持一致
-  - RULE-SET,Microsoft,🥏 大陆网络
-  - RULE-SET,OpenAI,✈️ 国际代理
-  - RULE-SET,Telegram,✈️ 国际代理
-  - RULE-SET,PayPal,✈️ 国际代理
+  - RULE-SET,Microsoft,🥏 大陆网络 #📦 微软服务
+  - RULE-SET,OpenAI,✈️ 国际代理 #🔖 OpenAI
+  - RULE-SET,Telegram,✈️ 国际代理 #📡 电报服务
+  - RULE-SET,PayPal,✈️ 国际代理 #💳 贝宝服务
 #  - RULE-SET,Steam,🎮 蒸汽游戏
 
   # 必须规则
