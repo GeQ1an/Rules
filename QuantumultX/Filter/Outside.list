@@ -338,6 +338,8 @@ HOST-SUFFIX,ghostnoteapp.com,Outside
 HOST-SUFFIX,ghcr.io,Outside
 HOST-SUFFIX,git.io,Outside
 HOST-SUFFIX,gitbook.com,Outside
+HOST-SUFFIX,gitlab.com,Outside
+HOST-SUFFIX,gitlab.io,Outside
 HOST-SUFFIX,globalsign.com,Outside
 HOST-SUFFIX,gmocloud.com,Outside
 HOST-SUFFIX,gmodules.com,Outside
