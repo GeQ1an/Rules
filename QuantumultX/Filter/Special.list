@@ -14,6 +14,9 @@ HOST,swcdn.apple.com,DIRECT
 HOST,updates-http.cdn-apple.com,DIRECT
 HOST-SUFFIX,ls.apple.com,DIRECT
 
+# > Dler Cloud
+HOST-SUFFIX,dler.cloud,DIRECT
+
 # > Duet
 USER-AGENT,duet*,DIRECT
 
