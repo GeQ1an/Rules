@@ -189,7 +189,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
 proxy-groups:
-# 默认注释网易云音乐 / Netflix / Disney Plus / Spotify / YouTube / Telegram / Microsoft / Steam / PayPal 规则及策略，如需使用请取消 # 备注，并修改 RULE-SET 位置策略名与之对应，或取消对应规则前的 # 备注
+# 默认注释网易云音乐 / Netflix / Disney Plus / Spotify / YouTube / Telegram / Microsoft / Steam / PayPal / TikTok 规则及策略，如需使用请取消 # 备注，并修改 RULE-SET 位置策略名与之对应，或取消对应规则前的 # 备注
   - name: "🚫 广告拦截"
     type: select
     proxies:
@@ -295,6 +295,14 @@ proxy-groups:
 #    type: select
 #    proxies:
 #      - ✈️ 国际代理
+#      - ⭕️ 直连
+#  - name: "🎶 国际抖音"
+#    type: select
+#    proxies:
+#      - ✈️ 国际代理
+#      - 🇺🇸 美国节点
+#      - 🇰🇷 韩国节点
+#      - 🇯🇵 日本节点
 #      - ⭕️ 直连
   - name: "⏳ 网速测试"
     type: select
@@ -641,7 +649,7 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml
     path: ./Rules/Apple.yaml
     interval: 86400
-# 电报、微软、ChatGPT、Steam 及 PayPal 可选规则列表
+# 电报、微软、OpenAI、Steam、PayPal 及 TikTok 可选规则列表
   Telegram:
     type: http
     behavior: classical
@@ -671,6 +679,12 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml
     path: ./Rules/PayPal.yaml
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yamlSteam.yaml
+    path: ./Rules/TikTok.yaml
     interval: 86400
 # 必须规则列表
   Speedtest:
@@ -755,6 +769,7 @@ rules:
   - RULE-SET,Telegram,✈️ 国际代理 #📡 电报服务
   - RULE-SET,PayPal,✈️ 国际代理 #💳 贝宝服务
 #  - RULE-SET,Steam,🎮 蒸汽游戏
+#  - RULE-SET,TikTok,🎶 国际抖音
 
   # 必须规则
   - RULE-SET,Speedtest,⏳ 网速测试
