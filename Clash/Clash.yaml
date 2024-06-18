@@ -1,4 +1,4 @@
-# 2023年10月27日 18:42 UTC/GMT +8
+# 2024年06月18日 16:40 UTC/GMT +8
 
 port: 7890
 socks-port: 7891
@@ -683,7 +683,7 @@ rule-providers:
   TikTok:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yamlSteam.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
     path: ./Rules/TikTok.yaml
     interval: 86400
 # 必须规则列表
