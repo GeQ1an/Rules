@@ -1,0 +1,25 @@
+# OpenAI
+# created by blackmatrix7 
+# repo:https://github.com/blackmatrix7/ios_rule_script
+HOST,cdn.auth0.com,AI Platforms
+HOST,o33249.ingest.sentry.io,AI Platforms
+HOST-SUFFIX,ai.com,AI Platforms
+HOST-SUFFIX,challenges.cloudflare.com,AI Platforms
+HOST-SUFFIX,identrust.com,AI Platforms
+HOST-SUFFIX,stripe.com,AI Platforms
+HOST-KEYWORD,openai,AI Platforms
+
+# Claude.ai
+# created by limbopro
+# repo:https://github.com/limbopro/Profiles4limbo/
+HOST-KEYWORD,claude,AI Platforms
+
+# Google Bard
+# created by limbopro
+# repo:https://github.com/limbopro/Profiles4limbo/
+HOST-SUFFIX,google.com,AI Platforms
+HOST-SUFFIX,apis.google.com,AI Platforms
+HOST-SUFFIX,bard.google.com,AI Platforms
+HOST-SUFFIX,in.appcenter.ms,AI Platforms
+HOST-SUFFIX,ogs.google.com,AI Platforms
+HOST-SUFFIX,www.google.com,AI Platforms
