@@ -28,6 +28,9 @@ HOST-SUFFIX,dl.google.com,DIRECT
 USER-AGENT,Microsoft%20Remote%20Desktop*,DIRECT
 HOST-SUFFIX,msftconnecttest.com,DIRECT
 
+# > PlayStation
+HOST-SUFFIX,dl.playstation.net,DIRECT
+
 # > Steam
 USER-AGENT,Steam*,DIRECT
 HOST,cm.steampowered.com,DIRECT
@@ -42,6 +45,7 @@ HOST,wmsjsteam.com,DIRECT
 
 HOST,dl.steam.clngaa.com,DIRECT
 HOST,dl.steam.ksyna.com,DIRECT
+HOST,gstore.val.manlaxy.com,DIRECT
 
 HOST,st.dl.bscstorage.net,DIRECT
 HOST,st.dl.eccdnx.com,DIRECT
@@ -73,6 +77,9 @@ HOST-SUFFIX,ts.la,DIRECT
 
 # > UBI
 HOST,uplaypc-s-ubisoft.cdn.ubi.com,DIRECT
+
+# > Tailscale
+IP-CIDR,100.64.0.0/10,DIRECT
 
 # > WiFiman
 HOST-SUFFIX,app-measurement.com,DIRECT

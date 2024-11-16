@@ -70,12 +70,8 @@ ClashX（下载配置文件到本地）:
 
 ### 使用教程
 
-#### 购买大陆节点（请自行寻找，下方已停止提供大陆节点）
-* 推荐重度用户使用“Dler Cloud”，[点此](https://dlercloud.com/auth/register?affid=7237) 注册使用，如需邀请码可通过 Telegram 联系我获取。
-````
-  请根据个人需求自行选择套餐，充值、购买。
-````
-* 推荐轻度用户使用“CordCloud”，[点此](https://www.cordcloud.cc/auth/register?code=16249) 注册使用，如需邀请码可通过 Telegram 联系我获取。
+#### 购买大陆节点（请自行寻找，下方服务已停止提供大陆节点）
+* 推荐使用“Dler Cloud”，[点此](https://dlercloud.com/auth/register?affid=7237) 注册使用，如需邀请码可通过 Telegram 联系我获取。
 ````
   请根据个人需求自行选择套餐，充值、购买。
 ````

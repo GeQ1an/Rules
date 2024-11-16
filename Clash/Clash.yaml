@@ -1,4 +1,4 @@
-# 2023年10月27日 18:42 UTC/GMT +8
+# 2024年11月16日 21:15 UTC/GMT +8
 
 port: 7890
 socks-port: 7891
@@ -266,13 +266,6 @@ proxy-groups:
 #    proxies:
 #      - 🎥 国际媒体
 #      - ⭕️ 直连
-#  - name: "🔖 OpenAI"
-#    type: select
-#    proxies:
-#      - ✈️ 国际代理
-#      - 🇺🇸 美国节点
-#      - 🇯🇵 日本节点
-#      - 🇸🇬 新加坡节点
 #  - name: "📡 电报服务"
 #    type: select
 #    proxies:
@@ -296,6 +289,14 @@ proxy-groups:
 #    proxies:
 #      - ✈️ 国际代理
 #      - ⭕️ 直连
+  - name: "🔖 人工智能"
+    type: select
+    proxies:
+      - ✈️ 国际代理
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
   - name: "⏳ 网速测试"
     type: select
     proxies:
@@ -641,7 +642,7 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml
     path: ./Rules/Apple.yaml
     interval: 86400
-# 电报、微软、ChatGPT、Steam 及 PayPal 可选规则列表
+# 电报、微软、Steam 及 PayPal 可选规则列表
   Telegram:
     type: http
     behavior: classical
@@ -653,12 +654,6 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Microsoft.yaml
     path: ./Rules/Microsoft.yaml
-    interval: 86400
-  OpenAI:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/OpenAI.yaml
-    path: ./Rules/OpenAI.yaml
     interval: 86400
   Steam:
     type: http
@@ -673,6 +668,12 @@ rule-providers:
     path: ./Rules/PayPal.yaml
     interval: 86400
 # 必须规则列表
+  AI Suite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml
+    path: ./Rules/AI_Suite.yaml
+    interval: 86400
   Speedtest:
     type: http
     behavior: classical
@@ -751,12 +752,12 @@ rules:
   
   # 电报、微软、贝宝及 Steam 可选规则，如需为某个规则列表单独设置策略，请直接修改策略名称与上方策略组名称保持一致
   - RULE-SET,Microsoft,🥏 大陆网络 #📦 微软服务
-  - RULE-SET,OpenAI,✈️ 国际代理 #🔖 OpenAI
   - RULE-SET,Telegram,✈️ 国际代理 #📡 电报服务
   - RULE-SET,PayPal,✈️ 国际代理 #💳 贝宝服务
 #  - RULE-SET,Steam,🎮 蒸汽游戏
 
   # 必须规则
+  - RULE-SET,AI Suite,🔖 人工智能
   - RULE-SET,Speedtest,⏳ 网速测试
   - RULE-SET,Proxy,✈️ 国际代理
   - RULE-SET,Domestic,🥏 大陆网络
