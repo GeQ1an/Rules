@@ -332,7 +332,7 @@ hostname = *.google.cn, www.firefox.com.cn, api.abema.io, app.biliintl.com, pass
 # > JiaKaoBaoDian - *.kakamobi.cn
 ^https?://\w+\.kakamobi\.cn/api/open/v\d/advert-sdk/ url reject
 # > Jump - switch.jumpvg.com
-^https?://switch\.jumpvg\.com/jump/(getlaunchad|recommend/ad_conf) reject
+^https?://switch\.jumpvg\.com/jump/(getlaunchad|recommend/ad_conf) url reject
 
 # K
 # > Kingsoft - *.kingsoft-office-service.com
@@ -546,7 +546,7 @@ hostname = *.google.cn, www.firefox.com.cn, api.abema.io, app.biliintl.com, pass
 ^https?://(api|promo)\.xueqiu\.com/promotion/(display_cache|display_ad|feed_display|search_ad) url reject
 ^https?://.+?/brand/search/v1\.json url reject
 ^https?://api\.xueqiu\.com/brand/search/v1\.json url reject
-^https?://api\.xueqiu\.com/snowpard/launch_strategy/query\.json reject
+^https?://api\.xueqiu\.com/snowpard/launch_strategy/query\.json url reject
 
 # Y
 # > Yihaodian - venus.yhd.com
