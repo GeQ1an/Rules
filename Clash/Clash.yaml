@@ -1,4 +1,4 @@
-# 2024年11月16日 21:15 UTC/GMT +8
+# 2024年11月17日 23:10 UTC/GMT +8
 
 port: 7890
 socks-port: 7891
@@ -635,7 +635,13 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/YouTube%20Music.yaml
     path: ./Rules/Media/YouTube_Music.yaml
     interval: 86400
-# 苹果服务规则列表
+# 人工智能和苹果服务规则列表
+  AI Suite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml
+    path: ./Rules/AI_Suite.yaml
+    interval: 86400
   Apple:
     type: http
     behavior: classical
@@ -668,12 +674,6 @@ rule-providers:
     path: ./Rules/PayPal.yaml
     interval: 86400
 # 必须规则列表
-  AI Suite:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml
-    path: ./Rules/AI_Suite.yaml
-    interval: 86400
   Speedtest:
     type: http
     behavior: classical
@@ -747,7 +747,8 @@ rules:
   - RULE-SET,Soundcloud,🎥 国际媒体
   - RULE-SET,ViuTV,🎥 国际媒体
   
-  # 苹果服务
+  # 人工智能和苹果服务
+  - RULE-SET,AI Suite,🔖 人工智能
   - RULE-SET,Apple,🍏 苹果服务
   
   # 电报、微软、贝宝及 Steam 可选规则，如需为某个规则列表单独设置策略，请直接修改策略名称与上方策略组名称保持一致
@@ -757,7 +758,6 @@ rules:
 #  - RULE-SET,Steam,🎮 蒸汽游戏
 
   # 必须规则
-  - RULE-SET,AI Suite,🔖 人工智能
   - RULE-SET,Speedtest,⏳ 网速测试
   - RULE-SET,Proxy,✈️ 国际代理
   - RULE-SET,Domestic,🥏 大陆网络
