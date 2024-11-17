@@ -219,7 +219,7 @@ hostname = *.google.cn, www.firefox.com.cn, api.abema.io, app.biliintl.com, pass
 ^https?://api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk/ url reject
 # > Cotti Coffee - gateway.abite.com,gateway.cotticoffee.com
 ^https?://gateway\.abite\.com/cotti-capi/customer/position/list\?code=cotti-launch-window url reject-dict
-^https?://gateway\.cotticoffee\.com/cotti-capi/customer/position/list\?code=cotti-launch-window reject-dict
+^https?://gateway\.cotticoffee\.com/cotti-capi/customer/position/list\?code=cotti-launch-window url reject-dict
 # > CSDN - app-gw.csdn.net
 ^https?://app-gw\.csdn\.net/cms-app/v\d/home_page/open_advertisement url reject
 # > Ctrip - m.ctrip.com
