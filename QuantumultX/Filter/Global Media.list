@@ -200,8 +200,8 @@ HOST-SUFFIX,brightline.tv,Global Media
 HOST-SUFFIX,hbo.com,Global Media
 HOST-SUFFIX,hbomax.com,Global Media
 HOST-SUFFIX,warnermediacdn.com,Global Media
-HOST,api3.branch.io,Global Media
-HOST,kpck4q-launches.appsflyersdk.com,Global Media
+HOST-SUFFIX,branch.io,Global Media
+HOST,kpck4q-*.appsflyersdk.com,Global Media
 HOST,out053a3bejgh7t0phqa0csou.litix.io,Global Media
 HOST,sdk.iad-01.braze.com,Global Media
 
