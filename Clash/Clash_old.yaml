@@ -1,4 +1,4 @@
-# 2024年11月22日 15:30 UTC/GMT +8
+# 2024年11月23日 00:39 UTC/GMT +8
 
 port: 7890
 socks-port: 7891
@@ -786,8 +786,6 @@ rules:
   - RULE-SET,F1 TV,🎥 国际媒体
   - RULE-SET,Fox Now,🎥 国际媒体
   - RULE-SET,Fox+,🎥 国际媒体
-  - RULE-SET,HBO Go,🎥 国际媒体
-  - RULE-SET,HBO Max,🎥 国际媒体
   - RULE-SET,Hulu Japan,🎥 国际媒体
   - RULE-SET,Hulu,🎥 国际媒体
   - RULE-SET,Japonx,🎥 国际媒体
