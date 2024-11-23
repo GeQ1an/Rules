@@ -14,10 +14,10 @@ HOST-SUFFIX,discordapp.net,Outside
 HOST-SUFFIX,discordstatus.com,Outside
 
 # > Duolingo
-USER-AGENT,Duolingo*,Outside
-HOST-KEYWORD,duolingo,Outside
 HOST-SUFFIX,duolingo.cn,Outside
 HOST-SUFFIX,duolingo.com,Outside
+HOST-KEYWORD,duolingo,Outside
+USER-AGENT,Duolingo*,Outside
 
 # > Google Voice
 HOST,lens.l.google.com,Outside
@@ -97,7 +97,6 @@ HOST-SUFFIX,underlords.com,Outside
 HOST-SUFFIX,valvesoftware.com,Outside
 
 # > Telegram
-HOST-KEYWORD,telegram,Outside
 HOST-SUFFIX,t.me,Outside
 HOST-SUFFIX,tx.me,Outside
 HOST-SUFFIX,tdesktop.com,Outside
@@ -105,10 +104,16 @@ HOST-SUFFIX,telegra.ph,Outside
 HOST-SUFFIX,telegram.me,Outside
 HOST-SUFFIX,telegram.org,Outside
 HOST-SUFFIX,telegram-cdn.org,Outside
+HOST-SUFFIX,cdn-telegram.org,Outside
 HOST-SUFFIX,telesco.pe,Outside
+HOST-KEYWORD,telegram,Outside
 IP-CIDR,91.105.192.0/23,Outside
-IP-CIDR,91.108.0.0/16,Outside
-IP-CIDR,109.239.140.0/24,Outside
+IP-CIDR,91.108.56.0/22,Outside
+IP-CIDR,91.108.4.0/22,Outside
+IP-CIDR,91.108.8.0/22,Outside
+IP-CIDR,91.108.12.0/22,Outside
+IP-CIDR,91.108.16.0/22,Outside
+IP-CIDR,91.108.20.0/22,Outside
 IP-CIDR,149.154.160.0/20,Outside
 IP-CIDR,185.76.151.0/24,Outside
 IP6-CIDR,2001:67c:4e8::/48,Outside

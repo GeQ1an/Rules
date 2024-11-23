@@ -1,4 +1,3 @@
-HOST-KEYWORD,telegram,Telegram
 HOST-SUFFIX,t.me,Telegram
 HOST-SUFFIX,tx.me,Telegram
 HOST-SUFFIX,tdesktop.com,Telegram
@@ -6,10 +5,17 @@ HOST-SUFFIX,telegra.ph,Telegram
 HOST-SUFFIX,telegram.me,Telegram
 HOST-SUFFIX,telegram.org,Telegram
 HOST-SUFFIX,telegram-cdn.org,Telegram
+HOST-SUFFIX,cdn-telegram.org,Telegram
 HOST-SUFFIX,telesco.pe,Telegram
+HOST-KEYWORD,telegram,Telegram
+
 IP-CIDR,91.105.192.0/23,Telegram
-IP-CIDR,91.108.0.0/16,Telegram
-IP-CIDR,109.239.140.0/24,Telegram
+IP-CIDR,91.108.56.0/22,Telegram
+IP-CIDR,91.108.4.0/22,Telegram
+IP-CIDR,91.108.8.0/22,Telegram
+IP-CIDR,91.108.12.0/22,Telegram
+IP-CIDR,91.108.16.0/22,Telegram
+IP-CIDR,91.108.20.0/22,Telegram
 IP-CIDR,149.154.160.0/20,Telegram
 IP-CIDR,185.76.151.0/24,Telegram
 IP6-CIDR,2001:67c:4e8::/48,Telegram

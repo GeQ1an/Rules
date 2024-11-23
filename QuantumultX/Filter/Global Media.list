@@ -192,7 +192,6 @@ HOST-SUFFIX,linetv.tw,Global Media
 HOST-SUFFIX,profile.line-scdn.net,Global Media
 
 # > Max
-USER-AGENT,*Max*,Global Media
 HOST-SUFFIX,max.com,Global Media
 HOST-SUFFIX,discomax.com,Global Media
 HOST-SUFFIX,arkoselabs.com,Global Media
@@ -200,10 +199,12 @@ HOST-SUFFIX,brightline.tv,Global Media
 HOST-SUFFIX,hbo.com,Global Media
 HOST-SUFFIX,hbomax.com,Global Media
 HOST-SUFFIX,warnermediacdn.com,Global Media
-HOST-SUFFIX,branch.io,Global Media
-HOST,kpck4q-*.appsflyersdk.com,Global Media
+USER-AGENT,*Max*,Global Media
+HOST,app-analytics-services.com,Global Media
 HOST,out053a3bejgh7t0phqa0csou.litix.io,Global Media
 HOST,sdk.iad-01.braze.com,Global Media
+HOST-SUFFIX,branch.io,Global Media
+HOST-WILDCARD,kpck4q-*.appsflyersdk.com,Global Media
 
 # > myTV_SUPER
 USER-AGENT,mytv*,Global Media
