@@ -19,6 +19,7 @@ HOST,o33249.ingest.sentry.io,AI Suite
 # > Claude
 HOST-SUFFIX,anthropic.com,AI Suite
 HOST-SUFFIX,claude.ai,AI Suite
+HOST-SUFFIX,claudeusercontent.com,AI Suite
 
 # > Copilot
 HOST,api.githubcopilot.com,AI Suite
