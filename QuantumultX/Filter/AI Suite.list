@@ -22,9 +22,8 @@ HOST-SUFFIX,claude.ai,AI Suite
 HOST-SUFFIX,claudeusercontent.com,AI Suite
 
 # > Copilot
-HOST,api.githubcopilot.com,AI Suite
-HOST,api.individual.githubcopilot.com,AI Suite
 HOST,copilot.microsoft.com,AI Suite
+HOST-SUFFIX,githubcopilot.com,AI Suite
 
 # > Gemini
 HOST-SUFFIX,gemini.google.com,AI Suite
