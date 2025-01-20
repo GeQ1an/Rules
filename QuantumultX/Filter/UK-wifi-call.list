@@ -1,0 +1,13 @@
+# 地区检测
+HOST-SUFFIX, gspe1-ssl.ls.apple.com, Global Media
+# 沃达丰
+HOST-SUFFIX, epdg.epc.mnc015.mcc234.pub.3gppnetwork.org, Global Media
+HOST-SUFFIX, ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org, Global Media
+HOST-SUFFIX, ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org, Global Media
+HOST-SUFFIX, entsrv-uk.vodafone.com, Global Media
+HOST-SUFFIX, vuk-gto.prod.ondemandconnectivity.com, Global Media
+IP-CIDR,88.82.0.0/19, Global Media
+# CMLinkUK EE
+IP-CIDR,46.68.0.0/17, Global Media
+# Giffgaff
+IP-CIDR,87.194.0.0/16FF, Global Media
