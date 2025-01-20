@@ -1,0 +1,302 @@
+# > ABC
+HOST-SUFFIX,edgedatg.com,Global Media
+HOST-SUFFIX,go.com,Global Media
+
+# > Abema TV
+USER-AGENT,AbemaTV*,Global Media
+HOST-SUFFIX,abema.io,Global Media
+HOST-SUFFIX,abema.tv,Global Media
+HOST-SUFFIX,ameba.jp,Global Media
+HOST-SUFFIX,hayabusa.io,Global Media
+HOST-KEYWORD,abematv.akamaized.net,Global Media
+
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*,Global Media
+USER-AGENT,Prime%20Video*,Global Media
+HOST-KEYWORD,avoddashs,Global Media
+HOST-SUFFIX,aiv-cdn.net,Global Media
+HOST-SUFFIX,aiv-delivery.net,Global Media
+HOST-SUFFIX,amazonprimevideos.com,Global Media
+HOST-SUFFIX,amazonvideo.cc,Global Media
+HOST-SUFFIX,amazonvideo.com,Global Media
+HOST-SUFFIX,amazonvideodirect.cc,Global Media
+HOST-SUFFIX,atv-ext.amazon.com,Global Media
+HOST-SUFFIX,atv-ext-eu.amazon.com,Global Media
+HOST-SUFFIX,atv-ext-fe.amazon.com,Global Media
+HOST-SUFFIX,atv-ps.amazon.com,Global Media
+HOST-SUFFIX,atv-ps-eu.amazon.co.uk,Global Media
+HOST-SUFFIX,atv-ps-eu.amazon.com,Global Media
+HOST-SUFFIX,atv-ps-fe.amazon.co.jp,Global Media
+HOST-SUFFIX,atv-ps-fe.amazon.com,Global Media
+HOST-SUFFIX,fls-na.amazon.com,Global Media
+HOST-SUFFIX,media-amazon.com,Global Media
+HOST-SUFFIX,primevideo.cc,Global Media
+HOST-SUFFIX,primevideo.com,Global Media
+HOST-SUFFIX,prime-video.com,Global Media
+HOST-SUFFIX,primevideo.info,Global Media
+HOST-SUFFIX,primevideo.org,Global Media
+HOST-SUFFIX,primevideo.tv,Global Media
+HOST-SUFFIX,pv-cdn.net,Global Media
+HOST-SUFFIX,video.a2z.com,Global Media
+HOST,avodmp4s3ww-a.akamaihd.net,Global Media
+HOST,d1v5ir2lpwr8os.cloudfront.net,Global Media
+HOST,d1y002tclu9djj.cloudfront.net,Global Media
+HOST,d22qjgkvxw22r6.cloudfront.net,Global Media
+HOST,d25xi40x97liuc.cloudfront.net,Global Media
+HOST,dmqdd6hw24ucf.cloudfront.net,Global Media
+HOST,d27xxe7juh1us6.cloudfront.net,Global Media
+HOST,dualstack.pefs-alb-266603904.eu-west-1.elb.amazonaws.com,Global Media
+
+# > Apple TV
+HOST-SUFFIX,tv.apple.com,Global Media
+HOST,np-edge.itunes.apple.com,Global Media
+HOST,play-edge.itunes.apple.com,Global Media
+HOST,uts-api.itunes.apple.com,Global Media
+
+# > Bahamut
+USER-AGENT,Anime*,Global Media
+HOST-SUFFIX,bahamut.com.tw,Global Media
+HOST-SUFFIX,gamer.com.tw,Global Media
+HOST,gamer-cds.cdn.hinet.net,Global Media
+HOST,gamer2-cds.cdn.hinet.net,Global Media
+
+# > BBC iPlayer
+USER-AGENT,BBCiPlayer*,Global Media
+HOST-KEYWORD,bbcfmt,Global Media
+HOST,aod-dash-uk-live.akamaized.net,Global Media
+HOST,aod-hls-uk-live.akamaized.net,Global Media
+HOST,vod-dash-uk-live.akamaized.net,Global Media
+HOST,vod-thumb-uk-live.akamaized.net,Global Media
+HOST-SUFFIX,bbc.co,Global Media
+HOST-SUFFIX,bbc.co.uk,Global Media
+HOST-SUFFIX,bbc.com,Global Media
+HOST-SUFFIX,bbcfmt.hs.llnwd.net,Global Media
+HOST-SUFFIX,bbci.co,Global Media
+HOST-SUFFIX,bbci.co.uk,Global Media
+HOST-SUFFIX,bidi.net.uk,Global Media
+
+# > Curiosity Stream & Nebula
+HOST-SUFFIX,curiositystream.com,Global Media
+HOST-SUFFIX,nebula.app,Global Media
+HOST-SUFFIX,watchnebula.com,Global Media
+HOST-SUFFIX,zype.com,Global Media
+
+# > DAZN
+USER-AGENT,DAZN*,Global Media
+HOST-WILDCARD,dc?livedazn.akamaized.net,Global Media
+HOST-WILDCARD,dc?voddazn.akamaized.net,Global Media
+HOST-SUFFIX,dazn-api.com,Global Media
+HOST-SUFFIX,dazn.com,Global Media
+HOST-SUFFIX,dazndn.com,Global Media
+HOST-SUFFIX,indazn.com,Global Media
+HOST-SUFFIX,indaznlab.com,Global Media
+HOST-SUFFIX,dc1live2lindazn.akamaized.net,Global Media
+HOST-SUFFIX,dc1-lm-live2dazn.secure.footprint.net,Global Media
+
+# > Disney Plus
+USER-AGENT,Disney*,Global Media
+HOST-SUFFIX,disneyplus.com,Global Media
+HOST-SUFFIX,disney.api.edge.bamgrid.com,Global Media
+HOST-SUFFIX,disney.content.edge.bamgrid.com,Global Media
+HOST-SUFFIX,prod-static.disney-plus.net,Global Media
+HOST-SUFFIX,disney.content.edge.bamgrid.com,Global Media
+HOST-SUFFIX,prod-static.disney-plus.net,Global Media
+
+# > encoreTVB
+USER-AGENT,encoreTVB*,Global Media
+HOST-SUFFIX,encoretvb.com,Global Media
+HOST,content.jwplatform.com,Global Media
+HOST,videos-f.jwpsrv.com,Global Media
+
+# > F1 TV
+HOST,d2n9h2wits23hf.cloudfront.net,Global Media
+HOST,f1prodlive.akamaized.net,Global Media
+HOST,mobile-collector.newrelic.com,Global Media
+HOST-SUFFIX,bitmovin.com,Global Media
+HOST-SUFFIX,f1esports.com,Global Media
+HOST-SUFFIX,f1manager.com,Global Media
+HOST-SUFFIX,f1play.com,Global Media
+HOST-SUFFIX,formula1.com,Global Media
+
+# > Fox Now
+USER-AGENT,FOX%20NOW*,Global Media
+HOST-SUFFIX,fox.com,Global Media
+HOST-SUFFIX,foxdcg.com,Global Media
+HOST-SUFFIX,uplynk.com,Global Media
+
+# > Fox+ (HK|TW|SG)
+USER-AGENT,FOXPlus*,Global Media
+HOST-SUFFIX,akamaized.net,Global Media
+HOST-SUFFIX,foxplus.com,Global Media
+HOST-SUFFIX,theplatform.com,Global Media
+
+# > Hulu(フールー)
+HOST-SUFFIX,happyon.jp,Global Media
+HOST-SUFFIX,hulu.jp,Global Media
+HOST-SUFFIX,prod.hjholdings.tv,Global Media
+HOST-SUFFIX,streaks.jp,Global Media
+HOST-SUFFIX,yb.uncn.jp,Global Media
+
+# > Hulu
+HOST-SUFFIX,hulu.com,Global Media
+HOST-SUFFIX,hulu.hb.omtrdc.net,Global Media
+HOST-SUFFIX,hulu.sc.omtrdc.net,Global Media
+HOST-SUFFIX,huluad.com,Global Media
+HOST-SUFFIX,huluim.com,Global Media
+HOST-SUFFIX,hulumail.com,Global Media
+HOST-SUFFIX,huluqa.com,Global Media
+HOST-SUFFIX,hulustream.com,Global Media
+HOST,cs428.wpc.edgecastcdn.net,Global Media
+HOST,cws-hulu.conviva.com,Global Media
+HOST,hulu.com.c.footprint.net,Global Media
+HOST,hulu.map.fastly.net,Global Media
+IP-CIDR,8.28.124.0/23,Global Media
+IP-CIDR,199.60.116.0/24,Global Media
+IP-CIDR,199.200.48.0/22,Global Media
+IP-CIDR,208.91.156.0/22,Global Media
+IP6-CIDR,2620:100:3000::/40,Global Media
+
+# > Japonx
+HOST-KEYWORD,japonx,Global Media
+HOST-KEYWORD,japronx,Global Media
+HOST-SUFFIX,japonx.com,Global Media
+HOST-SUFFIX,japonx.tv,Global Media
+HOST-SUFFIX,japonx.net,Global Media
+HOST-SUFFIX,japonx.vip,Global Media
+HOST-SUFFIX,japronx.com,Global Media
+HOST-SUFFIX,japronx.tv,Global Media
+HOST-SUFFIX,japronx.net,Global Media
+HOST-SUFFIX,japronx.vip,Global Media
+
+# > JOOX
+USER-AGENT,WeMusic*,Global Media
+USER-AGENT,JOOX*,Global Media
+HOST-SUFFIX,joox.com,Global Media
+
+# > KKBOX
+HOST-SUFFIX,kkbox.com,Global Media
+HOST-SUFFIX,kkbox.com.tw,Global Media
+HOST-SUFFIX,kfs.io,Global Media
+
+# > KKTV
+USER-AGENT,KKTV*,Global Media
+USER-AGENT,com.kktv*,Global Media
+HOST-SUFFIX,kktv.me,Global Media
+HOST-SUFFIX,kktv.com.tw,Global Media
+HOST,kktv-theater.kk.stream,Global Media
+
+# > Line TV
+USER-AGENT,LINE*,Global Media
+HOST-SUFFIX,d3c7rimkq79yfu.cloudfront.net,Global Media
+HOST-SUFFIX,linetv.tw,Global Media
+HOST-SUFFIX,profile.line-scdn.net,Global Media
+
+# > Max
+HOST-SUFFIX,max.com,Global Media
+HOST-SUFFIX,discomax.com,Global Media
+HOST-SUFFIX,arkoselabs.com,Global Media
+HOST-SUFFIX,brightline.tv,Global Media
+HOST-SUFFIX,hbo.com,Global Media
+HOST-SUFFIX,hbomax.com,Global Media
+HOST-SUFFIX,warnermediacdn.com,Global Media
+USER-AGENT,*Max*,Global Media
+HOST,app-analytics-services.com,Global Media
+HOST,out053a3bejgh7t0phqa0csou.litix.io,Global Media
+HOST,sdk.iad-01.braze.com,Global Media
+HOST-SUFFIX,branch.io,Global Media
+HOST-WILDCARD,kpck4q-*.appsflyersdk.com,Global Media
+
+# > myTV_SUPER
+USER-AGENT,mytv*,Global Media
+HOST-KEYWORD,nowtv100,Global Media
+HOST-KEYWORD,rthklive,Global Media
+HOST-SUFFIX,mytvsuper.com,Global Media
+HOST-SUFFIX,tvb.com,Global Media
+
+# > Netflix
+HOST-WILDCARD,netflixdnstest*.com,Global Media
+HOST-SUFFIX,fast.com,Global Media
+HOST-SUFFIX,netflix.ca,Global Media
+HOST-SUFFIX,netflix.com,Global Media
+HOST-SUFFIX,netflix.net,Global Media
+HOST-SUFFIX,netflixinvestor.com,Global Media
+HOST-SUFFIX,netflixtechblog.com,Global Media
+HOST-SUFFIX,nflxext.com,Global Media
+HOST-SUFFIX,nflximg.com,Global Media
+HOST-SUFFIX,nflximg.net,Global Media
+HOST-SUFFIX,nflxsearch.net,Global Media
+HOST-SUFFIX,nflxso.net,Global Media
+HOST-SUFFIX,nflxvideo.net,Global Media
+HOST-SUFFIX,netflix.com.edgesuite.net,Global Media
+
+# > Niconico
+HOST-SUFFIX,dmc.nico,Global Media
+HOST-SUFFIX,nicovideo.jp,Global Media
+HOST-SUFFIX,nicodic.jp,Global Media
+HOST-SUFFIX,nicomanga.jp,Global Media
+HOST-SUFFIX,niconico.com,Global Media
+HOST-SUFFIX,nicoseiga.jp,Global Media
+HOST-SUFFIX,nimg.jp,Global Media
+HOST-SUFFIX,simg.jp,Global Media
+
+# > Pandora
+HOST-SUFFIX,pandora.com,Global Media
+
+# > PBS
+USER-AGENT,PBS*,Global Media
+HOST-SUFFIX,pbs.org,Global Media
+
+# > SoundCloud
+USER-AGENT,SoundCloud*,Global Media
+HOST-SUFFIX,sndcdn.com,Global Media
+HOST-SUFFIX,soundcloud.app.goo.gl,Global Media
+HOST-SUFFIX,soundcloud.com,Global Media
+HOST-SUFFIX,soundcloudmail.com,Global Media
+
+# > Spotify
+USER-AGENT,Spotify*,Global Media
+HOST-KEYWORD,spotify,Global Media
+HOST-SUFFIX,pscdn.co,Global Media
+HOST-SUFFIX,scdn.co,Global Media
+HOST-SUFFIX,spoti.fi,Global Media
+HOST-SUFFIX,spotilocal.com,Global Media
+
+# > ViuTV
+USER-AGENT,ViuTV*,Global Media
+HOST-SUFFIX,bootstrapcdn.com,Global Media
+HOST-SUFFIX,cloudfront.net,Global Media
+HOST-SUFFIX,cognito-identity.us-east-1.amazonaws.com,Global Media
+HOST-SUFFIX,firebaseio.com,Global Media
+HOST-SUFFIX,jwpcdn.com,Global Media
+HOST-SUFFIX,jwplayer.com,Global Media
+HOST-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,Global Media
+HOST-SUFFIX,nowe.com,Global Media
+HOST-SUFFIX,viu.com,Global Media
+HOST-SUFFIX,viu.tv,Global Media
+HOST-SUFFIX,viu.now.com,Global Media
+
+# > Youtube Music
+USER-AGENT,*YouTubeMusic*,Global Media
+USER-AGENT,*com.google.ios.youtubemusic*,Global Media
+
+# > YouTube
+USER-AGENT,*youtube*,Global Media
+USER-AGENT,YouTube*,Global Media
+HOST-WILDCARD,youtube.*,Global Media
+HOST-WILDCARD,youtube.*.*,Global Media
+HOST-WILDCARD,youtube.com.*,Global Media
+HOST-SUFFIX,googlevideo.com,Global Media
+HOST-SUFFIX,gvt1.com,Global Media
+HOST-SUFFIX,video.google.com,Global Media
+HOST-SUFFIX,youtu.be,Global Media
+HOST-SUFFIX,youtube.com,Global Media
+HOST-SUFFIX,youtube.googleapis.com,Global Media
+HOST-SUFFIX,youtubeeducation.com,Global Media
+HOST-SUFFIX,youtubeembeddedplayer.googleapis.com,Global Media
+HOST-SUFFIX,youtubei.googleapis.com,Global Media
+HOST-SUFFIX,youtubekids.com,Global Media
+HOST-SUFFIX,youtube-nocookie.com,Global Media
+HOST-SUFFIX,youtube-ui.l.google.com,Global Media
+HOST-SUFFIX,yt.be,Global Media
+HOST-SUFFIX,yt3.ggpht.com,Global Media
+HOST-SUFFIX,ytimg.com,Global Media

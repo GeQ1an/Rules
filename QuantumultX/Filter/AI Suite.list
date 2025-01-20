@@ -1,0 +1,47 @@
+# > ChatGPT
+HOST-SUFFIX,ai.com,AI Suite
+HOST-SUFFIX,chatgpt.com,AI Suite
+HOST-SUFFIX,openai.com,AI Suite
+
+# > Chat GPT API & CDN
+HOST,chat.openai.com.cdn.cloudflare.net,AI Suite
+HOST,openaiapi-site.azureedge.net,AI Suite
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI Suite
+HOST,openaicomproductionae4b.blob.core.windows.net,AI Suite
+HOST,production-openaicom-storage.azureedge.net,AI Suite
+HOST,o33249.ingest.sentry.io,AI Suite
+HOST-SUFFIX,cdn.oaistatic.com,AI Suite
+HOST-SUFFIX,oaiusercontent.com,AI Suite
+
+# > Claude
+HOST-SUFFIX,anthropic.com,AI Suite
+HOST-SUFFIX,claude.ai,AI Suite
+HOST-SUFFIX,claudeusercontent.com,AI Suite
+
+# > Copilot
+HOST,copilot.microsoft.com,AI Suite
+HOST-SUFFIX,githubcopilot.com,AI Suite
+
+# > Gemini
+HOST,generativelanguage.googleapis.com,AI Suite
+HOST,proactivebackend-pa.googleapis.com,AI Suite
+HOST-SUFFIX,ai.google.dev,AI Suite
+HOST-SUFFIX,aistudio.google.com,AI Suite
+HOST-SUFFIX,clients6.google.com,AI Suite
+HOST-SUFFIX,gemini.google.com,AI Suite
+
+# > Meta AI
+HOST-SUFFIX,meta.ai,AI Suite
+
+# > Perplexity AI
+HOST-SUFFIX,perplexity.ai,AI Suite
+
+# > Siri
+HOST,apple-relay.apple.com,AI Suite
+HOST,apple-relay.cloudflare.com,AI Suite
+HOST,guzzoni.smoot.apple.com,AI Suite
+
+# > Sora
+HOST,sora-cdn.oaistatic.com,AI Suite
+HOST-SUFFIX,sora.com,AI Suite
+

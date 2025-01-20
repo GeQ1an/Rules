@@ -1,0 +1,97 @@
+# > Abema TV
+USER-AGENT, AbemaTV*, Asian Media
+HOST-SUFFIX, abema.io, Asian Media
+HOST-SUFFIX, abema.tv, Asian Media
+HOST-SUFFIX, ameba.jp, Asian Media
+HOST-SUFFIX, hayabusa.io, Asian Media
+HOST-KEYWORD, abematv.akamaized.net, Asian Media
+
+# > Bahamut
+USER-AGENT, Anime*, Asian Media
+HOST-SUFFIX, bahamut.com.tw, Asian Media
+HOST-SUFFIX, gamer.com.tw, Asian Media
+HOST, gamer-cds.cdn.hinet.net, Asian Media
+HOST, gamer2-cds.cdn.hinet.net, Asian Media
+
+# > Fox+ (HK|TW|SG)
+USER-AGENT, FOXPlus*, Asian Media
+HOST-SUFFIX, akamaized.net, Asian Media
+HOST-SUFFIX, foxplus.com, Asian Media
+HOST-SUFFIX, theplatform.com, Asian Media
+
+# > Hulu(フールー)
+HOST-SUFFIX, happyon.jp, Asian Media
+HOST-SUFFIX, hulu.jp, Asian Media
+HOST-SUFFIX, prod.hjholdings.tv, Asian Media
+HOST-SUFFIX, streaks.jp, Asian Media
+HOST-SUFFIX, yb.uncn.jp, Asian Media
+
+# > Japonx
+HOST-KEYWORD, japonx, Asian Media
+HOST-KEYWORD, japronx, Asian Media
+HOST-SUFFIX, japonx.com, Asian Media
+HOST-SUFFIX, japonx.tv, Asian Media
+HOST-SUFFIX, japonx.net, Asian Media
+HOST-SUFFIX, japonx.vip, Asian Media
+HOST-SUFFIX, japronx.com, Asian Media
+HOST-SUFFIX, japronx.tv, Asian Media
+HOST-SUFFIX, japronx.net, Asian Media
+HOST-SUFFIX, japronx.vip, Asian Media
+
+# > JOOX
+USER-AGENT, WeMusic*, Asian Media
+USER-AGENT, JOOX*, Asian Media
+HOST-SUFFIX, joox.com, Asian Media
+
+# > KKBOX
+HOST-SUFFIX, kkbox.com, Asian Media
+HOST-SUFFIX, kkbox.com.tw, Asian Media
+HOST-SUFFIX, kfs.io, Asian Media
+
+# > KKTV
+USER-AGENT, KKTV*, Asian Media
+USER-AGENT, com.kktv*, Asian Media
+HOST-SUFFIX, kktv.me, Asian Media
+HOST-SUFFIX, kktv.com.tw, Asian Media
+HOST, kktv-theater.kk.stream, Asian Media
+
+# > Line TV
+USER-AGENT, LINE*, Asian Media
+HOST-SUFFIX, d3c7rimkq79yfu.cloudfront.net, Asian Media
+HOST-SUFFIX, linetv.tw, Asian Media
+HOST-SUFFIX, profile.line-scdn.net, Asian Media
+
+# > MOO
+USER-AGENT, MOO*, Asian Media
+USER-AGENT, TencentMidasConnect*, Asian Media
+
+# > myTV_SUPER
+USER-AGENT, mytv*, Asian Media
+HOST-KEYWORD, nowtv100, Asian Media
+HOST-KEYWORD, rthklive, Asian Media
+HOST-SUFFIX, mytvsuper.com, Asian Media
+HOST-SUFFIX, tvb.com, Asian Media
+
+# > Niconico
+HOST-SUFFIX, dmc.nico, Asian Media
+HOST-SUFFIX, nicovideo.jp, Asian Media
+HOST-SUFFIX, nicodic.jp, Asian Media
+HOST-SUFFIX, nicomanga.jp, Asian Media
+HOST-SUFFIX, niconico.com, Asian Media
+HOST-SUFFIX, nicoseiga.jp, Asian Media
+HOST-SUFFIX, nimg.jp, Asian Media
+HOST-SUFFIX, simg.jp, Asian Media
+
+# > ViuTV
+USER-AGENT, ViuTV*, Asian Media
+HOST-SUFFIX, bootstrapcdn.com, Asian Media
+HOST-SUFFIX, cloudfront.net, Asian Media
+HOST-SUFFIX, cognito-identity.us-east-1.amazonaws.com, Asian Media
+HOST-SUFFIX, firebaseio.com, Asian Media
+HOST-SUFFIX, jwpcdn.com, Asian Media
+HOST-SUFFIX, jwplayer.com, Asian Media
+HOST-SUFFIX, mobileanalytics.us-east-1.amazonaws.com, Asian Media
+HOST-SUFFIX, nowe.com, Asian Media
+HOST-SUFFIX, viu.com, Asian Media
+HOST-SUFFIX, viu.tv, Asian Media
+HOST-SUFFIX, viu.now.com, Asian Media

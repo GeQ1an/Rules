@@ -7659,7 +7659,6 @@ HOST-SUFFIX,wth.lenovomm.com,AdBlock
 HOST-SUFFIX,wtpn.twenga.co.uk,AdBlock
 HOST-SUFFIX,wtpn.twenga.de,AdBlock
 HOST-SUFFIX,wtrace.cmgame.com,AdBlock
-HOST-SUFFIX,wtradv.market.xiaomi.com,AdBlock
 HOST-SUFFIX,wu65.com,AdBlock
 HOST-SUFFIX,wudang05.com,AdBlock
 HOST-SUFFIX,wuliao.epro.sogou.com,AdBlock
@@ -8221,10 +8220,6 @@ HOST,pr.da.netease.com,AdBlock
 HOST,rd.da.netease.com,AdBlock
 HOST,wr.da.netease.com,AdBlock
 HOST,yt-adp.nosdn.127.net,AdBlock
-
-# > OpenAI
-HOST,o33249.ingest.sentry.io,AdBlock
-HOST,openaicom.imgix.net,AdBlock
 
 # > Zhihu
 HOST,appcloud2.in.zhihu.com,AdBlock

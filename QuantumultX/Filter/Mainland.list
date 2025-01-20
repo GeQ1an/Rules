@@ -114,7 +114,6 @@ HOST-SUFFIX,aiaa.org,Mainland
 HOST-SUFFIX,air-matters.com,Mainland
 HOST-SUFFIX,air-matters.io,Mainland
 HOST-SUFFIX,airhotels.cn,Mainland
-HOST-SUFFIX,akadns.net,Mainland
 HOST-SUFFIX,aliapp.org,Mainland
 HOST-SUFFIX,alibaba.com,Mainland
 HOST-SUFFIX,alibabacloud.com,Mainland
@@ -147,8 +146,6 @@ HOST-SUFFIX,cloudsigma.com,Mainland
 HOST-SUFFIX,cloudxns.net,Mainland
 HOST-SUFFIX,cmct.tv,Mainland
 HOST-SUFFIX,cmfu.com,Mainland
-HOST-SUFFIX,cnbeta.com,Mainland
-HOST-SUFFIX,cnbetacdn.com,Mainland
 HOST-SUFFIX,chdbits.co,Mainland
 HOST-SUFFIX,cnlang.org,Mainland
 HOST-SUFFIX,coolapk.com,Mainland
@@ -157,6 +154,7 @@ HOST-SUFFIX,dct-cloud.com,Mainland
 HOST-SUFFIX,didialift.com,Mainland
 HOST-SUFFIX,didistatic.com,Mainland
 HOST-SUFFIX,digicert.com,Mainland
+HOST-SUFFIX,dler.cloud,Mainland
 HOST-SUFFIX,douban.com,Mainland
 HOST-SUFFIX,doubanio.com,Mainland
 HOST-SUFFIX,douyin.com,Mainland
@@ -222,6 +220,7 @@ HOST-SUFFIX,lucifr.com,Mainland
 HOST-SUFFIX,luoo.net,Mainland
 HOST-SUFFIX,lxdns.com,Mainland
 HOST-SUFFIX,mai.tn,Mainland
+HOST-SUFFIX,meituan.com,Mainland
 HOST-SUFFIX,meizu.com,Mainland
 HOST-SUFFIX,metatrader4.com,Mainland
 HOST-SUFFIX,metatrader5.com,Mainland
@@ -271,7 +270,6 @@ HOST-SUFFIX,sf-express.com,Mainland
 HOST-SUFFIX,sinaapp.com,Mainland
 HOST-SUFFIX,sinaimg.cn,Mainland
 HOST-SUFFIX,sinaimg.com,Mainland
-HOST-SUFFIX,sm.ms,Mainland
 HOST-SUFFIX,smartisan.com,Mainland
 HOST-SUFFIX,smzdm.com,Mainland
 HOST-SUFFIX,snssdk.com,Mainland
@@ -291,6 +289,7 @@ HOST-SUFFIX,taobao.com,Mainland
 HOST-SUFFIX,tawk.link,Mainland
 HOST-SUFFIX,tawk.to,Mainland
 HOST-SUFFIX,tencent.com,Mainland
+HOST-SUFFIX,tencent-cloud.net,Mainland
 HOST-SUFFIX,tenpay.com,Mainland
 HOST-SUFFIX,tianyancha.com,Mainland
 HOST-SUFFIX,tietuku.com,Mainland
@@ -310,12 +309,12 @@ HOST-SUFFIX,uxengine.net,Mainland
 HOST-SUFFIX,wandoujia.com,Mainland
 HOST-SUFFIX,weather.bjango.com,Mainland
 HOST-SUFFIX,webqxs.com,Mainland
+HOST-SUFFIX,wechat.com,Mainland
 HOST-SUFFIX,weibo.cn,Mainland
 HOST-SUFFIX,weibo.com,Mainland
 HOST-SUFFIX,weico.cc,Mainland
 HOST-SUFFIX,weiphone.com,Mainland
 HOST-SUFFIX,weiphone.net,Mainland
-HOST-SUFFIX,wenku8.net,Mainland
 HOST-SUFFIX,werewolf.53site.com,Mainland
 HOST-SUFFIX,wkcdn.com,Mainland
 HOST-SUFFIX,xdrig.com,Mainland
@@ -339,6 +338,8 @@ HOST-SUFFIX,yinxiang.com,Mainland
 HOST-SUFFIX,yixia.com,Mainland
 HOST-SUFFIX,ykimg.com,Mainland
 HOST-SUFFIX,youdao.com,Mainland
+HOST-SUFFIX,ysepay.cn,Mainland
+HOST-SUFFIX,ysepay.com,Mainland
 HOST-SUFFIX,yunjiasu-cdn.net,Mainland
 HOST-SUFFIX,zealer.com,Mainland
 HOST-SUFFIX,zgslb.net,Mainland

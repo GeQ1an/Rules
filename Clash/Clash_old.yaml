@@ -179,7 +179,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 300
-      url: http://cp.cloudflare.com/generate_204
+      url: http://www.gstatic.com/generate_204
   Proxies - SG:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E6%96%B0%E5%8A%A0%E5%9D%A1%7CSG&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
@@ -188,7 +188,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 300
-      url: http://cp.cloudflare.com/generate_204
+      url: http://www.gstatic.com/generate_204
   Proxies - TW:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E5%8F%B0%E6%B9%BE%7CTW&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
@@ -197,7 +197,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 300
-      url: http://cp.cloudflare.com/generate_204
+      url: http://www.gstatic.com/generate_204
   Proxies - JP:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E6%97%A5%E6%9C%AC%7CJP&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
@@ -206,7 +206,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 300
-      url: http://cp.cloudflare.com/generate_204
+      url: http://www.gstatic.com/generate_204
   Proxies - KR:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E9%9F%A9%E5%9B%BD%7CKR&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
@@ -215,7 +215,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 300
-      url: http://cp.cloudflare.com/generate_204
+      url: http://www.gstatic.com/generate_204
   Proxies - US:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E7%BE%8E%E5%9B%BD%7CUS&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
@@ -224,185 +224,184 @@ proxy-providers:
     health-check:
       enable: true
       interval: 300
-      url: http://cp.cloudflare.com/generate_204
+      url: http://www.gstatic.com/generate_204
 
 proxy-groups:
 # 默认注释网易云音乐 / Netflix / Disney Plus / Spotify / YouTube / Telegram / Microsoft / Steam / PayPal 规则及策略，如需使用请取消 # 备注，并修改 RULE-SET 位置策略名与之对应，或取消对应规则前的 # 备注
-  - name: "🚫 AdBlock"
+  - name: "🚫 广告拦截"
     type: select
     proxies:
-      - ❌ Reject
-      - ⭕️ Direct
-  - name: "🌎 Outside"
+      - ❌ 拦截
+      - ⭕️ 直连
+  - name: "✈️ 国际代理"
     type: select
     proxies:
-      - 🇭🇰 Hong Kong
-      - 🇨🇳 Taiwan
-      - 🇸🇬 Singapore
-      - 🇯🇵 Japan
-      - 🇰🇷 Korea
-      - 🇺🇸 United States
-      - 📌 Select
-      - ⭕️ Direct
-  - name: "🛖 Mainland"
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇸 美国节点
+      - 📌 手动选择
+      - ⭕️ 直连
+  - name: "🥏 大陆网络"
     type: select
     proxies:
-      - ⭕️ Direct
-      - 🌎 Outside
-  - name: "🍏 Apple"
+      - ⭕️ 直连
+      - ✈️ 国际代理
+  - name: "🍏 苹果服务"
     type: select
     proxies:
-      - ⭕️ Direct
-      - 🌎 Outside
-      - 🇺🇸 United States
-      - 🇭🇰 Hong Kong
-      - 🇯🇵 Japan
-  - name: "✨ AI Suite"
+      - ⭕️ 直连
+      - ✈️ 国际代理
+      - 🇺🇸 美国节点
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+  - name: "🔖 人工智能"
     type: select
     proxies:
-      - 🌎 Outside
-      - 🇺🇸 United States
-      - 🇨🇳 Taiwan
-      - 🇯🇵 Japan
-  - name: "📽 China Media"
+      - ✈️ 国际代理
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+  - name: "📽 国内媒体"
     type: select
     proxies:
-      - 🛖 Mainland
-      - 🇭🇰 Hong Kong
-      - 🇨🇳 Taiwan
-  - name: "🎥 Global Media"
+      - 🥏 大陆网络
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+  - name: "🎥 国际媒体"
     type: select
     proxies:
-      - 🌎 Outside
-      - 🇭🇰 Hong Kong
-      - 🇸🇬 Singapore
-      - 🇨🇳 Taiwan
-      - 🇯🇵 Japan
-      - 🇰🇷 Korea
-      - 🇺🇸 United States
-      - ⭕️ Direct
-#  - name: "🎵 Netease Music"
+      - ✈️ 国际代理
+      - 🇭🇰 香港节点
+      - 🇸🇬 新加坡节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇸 美国节点
+      - ⭕️ 直连
+#  - name: "🎵 网易云音乐"
 #    type: select
 #    proxies:
-#      - 📽 China Media
-#      - ⭕️ Direct
-#  - name: "🎬 Disney+"
+#      - 📽 国内媒体
+#      - ⭕️ 直连
+#  - name: "🎬 迪士尼+"
 #    type: select
 #    proxies:
-#      - 🎥 Global Media
-#      - 🇸🇬 Singapore
-#      - 🇭🇰 Hong Kong
-#      - 🇨🇳 Taiwan
-#      - ⭕️ Direct
-#  - name: "🖥 Max"
+#      - 🎥 国际媒体
+#      - 🇸🇬 新加坡节点
+#      - 🇭🇰 香港节点
+#      - 🇨🇳 台湾节点
+#      - ⭕️ 直连
+#  - name: "🖥 迈克斯"
 #    type: select
 #    proxies:
-#      - 🎥 Global Media
-#      - 🇸🇬 Singapore
-#      - 🇨🇳 Taiwan
-#      - 🇭🇰 Hong Kong
-#      - ⭕️ Direct
-#  - name: "📺 Netflix"
+#      - 🎥 国际媒体
+#      - 🇸🇬 新加坡节点
+#      - 🇨🇳 台湾节点
+#      - 🇭🇰 香港节点
+#      - ⭕️ 直连
+#  - name: "📺 网飞视频"
 #    type: select
 #    proxies:
-#      - 🎥 Global Media
-#      - 🇸🇬 Singapore
-#      - 🇭🇰 Hong Kong
-#      - 🇨🇳 Taiwan
-#      - ⭕️ Direct
-#  - name: "🎧 Spotify"
+#      - 🎥 国际媒体
+#      - 🇸🇬 新加坡节点
+#      - 🇭🇰 香港节点
+#      - 🇨🇳 台湾节点
+#      - ⭕️ 直连
+#  - name: "🎧 声田音乐"
 #    type: select
 #    proxies:
-#      - 🎥 Global Media
-#      - 🇸🇬 Singapore
-#      - 🇭🇰 Hong Kong
-#      - 🇨🇳 Taiwan
-#      - ⭕️ Direct
-#  - name: "📹 YouTube"
+#      - 🎥 国际媒体
+#      - 🇸🇬 新加坡节点
+#      - 🇭🇰 香港节点
+#      - 🇨🇳 台湾节点
+#      - ⭕️ 直连
+#  - name: "📹 油管视频"
 #    type: select
 #    proxies:
-#      - 🎥 Global Media
-#      - 🇸🇬 Singapore
-#      - 🇭🇰 Hong Kong
-#      - 🇨🇳 Taiwan
-#      - ⭕️ Direct
-#  - name: "📦 Microsoft"
+#      - 🎥 国际媒体
+#      - 🇸🇬 新加坡节点
+#      - 🇭🇰 香港节点
+#      - 🇨🇳 台湾节点
+#      - ⭕️ 直连
+#  - name: "📦 微软服务"
 #    type: select
 #    proxies:
-#      - ⭕️ Direct
-#      - 🌎 Outside
-#  - name: "📡 Telegram"
+#      - ⭕️ 直连
+#      - ✈️ 国际代理
+#  - name: "📡 电报服务"
 #    type: select
 #    proxies:
-#      - 🌎 Outside
-#      - 🇸🇬 Singapore
-#      - 🇺🇸 United States
-#      - 🇭🇰 Hong Kong
-#      - ⭕️ Direct
-#  - name: "💳 PayPal"
+#      - ✈️ 国际代理
+#      - 🇸🇬 新加坡节点
+#      - 🇺🇸 美国节点
+#      - 🇭🇰 香港节点
+#      - ⭕️ 直连
+#  - name: "💳 贝宝服务"
 #    type: select
 #    proxies:
-#      - 🌎 Outside
-#      - 🇺🇸 United States
-#      - ⭕️ Direct
-#  - name: "🎮 Steam"
+#      - ✈️ 国际代理
+#      - ⭕️ 直连
+#  - name: "🎮 蒸汽游戏"
 #    type: select
 #    proxies:
-#      - 🌎 Outside
-#      - ⭕️ Direct
-  - name: "⏳ Speedtest"
+#      - ✈️ 国际代理
+#      - ⭕️ 直连
+  - name: "⏳ 网速测试"
     type: select
     proxies:
-      - ⭕️ Direct
-      - 📌 Select
-      - 🇭🇰 Hong Kong
-      - 🇨🇳 Taiwan
-      - 🇸🇬 Singapore
-      - 🇯🇵 Japan
-      - 🇰🇷 Korea
-      - 🇺🇸 United States
-  - name: "🔗 Others"
+      - ⭕️ 直连
+      - 📌 手动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇸 美国节点
+  - name: "🔗 其他"
     type: select
     proxies:
-      - 🌎 Outside
-      - ⭕️ Direct
-  - name: "🇺🇸 United States"
-    type: fallback
-    use:
-      - Proxies - US
-    url: http://cp.cloudflare.com/generate_204
-    interval: 3600
-  - name: "🇭🇰 Hong Kong"
-    type: fallback
-    use:
-      - Proxies - HK
-    url: http://cp.cloudflare.com/generate_204
-    interval: 3600
-  - name: "🇸🇬 Singapore"
+      - ✈️ 国际代理
+      - ⭕️ 直连
+  - name: "🇸🇬 新加坡节点"
     type: fallback
     use:
       - Proxies - SG
     url: http://cp.cloudflare.com/generate_204
     interval: 3600
-  - name: "🇨🇳 Taiwan"
+  - name: "🇭🇰 香港节点"
+    type: fallback
+    use:
+      - Proxies - HK
+    url: http://cp.cloudflare.com/generate_204
+    interval: 3600
+  - name: "🇨🇳 台湾节点"
     type: fallback
     use:
       - Proxies - TW
     url: http://cp.cloudflare.com/generate_204
     interval: 3600
-  - name: "🇯🇵 Japan"
+  - name: "🇯🇵 日本节点"
     type: fallback
     use:
       - Proxies - JP
     url: http://cp.cloudflare.com/generate_204
     interval: 3600
-  - name: "🇰🇷 Korea"
+  - name: "🇰🇷 韩国节点"
     type: fallback
     use:
       - Proxies - KR
     url: http://cp.cloudflare.com/generate_204
     interval: 3600
-  - name: "📌 Select"
+  - name: "🇺🇸 美国节点"
+    type: fallback
+    use:
+      - Proxies - US
+    url: http://cp.cloudflare.com/generate_204
+    interval: 3600
+  - name: "📌 手动选择"
     type: select
     use:
       - Proxies - HK
@@ -411,13 +410,13 @@ proxy-groups:
       - Proxies - JP
       - Proxies - KR
       - Proxies - US
-  - name: "⭕️ Direct"
+  - name: "⭕️ 直连"
     type: select
     proxies:
       - DIRECT
     url: http://connect.rom.miui.com/generate_204
     interval: 300
-  - name: "❌ Reject"
+  - name: "❌ 拦截"
     type: select
     proxies:
       - REJECT
@@ -697,7 +696,7 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml
     path: ./Rules/Apple.yaml
     interval: 86400
-# Microsoft、Telegram、PayPal 及 Steam 可选规则列表
+# 微软、电报、贝宝 及 Steam 可选规则列表
   Microsoft:
     type: http
     behavior: classical
@@ -716,11 +715,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml
     path: ./Rules/PayPal.yaml
     interval: 86400
-  TikTok:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
-    path: ./Rules/TikTok.yaml
   Steam:
     type: http
     behavior: classical
@@ -762,66 +756,66 @@ rule-providers:
 rules:
   # 直连和广告拦截
   - RULE-SET,Special,DIRECT
-  - RULE-SET,AdBlock,🚫 AdBlock
+  - RULE-SET,AdBlock,🚫 广告拦截
   # 国内媒体分组
-  - RULE-SET,Netease Music,📽 China Media #🎵 Netease Music
-  - RULE-SET,Bilibili,📽 China Media
-  - RULE-SET,IQ,📽 China Media
-  - RULE-SET,IQIYI,📽 China Media
-  - RULE-SET,Letv,📽 China Media
-  - RULE-SET,Tencent Video,📽 China Media
-  - RULE-SET,Youku,📽 China Media
-  - RULE-SET,WeTV,📽 China Media
+  - RULE-SET,Netease Music,📽 国内媒体 #🎵 网易云音乐
+  - RULE-SET,Bilibili,📽 国内媒体
+  - RULE-SET,IQ,📽 国内媒体
+  - RULE-SET,IQIYI,📽 国内媒体
+  - RULE-SET,Letv,📽 国内媒体
+  - RULE-SET,Tencent Video,📽 国内媒体
+  - RULE-SET,Youku,📽 国内媒体
+  - RULE-SET,WeTV,📽 国内媒体
   # 国际媒体分组
-  - RULE-SET,Disney Plus,🎥 Global Media #🎬 Disney+
-  - RULE-SET,Max,🎥 Global Media #🖥 Max
-  - RULE-SET,Netflix,🎥 Global Media #📺 Netflix
-  - RULE-SET,Spotify,🎥 Global Media #🎧 Spotify
-  - RULE-SET,YouTube,🎥 Global Media #📹 YouTube
-  - RULE-SET,YouTube Music,🎥 Global Media #📹 YouTube
-  - RULE-SET,ABC,🎥 Global Media
-  - RULE-SET,Abema TV,🎥 Global Media
-  - RULE-SET,Amazon,🎥 Global Media
-  - RULE-SET,Apple News,🎥 Global Media
-  - RULE-SET,Apple TV,🎥 Global Media
-  - RULE-SET,Bahamut,🎥 Global Media
-  - RULE-SET,BBC iPlayer,🎥 Global Media
-  - RULE-SET,DAZN,🎥 Global Media
-  - RULE-SET,Discovery Plus,🎥 Global Media
-  - RULE-SET,encoreTVB,🎥 Global Media
-  - RULE-SET,F1 TV,🎥 Global Media
-  - RULE-SET,Fox Now,🎥 Global Media
-  - RULE-SET,Fox+,🎥 Global Media
-  - RULE-SET,Hulu Japan,🎥 Global Media
-  - RULE-SET,Hulu,🎥 Global Media
-  - RULE-SET,Japonx,🎥 Global Media
-  - RULE-SET,JOOX,🎥 Global Media
-  - RULE-SET,KKBOX,🎥 Global Media
-  - RULE-SET,KKTV,🎥 Global Media
-  - RULE-SET,Line TV,🎥 Global Media
-  - RULE-SET,myTV SUPER,🎥 Global Media
-  - RULE-SET,Pandora,🎥 Global Media
-  - RULE-SET,PBS,🎥 Global Media
-  - RULE-SET,Pornhub,🎥 Global Media
-  - RULE-SET,Soundcloud,🎥 Global Media
-  - RULE-SET,ViuTV,🎥 Global Media
+  - RULE-SET,Disney Plus,🎥 国际媒体 #🎬 迪士尼+
+  - RULE-SET,Max,🎥 国际媒体 #🖥 迈克斯
+  - RULE-SET,Netflix,🎥 国际媒体 #📺 网飞视频
+  - RULE-SET,Spotify,🎥 国际媒体 #🎧 声田音乐
+  - RULE-SET,YouTube,🎥 国际媒体 #📹 油管视频
+  - RULE-SET,YouTube Music,🎥 国际媒体 #📹 油管视频
+  - RULE-SET,ABC,🎥 国际媒体
+  - RULE-SET,Abema TV,🎥 国际媒体
+  - RULE-SET,Amazon,🎥 国际媒体
+  - RULE-SET,Apple News,🎥 国际媒体
+  - RULE-SET,Apple TV,🎥 国际媒体
+  - RULE-SET,Bahamut,🎥 国际媒体
+  - RULE-SET,BBC iPlayer,🎥 国际媒体
+  - RULE-SET,DAZN,🎥 国际媒体
+  - RULE-SET,Discovery Plus,🎥 国际媒体
+  - RULE-SET,encoreTVB,🎥 国际媒体
+  - RULE-SET,F1 TV,🎥 国际媒体
+  - RULE-SET,Fox Now,🎥 国际媒体
+  - RULE-SET,Fox+,🎥 国际媒体
+  - RULE-SET,Hulu Japan,🎥 国际媒体
+  - RULE-SET,Hulu,🎥 国际媒体
+  - RULE-SET,Japonx,🎥 国际媒体
+  - RULE-SET,JOOX,🎥 国际媒体
+  - RULE-SET,KKBOX,🎥 国际媒体
+  - RULE-SET,KKTV,🎥 国际媒体
+  - RULE-SET,Line TV,🎥 国际媒体
+  - RULE-SET,myTV SUPER,🎥 国际媒体
+  - RULE-SET,Pandora,🎥 国际媒体
+  - RULE-SET,PBS,🎥 国际媒体
+  - RULE-SET,Pornhub,🎥 国际媒体
+  - RULE-SET,Soundcloud,🎥 国际媒体
+  - RULE-SET,ViuTV,🎥 国际媒体
   
   # 人工智能和苹果服务
-  - RULE-SET,AI Suite,✨ AI Suite
-  - RULE-SET,Apple,🍏 Apple
+  - RULE-SET,AI Suite,🔖 人工智能
+  - RULE-SET,Apple,🍏 苹果服务
   
-  # Microsoft、Telegram、PayPal 及 Steam 可选规则，如需为某个规则列表单独设置策略，请直接修改策略名称与上方策略组名称保持一致
-  - RULE-SET,Microsoft,🛖 Mainland #📦 Microsoft
-  - RULE-SET,Telegram,🌎 Outside #📡 Telegram
-  - RULE-SET,PayPal,🌎 Outside #💳 PayPal
-#  - RULE-SET,Steam,🎮 Steam
+  # 电报、微软、贝宝及 Steam 可选规则，如需为某个规则列表单独设置策略，请直接修改策略名称与上方策略组名称保持一致
+  - RULE-SET,Microsoft,🥏 大陆网络 #📦 微软服务
+  - RULE-SET,Telegram,✈️ 国际代理 #📡 电报服务
+  - RULE-SET,PayPal,✈️ 国际代理 #💳 贝宝服务
+#  - RULE-SET,Steam,🎮 蒸汽游戏
 
   # 必须规则
-  - RULE-SET,Speedtest,⏳ Speedtest
-  - RULE-SET,Proxy,🌎 Outside
-  - RULE-SET,Domestic,🛖 Mainland
-  - RULE-SET,ASNChina,🛖 Mainland
+  - RULE-SET,Speedtest,⏳ 网速测试
+  - RULE-SET,Proxy,✈️ 国际代理
+  - RULE-SET,Domestic,🥏 大陆网络
+  - RULE-SET,ASNChina,🥏 大陆网络
   - RULE-SET,LAN,DIRECT
 
   # 最终规则
-  - MATCH,🔗 Others
+  - MATCH,🔗 其他

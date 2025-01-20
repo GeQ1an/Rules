@@ -1,0 +1,111 @@
+# > AcFun
+USER-AGENT,AcFun*,China Media
+HOST-SUFFIX,acfun.cn,China Media
+HOST-SUFFIX,acfun.com,China Media
+HOST-SUFFIX,acfun.tv,China Media
+HOST-SUFFIX,aixifan.com,China Media
+
+# > Bilibili
+USER-AGENT,bili*,China Media
+HOST-SUFFIX,acg.tv,China Media
+HOST-SUFFIX,acgvideo.com,China Media
+HOST-SUFFIX,b23.tv,China Media
+HOST-SUFFIX,bilibili.com,China Media
+HOST-SUFFIX,bilibili.tv,China Media
+HOST-SUFFIX,biliapi.net,China Media
+HOST-SUFFIX,biliapi.com,China Media
+HOST-SUFFIX,bilivideo.com,China Media
+HOST-SUFFIX,hdslb.com,China Media
+HOST,upos-hz-mirrorakam.akamaized.net,China Media
+
+# > iQiyi
+USER-AGENT,*QIYI*,China Media
+USER-AGENT,iQiYi*,China Media
+HOST-SUFFIX,iqiyi.com,China Media
+HOST-SUFFIX,iqiyipic.com,China Media
+HOST-SUFFIX,iq.com,China Media
+HOST-SUFFIX,qy.net,China Media
+HOST-SUFFIX,gitv.tv,China Media
+HOST-SUFFIX,71.am,China Media
+HOST-KEYWORD,qiyi,China Media
+HOST,cache.video.iqiyi.com,China Media
+
+# > Kugou & Kuwo
+HOST-SUFFIX,kugou.com,China Media
+USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*,China Media
+HOST-SUFFIX,kuwo.cn,China Media
+HOST-SUFFIX,koowo.com,China Media
+
+# > Letv
+HOST-SUFFIX,api.mob.app.letv.com,China Media
+HOST-SUFFIX,letv.com,China Media
+
+# > MGTV
+USER-AGENT,MGTV*,China Media
+HOST-SUFFIX,hitv.com,China Media
+HOST-SUFFIX,hunantv.com,China Media
+HOST-SUFFIX,mgtv.com,China Media
+
+# > Migu
+USER-AGENT,MiguVideo*,China Media
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91,China Media
+HOST-SUFFIX,cmvideo.cn,China Media
+HOST-SUFFIX,migu.cn,China Media
+HOST-SUFFIX,miguvideo.com,China Media
+
+# > MOOMusic
+USER-AGENT,MOO*,China Media
+USER-AGENT,TencentMidasConnect*,China Media
+
+# > Netease Music
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,China Media
+USER-AGENT,NeteaseMusic*,China Media
+HOST,apm.music.163.com,China Media
+HOST,apm3.music.163.com,China Media
+HOST,interface.music.163.com,China Media
+HOST,interface3.music.163.com,China Media
+HOST,music.163.com,China Media
+IP-CIDR,101.71.154.241/32,China Media
+IP-CIDR,103.126.92.132/32,China Media
+IP-CIDR,103.126.92.133/32,China Media
+IP-CIDR,112.13.119.17/32,China Media
+IP-CIDR,112.13.122.1/32,China Media
+IP-CIDR,115.236.118.33/32,China Media
+IP-CIDR,115.236.121.1/32,China Media
+IP-CIDR,118.24.63.156/32,China Media
+IP-CIDR,193.112.159.225/32,China Media
+IP-CIDR,223.252.199.66/32,China Media
+IP-CIDR,223.252.199.67/32,China Media
+IP-CIDR,39.105.63.80/32,China Media
+IP-CIDR,45.254.48.1/32,China Media
+IP-CIDR,47.100.127.239/32,China Media
+IP-CIDR,59.111.160.195/32,China Media
+IP-CIDR,59.111.160.197/32,China Media
+IP-CIDR,59.111.181.35/32,China Media
+IP-CIDR,59.111.181.38/32,China Media
+IP-CIDR,59.111.181.60/32,China Media
+
+# > QQMusic
+USER-AGENT,QQ%e9%9f%b3%e4%b9%90*,China Media
+USER-AGENT,QQMusic*,China Media
+HOST,aqqmusic.tc.qq.com,China Media
+HOST-SUFFIX,music.qq.com,China Media
+HOST-SUFFIX,music.tc.qq.com,China Media
+HOST-SUFFIX,qqmusic.qq.com,China Media
+HOST-SUFFIX,tencentmusic.com,China Media
+HOST-SUFFIX,y.qq.com,China Media
+
+# > Tencent Video
+USER-AGENT,live4iphone*,China Media
+USER-AGENT,qqlive4iphone*,China Media
+USER-AGENT,TencentMidasConnect*,China Media
+HOST-SUFFIX,v.qq.com,China Media
+HOST-SUFFIX,video.qq.com,China Media
+
+# > Youku
+USER-AGENT,Youku*,China Media
+USER-AGENT,%E4%BC%98%E9%85%B7*,China Media
+HOST-SUFFIX,soku.com,China Media
+HOST-SUFFIX,youku.com,China Media
+HOST-SUFFIX,ykimg.com,China Media
+IP-CIDR,106.11.0.0/16,China Media
